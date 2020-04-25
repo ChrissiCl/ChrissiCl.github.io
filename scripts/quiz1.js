@@ -25,7 +25,7 @@ function emptyfield() {
 	document.getElementById('solution').value='';
 }
 
-function neuesRaetsel() {			
+function neuesRaetsel() {
 	raetselname.textContent = meineDaten.quize[0].raetsel[raetselNummer].raetselname;
 	kategorie.textContent = 'Kategorie: ' + meineDaten.quize[0].raetsel[raetselNummer].kategorie;
 	hinweis = 0;
@@ -36,6 +36,8 @@ function neuesRaetsel() {
 	gezeigteHinweise.push(hinweisZahl);
 	weiterButton.style.visibility = 'hidden';
 	document.getElementById('subsection2').style.visibility = 'hidden';
+	vorschlagButton.style.backgroundColor = '#203864';
+	vorschlagButton.disabled = false;
 	punktZahl.textContent = 'Punktzahl für dieses Rätsel: 0';
 	hinweis2.textContent = '2. Hinweis: ';
 	hinweis3.textContent = '3. Hinweis: ';				
@@ -96,22 +98,26 @@ hinweisButton.onclick = function() {
 }
 
 vorschlagButton.onclick = function() {
-	if (document.getElementById('solution').value != meineDaten.quize[0].raetsel[raetselNummer].loesung){
+	if (meineDaten.quize[0].raetsel[raetselNummer].loesung.indexOf(document.getElementById('solution').value) == -1) {
 		if (gezeigteHinweise.length != 7) {
 			hinweisHinzufuegen();
 		}
 		else {
 			document.getElementById('subsection2').style.visibility = 'visible';
-			document.getElementById('loesungswort').textContent = meineDaten.quize[0].raetsel[raetselNummer].loesung;
+			document.getElementById('loesungswort').textContent = meineDaten.quize[0].raetsel[raetselNummer].loesung.join(' oder ');
 		}
 		document.getElementById('solution').style.backgroundColor = '#DA371C';
 		setTimeout(weißMachen, 1000);
+		if (gezeigteHinweise.length == 7) {
+			vorschlagButton.style.backgroundColor = 'gray';
+			vorschlagButton.disabled = true;
+		}
 	}
 	else {
 		document.getElementById('solution').style.backgroundColor = '#85CA3A';
 		setTimeout(weißMachen, 1000);
 		document.getElementById('subsection2').style.visibility = 'visible';
-			document.getElementById('loesungswort').textContent = meineDaten.quize[0].raetsel[raetselNummer].loesung;
+		document.getElementById('loesungswort').textContent = meineDaten.quize[0].raetsel[raetselNummer].loesung.join(' oder ');
 		weiterButton.style.visibility='visible';
 		punktZahl.textContent = 'Punktzahl für dieses Rätsel: ' + (8 - gezeigteHinweise.length).toString();
 		gesamtPunktzahl = gesamtPunktzahl + 8 - gezeigteHinweise.length;
