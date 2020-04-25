@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="de">
+	<head>
+		<meta charset="utf-8">
+		<title>Quiz 2</title>
+		<link href="images/quiz_favicon.ico" rel="icon" type="image/x-icon">
+		<meta name="author" content="Christina Clemens">
+		<link href="styles/style.css" rel="stylesheet" type="text/css">
+		<link href="https://fonts.googleapis.com/css2?family=Actor&display=swap" rel="stylesheet" type="text/css">
+	</head>
+	<body>
+		<header>
+			<h1>CQuiz</h1>
+			<img src="images/cquiz_logo.png" alt="Fragezeichen-Logo">
+			<nav>
+				<ul>
+					<li><a href="index.html">Start</a></li>
+					<li><a href="quiz1.html">Quiz 1</a></li>
+					<li><a href="kontakt.html">Quiz2</a></li>
+					<li><a href="quiz3.html">Quiz 3</a></li>
+					<li><span>Kontakt</span></li>			
+				</ul>
+			</nav>
+		</header>
+		<main class="kontaktmain">
+		<h2>Kontakt</h2>
+		<form action="mailto:christina.clemens@outlook.com" method="post" class="kontaktform">
+			<p>Schick bei Fragen oder Anregungen gerne eine Nachricht:</p>
+			<ul>
+				<li>
+					<label for="name">Name:</label>
+					<input type="text" id="name" name="user_name" autocomplete="off">
+				</li>
+				<li>
+					<label for="msg" id="msg">Nachricht:</label>
+					<textarea id="msg" name="user_message" autocomplete="off"></textarea>
+				</li>
+				<li>
+					<button type="submit" name="absenden" value="absenden" id="nachrichtsenden">Nachricht abschicken</button> 
+				</li>
+			</ul>
+		</form>
+		</main>
+		<footer>
+			<p>&copy; 2020 CQuiz</p>
+			<p id="kontakt"><a href="kontakt.html" title="Kontakt">Kontakt</a></p>
+		</footer>
+		<script src="scripts/hinweise.js"></script>
+		<script src="scripts/quiz1.js"></script>
+	</body>
+</html>
