@@ -7,8 +7,8 @@ var meineDaten =
 			{
 				'raetselname': 'Rätsel 1',
 				'kategorie': 'Ding',
-				'hinweise': ['Wenn ich still bin, bin ich tief', 'Es gibt mich in verschiedenen Zuständen', 'Ich kann laufen', 'Ich kann stehen', 'Manchmal falle ich aus allen Wolken', 'Ich kann brechen', 'Ich kann zahm, aber auch gewaltig sein'],
-				'loesung': ['Wasser']
+				'hinweise': ['Ich benötige Holz zum Leben', 'Ich bin immmer hungrig', 'Ich kann gemütlich oder gefährlich sein', 'Ich leuchte', 'Der Teufel hat seinen Spaß mit mir', 'Ich kann alles verzehren', 'Ich bin ein Freund der Drachen'],
+				'loesung': ['Feuer']
 			},
 			{
 				'raetselname': 'Rätsel 2',
