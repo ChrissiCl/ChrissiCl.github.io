@@ -116,6 +116,8 @@ vorschlagButton.onclick = function() {
 	else {
 		document.getElementById('solution').style.backgroundColor = '#85CA3A';
 		setTimeout(weißMachen, 1000);
+		vorschlagButton.style.backgroundColor = 'gray';
+		vorschlagButton.disabled = true;
 		document.getElementById('subsection2').style.visibility = 'visible';
 		document.getElementById('loesungswort').textContent = meineDaten.quize[0].raetsel[raetselNummer].loesung.join(' oder ');
 		weiterButton.style.visibility='visible';
