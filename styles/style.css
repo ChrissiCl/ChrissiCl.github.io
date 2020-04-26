@@ -257,17 +257,25 @@ button:hover {
 	font-size: 16px;
 }
 
+.ende {
+	text-align: center;
+}
+
+.ende p {
+	margin: 30px 0;
+	font-size: 20px;
+}
+
 #endpunktzahl {
-	color: darkmagenta;
-	padding: 3px;
-	border: 2px solid;
+	background-color: gold;
+	font-size: 30px;
+	padding: 5px;
 	border-radius: 5px;
 }
 
 #flower {
 	display: block;
-	margin: 0 auto;
-	margin-bottom: 15px;
+	margin: 30px auto;
 	width: 70%;
 }
 
