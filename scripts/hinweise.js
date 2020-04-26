@@ -32,7 +32,7 @@ var meineDaten =
 				'raetselname': 'Rätsel 5',
 				'kategorie': 'Person',
 				'hinweise': ['Ich bin kein Mönch', 'Rätsel lösen ist mein Beruf', 'Meine Heimat ist San Fransisco', 'Ich leide unter Ängsten und Zwangsstörungen', 'Ich bin eine Fernsehfigur', 'In 8 Staffeln brachte ich die Zuschauer zum lachen und mitfiebern', 'Ich habe schon so manchen Verbrecher hinter Gitter gebracht'],
-				'loesung': ['Monk', 'Adrian Monk']
+				'loesung': ['Adrian Monk']
 			},
 			{
 				'raetselname': 'Rätsel 6',

@@ -99,6 +99,10 @@ hinweisButton.onclick = function() {
 
 vorschlagButton.onclick = function() {
 	if (meineDaten.quize[0].raetsel[raetselNummer].loesung.indexOf(document.getElementById('solution').value) == -1) {
+		if (gezeigteHinweise.length == 7) {
+			vorschlagButton.style.backgroundColor = 'gray';
+			vorschlagButton.disabled = true;
+		}
 		if (gezeigteHinweise.length != 7) {
 			hinweisHinzufuegen();
 		}
@@ -108,10 +112,6 @@ vorschlagButton.onclick = function() {
 		}
 		document.getElementById('solution').style.backgroundColor = '#DA371C';
 		setTimeout(weißMachen, 1000);
-		if (gezeigteHinweise.length == 7) {
-			vorschlagButton.style.backgroundColor = 'gray';
-			vorschlagButton.disabled = true;
-		}
 	}
 	else {
 		document.getElementById('solution').style.backgroundColor = '#85CA3A';
