@@ -96,7 +96,7 @@ var meineDaten =
 			{
 				'raetselname': 'Rätsel 5',
 				'kategorie': 'Ding',
-				'hinweise': ['Ich befördere hinauf oder hinunter', 'Man findet mich in fast jedem Haushalt', 'Ich bin wichtig für Handwerker', 'Ich kann eine Person sein Geschick', 'Ich kann Energie transportieren', 'Ich bringe Töne in eine Reihenfolge', 'Ich bin ein Fluss in Kärnten'],
+				'hinweise': ['Ich befördere hinauf oder hinunter', 'Man findet mich in fast jedem Haushalt', 'Ich bin wichtig für Handwerker', 'Ich kann eine Person sein', 'Ich kann Energie transportieren', 'Ich bringe Töne in eine Reihenfolge', 'Ich bin ein Fluss in Kärnten'],
 				'loesung': ['Leiter']
 			},
 			{
