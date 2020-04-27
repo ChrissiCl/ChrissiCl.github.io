@@ -90,13 +90,13 @@ var meineDaten =
 			{
 				'raetselname': 'Rätsel 4',
 				'kategorie': 'Ort',
-				'hinweise': ['Ich habe 300.000 Einwohner', 'Meine Schule ist bedeutend für die Klassik', 'Ich habe ein Barockschloss', 'Mein Rangierbahnhof ist der zweitgrößte in Deutschland', 'Ich war Residenz der pfälzischen Kurfürsten', 'Quadrate sind mein Markenzeichen', 'Ich bin eine Universitätsstadt'],
+				'hinweise': ['Ich habe 300.000 Einwohner', 'Meine Schule ist bedeutend für die Klassik', 'Ich habe ein Barockschloss', 'Mein Rangierbahnhof ist der zweitgrößte in Deutschland', 'Ich war Residenz der pfälzischen Kurfürsten', 'Ich liege in einem Dreiländereck', 'Ich bin eine Universitätsstadt'],
 				'loesung': ['Mannheim']
 			},
 			{
 				'raetselname': 'Rätsel 5',
 				'kategorie': 'Ding',
-				'hinweise': ['Ich befördere hinauf oder hinunter', 'Man findet mich in fast jedem Haushalt', 'Ich bin wichtig für Handwerker', 'Ich habe organisatorisches Geschick', 'Ich kann Energie transportieren', 'Ein anderes Wort für mich ist "Vorgesetzter"', 'Ich bin ein Fluss in Kärnten'],
+				'hinweise': ['Ich befördere hinauf oder hinunter', 'Man findet mich in fast jedem Haushalt', 'Ich bin wichtig für Handwerker', 'Ich kann eine Person sein Geschick', 'Ich kann Energie transportieren', 'Ich bringe Töne in eine Reihenfolge', 'Ich bin ein Fluss in Kärnten'],
 				'loesung': ['Leiter']
 			},
 			{
@@ -126,7 +126,7 @@ var meineDaten =
 			{
 				'raetselname': 'Rätsel 10',
 				'kategorie': 'Ort',
-				'hinweise': ['Ich war einmal eine Kolonie', 'Im 19. Jahrhundert packte mich der Goldrausch', 'Ich bin seit 1907 unabhängig', 'Ich bin ein "südiches Land"', 'Mein höchster Berg ist 2745m hoch', 'Ich habe eine sehr große Artenvielfalt', 'Meine beiden Nationaltiere können nur vorwärts laufen'],
+				'hinweise': ['Ich war einmal eine Kolonie', 'Im 19. Jahrhundert packte mich der Goldrausch', 'Ich bin seit 1907 unabhängig', 'Ich bin ein "südliches Land"', 'Mein höchster Berg ist 2745m hoch', 'Ich habe eine sehr große Artenvielfalt', 'Meine beiden Nationaltiere können nur vorwärts laufen'],
 				'loesung': ['Australien']
 			}
 			]
