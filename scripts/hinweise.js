@@ -31,7 +31,7 @@ var meineDaten =
 			{
 				'raetselname': 'Rätsel 5',
 				'kategorie': 'Person',
-				'hinweise': ['Ich bin kein Mönch', 'Rätsel lösen ist mein Beruf', 'Meine Heimat ist San Fransisco', 'Ich leide unter Ängsten und Zwangsstörungen', 'Ich bin eine Fernsehfigur', 'In 8 Staffeln brachte ich die Zuschauer zum lachen und mitfiebern', 'Ich habe schon so manchen Verbrecher hinter Gitter gebracht'],
+				'hinweise': ['Ich bin kein Mönch', 'Rätsel lösen ist mein Beruf', 'Meine Heimat ist San Francisco', 'Ich leide unter Ängsten und Zwangsstörungen', 'Ich bin eine Fernsehfigur', 'In 8 Staffeln brachte ich die Zuschauer zum lachen und mitfiebern', 'Ich habe schon so manchen Verbrecher hinter Gitter gebracht'],
 				'loesung': ['Adrian Monk']
 			},
 			{
@@ -71,63 +71,63 @@ var meineDaten =
 			'raetsel': [
 			{
 				'raetselname': 'Rätsel 1',
-				'kategorie': 'xy',
-				'hinweise': ['xy'],
-				'loesung': ['yx']
+				'kategorie': 'Person',
+				'hinweise': ['Ich bin eine Buchfigur', 'Ich bin sehr stark', 'Mein Vater ist ein Kapitän', 'Ich habe rote Haare', 'Mein Leben ist verrückt und kunterbunt', 'Ich bin alles andere als angepasst', 'In meinem Garten steht ein Limonadenbaum'],
+				'loesung': ['Pippi Langstrumpf']
 			},
 			{
 				'raetselname': 'Rätsel 2',
-				'kategorie': 'xy',
-				'hinweise': ['xy'],
-				'loesung': ['xy']
+				'kategorie': 'Jahr',
+				'hinweise': ['Putin wird neuer russischer Präsident', 'Die Öresundbrücke wird eröffnet', 'Zum Glück ist keine Katastrophe eingetreten', 'Deutschland beschließt den Ausstieg aus der Atomenergie', 'Die olympischen Spiele finden in Sydney statt', 'Das Unglück von Kaprun ereignet sich', 'Die deutschen Rinder werden wahnsinnig'],
+				'loesung': ['2000']
 			},
 			{
 				'raetselname': 'Rätsel 3',
-				'kategorie': 'xy',
-				'hinweise': ['xy'],
-				'loesung': ['xy']
+				'kategorie': 'Ding',
+				'hinweise': ['Ich habe vier Beine', 'Wenn man mich kauft, schaut man mir nicht gern ins Maul', 'Ich bin ein Haus- und Nutztier', 'In der Mythologie gibt es mich in vielen Gestalten', 'In Troja habe ich zum Untergang geführt', 'Ich kann ein Fuchs sein', 'Wer hoch auf mir sitzt, kann tief fallen'],
+				'loesung': ['Pferd']
 			},
 			{
 				'raetselname': 'Rätsel 4',
-				'kategorie': 'xy',
-				'hinweise': ['xy'],
-				'loesung': ['xy']
+				'kategorie': 'Ort',
+				'hinweise': ['Ich habe 300.000 Einwohner', 'Meine Schule ist bedeutend für die Klassik', 'Ich habe ein Barockschloss', 'Mein Rangierbahnhof ist der zweitgrößte in Deutschland', 'Ich war Residenz der pfälzischen Kurfürsten', 'Quadrate sind mein Markenzeichen', 'Ich bin eine Universitätsstadt'],
+				'loesung': ['Mannheim']
 			},
 			{
 				'raetselname': 'Rätsel 5',
-				'kategorie': 'xy',
-				'hinweise': ['xy'],
-				'loesung': ['xy']
+				'kategorie': 'Ding',
+				'hinweise': ['Ich befördere hinauf oder hinunter', 'Man findet mich in fast jedem Haushalt', 'Ich bin wichtig für Handwerker', 'Ich habe organisatorisches Geschick', 'Ich kann Energie transportieren', 'Ein anderes Wort für mich ist "Vorgesetzter"', 'Ich bin ein Fluss in Kärnten'],
+				'loesung': ['Leiter']
 			},
 			{
 				'raetselname': 'Rätsel 6',
-				'kategorie': 'xy',
-				'hinweise': ['xy'],
-				'loesung': ['xy']
+				'kategorie': 'Person',
+				'hinweise': ['Ich lebe nicht mehr', 'Ich wurde im Schloss Saint-Germain-en-Laye geboren', 'Ich war an einigen Erbfolgekriegen beteiligt', 'Ich war sehr kunstinteressiert', 'Hofballett war mein Lieblingshobby', 'Mit vier Jahren wurde ich König', 'Der Herrscher ist das absolute Zentrum des Staats'],
+				'loesung': ['Ludwig XIV.', 'Ludwig 14.', 'Ludwig XIV', 'Ludwig 14', 'Ludwig xiv', 'Ludwig xiv.', 'Ludwig der 14.', 'Ludwig der XIV.']
 			},
 			{
 				'raetselname': 'Rätsel 7',
-				'kategorie': 'xy',
-				'hinweise': ['xy'],
-				'loesung': ['xy']
+				'kategorie': 'Ding',
+				'hinweise': ['Ich kann nicht stricken', 'Ich habe ein grünes Kleid', 'Es gibt ca. 50 Arten von mir', 'Auf Lateinische heiße ich "Abies"', 'Ich symbolisiere das ewige Leben', 'Man findet mich im Wald', 'Meine Früchte sind nicht essbar'],
+				'loesung': ['Tanne', 'Tannenbaum']
 			},
 			{
 				'raetselname': 'Rätsel 8',
-				'kategorie': 'xy',
-				'hinweise': ['xy'],
-				'loesung': ['xy']
+				'kategorie': 'Person',
+				'hinweise': ['Ich bin ein Kapitän', 'Leider bin ich kein Weltmeister', 'Endlich habe ich einen Führerschein', 'Ich habe einen Löwen auf der Schulter', 'Ich bin die Nummer 11', 'Ich trage oft gelb und schwarz', 'Sport ist mein Beruf'],
+				'loesung': ['Marco Reus']
 			},
 			{
 				'raetselname': 'Rätsel 9',
-				'kategorie': 'xy',
-				'hinweise': ['xy'],
-				'loesung': ['xy']
+				'kategorie': 'Ding',
+				'hinweise': ['Ich bin sehr vielseitig', 'Neue Zeiten bringen neue Regeln und Vorlieben hervor', 'Ich drücke aus, was man nicht aussprechen kann', 'Man kann mich studieren', 'Ich bin für viele verschiedene Anlässe geeignet', 'Ich bewege mich in in Wellen', 'Meine Schrift wurde im Mittelalter entwickelt'],
+				'loesung': ['Musik']
 			},
 			{
 				'raetselname': 'Rätsel 10',
-				'kategorie': 'xy',
-				'hinweise': ['xy'],
-				'loesung': ['xy']
+				'kategorie': 'Ort',
+				'hinweise': ['Ich war einmal eine Kolonie', 'Im 19. Jahrhundert packte mich der Goldrausch', 'Ich bin seit 1907 unabhängig', 'Ich bin ein "südiches Land"', 'Mein höchster Berg ist 2745m hoch', 'Ich habe eine sehr große Artenvielfalt', 'Meine beiden Nationaltiere können nur vorwärts laufen'],
+				'loesung': ['Australien']
 			}
 			]
 		}

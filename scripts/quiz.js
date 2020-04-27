@@ -20,19 +20,21 @@ var punktZahl = document.querySelector('#punktzahl');
 var gesamtPunktzahl = 0
 var paragraphGesamtpunktzahl = document.querySelector('#gesamtpunktzahl')
 var leeresElement = document.getElementById('keinhinweis').textContent;
+var script_tag = document.getElementById('script')
+var quizNr = script_tag.getAttribute('quiznummer')
 
 function emptyfield() {
 	document.getElementById('solution').value='';
 }
 
 function neuesRaetsel() {
-	raetselname.textContent = meineDaten.quize[0].raetsel[raetselNummer].raetselname;
-	kategorie.textContent = 'Kategorie: ' + meineDaten.quize[0].raetsel[raetselNummer].kategorie;
+	raetselname.textContent = meineDaten.quize[quizNr - 1].raetsel[raetselNummer].raetselname;
+	kategorie.textContent = 'Kategorie: ' + meineDaten.quize[quizNr - 1].raetsel[raetselNummer].kategorie;
 	hinweis = 0;
 	gezeigteHinweise = [];
 	emptyfield();
 	hinweisZahl  = Math.floor(Math.random() * (max - min + 1)) + min;
-	hinweis1.textContent = '1. Hinweis: ' + meineDaten.quize[0].raetsel[raetselNummer].hinweise[hinweisZahl];
+	hinweis1.textContent = '1. Hinweis: ' + meineDaten.quize[quizNr - 1].raetsel[raetselNummer].hinweise[hinweisZahl];
 	gezeigteHinweise.push(hinweisZahl);
 	weiterButton.style.visibility = 'hidden';
 	document.getElementById('subsection2').style.visibility = 'hidden';
@@ -68,22 +70,22 @@ function hinweisHinzufuegen() {
 		hinweisZahl  = Math.floor(Math.random() * (max - min + 1)) + min;
 	}
 	if (hinweis == 0) {
-		hinweis2.textContent = '2. Hinweis: ' + meineDaten.quize[0].raetsel[raetselNummer].hinweise[hinweisZahl];
+		hinweis2.textContent = '2. Hinweis: ' + meineDaten.quize[quizNr - 1].raetsel[raetselNummer].hinweise[hinweisZahl];
 	}
 	else if (hinweis == 1) {
-		hinweis3.textContent = '3. Hinweis: ' + meineDaten.quize[0].raetsel[raetselNummer].hinweise[hinweisZahl];
+		hinweis3.textContent = '3. Hinweis: ' + meineDaten.quize[quizNr - 1].raetsel[raetselNummer].hinweise[hinweisZahl];
 	}
 	else if (hinweis == 2) {
-		hinweis4.textContent = '4. Hinweis: ' + meineDaten.quize[0].raetsel[raetselNummer].hinweise[hinweisZahl];
+		hinweis4.textContent = '4. Hinweis: ' + meineDaten.quize[quizNr - 1].raetsel[raetselNummer].hinweise[hinweisZahl];
 	}
 	else if (hinweis == 3) {
-		hinweis5.textContent = '5. Hinweis: ' + meineDaten.quize[0].raetsel[raetselNummer].hinweise[hinweisZahl];
+		hinweis5.textContent = '5. Hinweis: ' + meineDaten.quize[quizNr - 1].raetsel[raetselNummer].hinweise[hinweisZahl];
 	}
 	else if (hinweis == 4) {
-		hinweis6.textContent = '6. Hinweis: ' + meineDaten.quize[0].raetsel[raetselNummer].hinweise[hinweisZahl];
+		hinweis6.textContent = '6. Hinweis: ' + meineDaten.quize[quizNr - 1].raetsel[raetselNummer].hinweise[hinweisZahl];
 	}
 	else if (hinweis == 5) {
-		hinweis7.textContent = '7. Hinweis: ' + meineDaten.quize[0].raetsel[raetselNummer].hinweise[hinweisZahl];
+		hinweis7.textContent = '7. Hinweis: ' + meineDaten.quize[quizNr - 1].raetsel[raetselNummer].hinweise[hinweisZahl];
 	}
 	gezeigteHinweise.push(hinweisZahl);
 	hinweis ++;
@@ -98,7 +100,7 @@ hinweisButton.onclick = function() {
 }
 
 vorschlagButton.onclick = function() {
-	if (meineDaten.quize[0].raetsel[raetselNummer].loesung.indexOf(document.getElementById('solution').value) == -1) {
+	if (meineDaten.quize[quizNr - 1].raetsel[raetselNummer].loesung.indexOf(document.getElementById('solution').value) == -1) {
 		if (gezeigteHinweise.length == 7) {
 			vorschlagButton.style.backgroundColor = 'gray';
 			vorschlagButton.disabled = true;
@@ -108,7 +110,7 @@ vorschlagButton.onclick = function() {
 		}
 		else {
 			document.getElementById('subsection2').style.visibility = 'visible';
-			document.getElementById('loesungswort').textContent = meineDaten.quize[0].raetsel[raetselNummer].loesung.join(' oder ');
+			document.getElementById('loesungswort').textContent = meineDaten.quize[quizNr - 1].raetsel[raetselNummer].loesung[0];
 		}
 		document.getElementById('solution').style.backgroundColor = '#DA371C';
 		setTimeout(weißMachen, 1000);
@@ -119,7 +121,7 @@ vorschlagButton.onclick = function() {
 		vorschlagButton.style.backgroundColor = 'gray';
 		vorschlagButton.disabled = true;
 		document.getElementById('subsection2').style.visibility = 'visible';
-		document.getElementById('loesungswort').textContent = meineDaten.quize[0].raetsel[raetselNummer].loesung.join(' oder ');
+		document.getElementById('loesungswort').textContent = meineDaten.quize[quizNr - 1].raetsel[raetselNummer].loesung[0];
 		weiterButton.style.visibility='visible';
 		punktZahl.textContent = 'Punktzahl für dieses Rätsel: ' + (8 - gezeigteHinweise.length).toString();
 		gesamtPunktzahl = gesamtPunktzahl + 8 - gezeigteHinweise.length;
@@ -138,7 +140,12 @@ weiterButton.onclick = function() {
 	}
 	else {
 		sessionStorage.setItem('endpunktzahl', gesamtPunktzahl);
-		document.location.href = 'raetselende_quiz1.html';
+		if (quizNr == 1) {
+			document.location.href = 'raetselende_quiz1.html';
+		}
+		if (quizNr == 2) {
+			document.location.href = 'raetselende_quiz2.html';
+		}
 	}
 }
 	
