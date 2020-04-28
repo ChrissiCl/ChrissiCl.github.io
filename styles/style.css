@@ -37,25 +37,27 @@ header {
 }
 
 h1 {
+	cursor: pointer;
 	font-size: 44px;
 	font-family: 'Actor', sans-serif;
 	margin: 8px 0 0 10px;
 	flex: 5;
-	order: 2
+	order: 2;
 }
 
 header img {
-  display: block;
-  height: 70px;
-  order: 1;
-  margin: 5px 0 15px 0;
+	cursor: pointer;
+	display: block;
+	height: 70px;
+	order: 1;
+	margin: 5px 0 15px 0;
 }
 
 nav {
-  background-color: #203864;
-  border-radius: 5px;
-  flex: 100%;
-  order: 3
+	background-color: #203864;
+	border-radius: 5px;
+	flex: 100%;
+	order: 3
 }
 
 nav ul {
@@ -67,19 +69,19 @@ nav ul {
 }
 
 nav li {
-  text-align: center;
-  flex: 1;
+	text-align: center;
+	flex: 1;
 }
 
 nav a, nav span {
-  display: inline-block;
-  font-size: 20px;
-  height: 26px;
-  padding: 6px;
-  line-height: 1.4;
-  width: 70%;
-  text-decoration: none;
-  color: white;
+	display: inline-block;
+	font-size: 20px;
+	height: 26px;
+	padding: 6px;
+	line-height: 1.4;
+	width: 70%;
+	text-decoration: none;
+	color: white;
 }
 
 nav a:hover, nav span:hover {
@@ -122,6 +124,15 @@ aside {
 	background-color: #DDEBF7;
 	padding: 15px;
 	border-radius: 5px;
+}
+
+#mountain {
+	display: block;
+	margin: 15px auto;
+}
+
+#loesungmonat {
+	font-weight: bold;
 }
 
 

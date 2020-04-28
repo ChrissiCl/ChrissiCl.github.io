@@ -130,6 +130,71 @@ var meineDaten =
 				'loesung': ['Australien']
 			}
 			]
+		},
+		{
+			'name': 'Quiz 3',
+			'raetsel': [
+			{
+				'raetselname': 'Rätsel 1',
+				'kategorie': 'Jahr',
+				'hinweise': ['Papst Benedikt XV. wird gewählt', 'Die Schweden dürfen nur noch 12 Liter Spirituosen im Quartal kaufen', 'Die Olympiafahne mit 5 Ringen wird erstmals beim olympischen Kongress gehisst', 'Es gibt viele Kriegserklärungen', 'Der Panamakanal wird eröffnet', 'Das "lange 19. Jahrhundert" endet', 'Albert Einstein zieht nach Berlin'],
+				'loesung': ['1914']
+			},
+			{
+				'raetselname': 'Rätsel 2',
+				'kategorie': 'Ding',
+				'hinweise': ['Ich bin zwischen arm und reich', 'Ich sorge für ein einschneidendes Erlebnis', 'Ich komme unHaus und Garten zum Einsatz', 'Für Linkshänder bin ich anders herum', 'Ich habe Blätter', 'Ich bin ein uraltes Werkzeug', 'Kinder werden vor mir gewarnt'],
+				'loesung': ['Schere']
+			},
+			{
+				'raetselname': 'Rätsel 3',
+				'kategorie': 'Ort',
+				'hinweise': ['Mein Name stammt von einem Irokesendorf', 'Ich wurde vor 12.000 Jahren besiedelt', 'Wikinger entdeckten mich ca. im Jahr 1000 und nannten mich "Vinland"', '7,6% von mir sind mit Seen bedeckt', 'Ich habe noch viele Urwälder', 'Meine Bewohner können gut mit Schlägern umgehen', 'Meine Hauptstadt ist die sechstgrößte Stadt des Landes'],
+				'loesung': ['Kanada']
+			},
+			{
+				'raetselname': 'Rätsel 4',
+				'kategorie': 'Ding',
+				'hinweise': ['Ich kann aus Pflanzen bestehen', 'Es führt nur ein Weg zum Ziel', 'In der Mythologie bin ich ein Gefängnis für den Minotauros', 'Ich kann aus Steinen bestehen', 'Ich bin verwirrend', 'Mein Name stammt aus dem Griechischen', 'Ich werde oft mit dem Lebensweg verglichen'],
+				'loesung': ['Labyrinth']
+			},
+			{
+				'raetselname': 'Rätsel 5',
+				'kategorie': 'Ding',
+				'hinweise': ['Ich bin eine Paradiesfeige', 'Viele machen sich über meine Form Gedanken', 'Ich bin immer wieder Opfer von Pilzen', 'Ich bin eine Beere', 'Ich wachse in den Tropen', 'Für meine Reifung wir Ethen eingesetzt', 'Ich komme in einem Arbeitslied vor'],
+				'loesung': ['Leiter']
+			},
+			{
+				'raetselname': 'Rätsel 6',
+				'kategorie': 'Person',
+				'hinweise': ['xy', 'xy', 'xy', 'xy', 'xy', 'xy', 'xy'],
+				'loesung': ['Johann Wolfgang von Goethe', 'Johann Goethe', 'Goethe']
+			},
+			{
+				'raetselname': 'Rätsel 7',
+				'kategorie': 'xy',
+				'hinweise': ['xy', 'xy', 'xy', 'xy', 'xy', 'xy', 'xy'],
+				'loesung': ['xy']
+			},
+			{
+				'raetselname': 'Rätsel 8',
+				'kategorie': 'xy',
+				'hinweise': ['xy', 'xy', 'xy', 'xy', 'Ixy', 'xy', 'Sxy'],
+				'loesung': ['xy']
+			},
+			{
+				'raetselname': 'Rätsel 9',
+				'kategorie': 'xy',
+				'hinweise': ['xy'],
+				'loesung': ['xy']
+			},
+			{
+				'raetselname': 'Rätsel 10',
+				'kategorie': 'xy',
+				'hinweise': ['xy'],
+				'loesung': ['xy']
+			}			
+			]
 		}
 	]
 };

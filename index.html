@@ -11,7 +11,7 @@
 	<body>
 		<header>
 			<h1>CQuiz</h1>
-			<img src="images/cquiz_logo.png" alt="Fragezeichen-Logo">
+			<img src="images/cquiz_logo.png" alt="Fragezeichen-Logo" id ="logo">
 			<nav>
 				<ul>
 					<li><span>Start</span></li>
@@ -26,13 +26,22 @@
 			<article class="indexarticle">
 				<h2>Willkommen zum CQuiz!</h2>
 				<h3>Regeln:</h3>
-				<p>Jedes Quiz besteht aus 10 Rätseln. Bei jedem Rätsel geht es darum, einen Begriff anhand von Hinweisen zu erraten. Für jeden Begriff gibt es bis zu 7 Hinweise. Je weniger Hinweise benötigt werden, desto mehr Punkte können gesammelt werden. Zu Beginn eines neuen Rätsels wird angegeben, nach was für einem Begriff gesucht wird. Dafür gibt es vier Kategorien: Ding, Jahr, Person und Ort. Tiere zählen auch in die Kategorie &quot;Ding&quot;. Der erste Hinweis wird angezeigt, und es gibt die Möglichkeit, einen Lösungsvorschlag abzugeben. Ist der Vorschlag richtig, werden die nicht verwendeten Hinweise eingeblendet, und es geht weiter zum nächsten Rätsel. Wenn der eigegebene Begriff falsch ist, wird der nächste Hinweis angezeigt, und man erhält erneut die Möglichkeit einen Vorschlag abzugeben. Es ist auch möglich, sich über den Button &quot;Neuer Hinweis&quot; einen neuen Hinweis anzeigen zu lassen, ohne einen Begriff einzugeben. Pro Rätsel kann man bis zu 7 Punkte erhalten. Für jeden weiteren Hinweis, den man sich anzeigen lässt, wird ein Punkt abgezogen. Hat man auch nach dem 7. Hinweis noch keine Lösung, gibt es leider keine Punkte, und die richtige Lösung wird angezeigt. Alle Begriffe müssen mit der richtigen Rechtschreibung (Groß- und Kleinschreibung, Leerzeichen) eingegeben werden, Jahre als vierstellige Zahlen und Personen mit Vor- und Nachnamen. Googlen ist zwar erlaubt, macht aber weniger Spaß. &#x1F609 </p>
-				<p>Viel Spaß beim Rätseln! &#x1F60A </p>
+				<p>Jedes Quiz besteht aus 10 Rätseln. Bei jedem Rätsel geht es darum, einen Begriff anhand von Hinweisen zu erraten. Für jeden Begriff gibt es bis zu 7 Hinweise. Je weniger Hinweise benötigt werden, desto mehr Punkte können gesammelt werden. Zu Beginn eines neuen Rätsels wird angegeben, nach was für einem Begriff gesucht wird. Dafür gibt es vier Kategorien: Ding, Jahr, Person und Ort. Tiere zählen auch in die Kategorie &quot;Ding&quot;. Der erste Hinweis wird angezeigt, und es gibt die Möglichkeit, einen Lösungsvorschlag abzugeben. Ist der Vorschlag richtig, werden die nicht verwendeten Hinweise eingeblendet, und es geht weiter zum nächsten Rätsel. Wenn der eigegebene Begriff falsch ist, wird der nächste Hinweis angezeigt, und man erhält erneut die Möglichkeit einen Vorschlag abzugeben. Es ist auch möglich, sich über den Button &quot;Neuer Hinweis&quot; einen neuen Hinweis anzeigen zu lassen, ohne einen Begriff einzugeben. Pro Rätsel kann man bis zu 7 Punkte erhalten. Für jeden weiteren Hinweis, den man sich anzeigen lässt, wird ein Punkt abgezogen. Hat man auch nach dem 7. Hinweis noch keine Lösung, gibt es leider keine Punkte, und die richtige Lösung wird angezeigt. Alle Begriffe müssen mit der richtigen Rechtschreibung (Groß- und Kleinschreibung, Leerzeichen) eingegeben werden, Jahre als vierstellige Zahlen und Personen mit Vor- und Nachnamen. Googlen ist zwar erlaubt, macht aber weniger Spaß. &#x1F609;</p>
+				<p>Viel Spaß beim Rätseln! &#x1F60A;</p>
 				<button id="startquiz1">Los geht&apos;s</button> <!-- Dieser Button soll zu quiz1.html führen -->
 			</article>
 			<aside>
 				<h3>Rätsel des Monats</h3>
-				<p>Kommt bald</p>
+				<p>Was hat Wurzeln, die keiner sieht,<br>
+					ragt höher als Bäume<br>
+					und Wipfelsäume,<br>
+					wächst nie und treibt nicht<br>
+					und reicht doch ins Licht?<br>
+					(J.R.R. Tolkien: Der kleine Hobbit, 1937. Gollum zu Bilbo)
+				</p>
+				<button id="loesungzeigen">Lösung anzeigen</button>
+				<p id="loesungmonat">Berg<br>
+				<img src="images/mountain.JPG" alt="Berg spiegel sich in einem See" id="mountain"></p>
 			</aside>
 		</main>
 		<footer>

@@ -11,7 +11,7 @@
 	<body>
 		<header>
 			<h1>CQuiz</h1>
-			<img src="images/cquiz_logo.png" alt="Fragezeichen-Logo">
+			<img src="images/cquiz_logo.png" alt="Fragezeichen-Logo" id="logo">
 			<nav>
 				<ul>
 					<li><a href="index.html">Start</a></li>
@@ -26,7 +26,7 @@
 			<section class="section1">
 				<h2 class="h2quiz"><span>Quiz 1</span></h2>
 				<section class="raetsel">
-					<p id="raetselname"></p>
+					<h3 id="raetselname"></h3>
 					<p id="kategorie"></p>
 					<ol>
 						<li id="hinweis1">1. Hinweis:</li><!-- Nach diesem Text wird ein Hinweis zufällig aus der Textdatei ausgewählt. -->
@@ -57,7 +57,7 @@
 					<button type ="button" id="hinweisbutton">Neuer Hinweis</button> <!-- Mit diesem Button wird zufällig ein neuer Hinweis ausgewählt -->
 				</li>
 				<li> <!-- Dieses Element soll ein überprüfbares Textelement sein -->
-					<label for="solution">Mein Lösungsvorschlag:<label><br>
+					<label for="solution">Mein Lösungsvorschlag:</label><br>
 					<input type="text" id="solution" name="user_solution" autocomplete="off"><br>
 					<button type="submit" id="vorschlagbutton">Vorschlag abgeben</button> <!-- Mit diesem Button wird die Eingabe des Textfeldes überprüft, stimmt sie mit der Lösung überein, werden alle Hinweise eingeblendet und man kann zum nächsten Rätsel weitergehen. Ist sie nicht mit der Lösung identisch, wird der nächste Hinweis eingeblendet. -->
 				</li>
@@ -72,6 +72,6 @@
 			<p id="kontakt"><a href="kontakt.html" title="Kontakt">Kontakt</a></p>
 		</footer>
 		<script src="scripts/hinweise.js"></script>
-		<script id="script" quiznummer=1 src="scripts/quiz.js"></script>
+		<script id="script" data-quiznummer=1 src="scripts/quiz.js"></script>
 	</body>
 </html>

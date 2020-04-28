@@ -1,3 +1,5 @@
+var cquizLogo = document.querySelector('#logo');
+var cquizH1 = document.querySelector('h1');
 var raetselname = document.querySelector('#raetselname');
 var kategorie = document.querySelector('#kategorie');
 var hinweis1 = document.querySelector('#hinweis1');
@@ -21,7 +23,7 @@ var gesamtPunktzahl = 0
 var paragraphGesamtpunktzahl = document.querySelector('#gesamtpunktzahl')
 var leeresElement = document.getElementById('keinhinweis').textContent;
 var script_tag = document.getElementById('script')
-var quizNr = script_tag.getAttribute('quiznummer')
+var quizNr = script_tag.getAttribute('data-quiznummer')
 
 function emptyfield() {
 	document.getElementById('solution').value='';
@@ -59,8 +61,7 @@ window.onload = function() {
 
 function hinweisHinzufuegen() {
 	if (gezeigteHinweise.length == 7){
-		document.getElementById('keinhinweis').textContent = 'Keine neuen Hinweise 🤔' //Diese Zeile noch löschen wenn Weiter zu nächstem Rätsel
-		return;
+		document.getElementById('keinhinweis').textContent = 'Keine neuen Hinweise 🤔'
 	}
 	if (gezeigteHinweise.length == 6) {
 		weiterButton.style.visibility='visible';
@@ -148,7 +149,14 @@ weiterButton.onclick = function() {
 		}
 	}
 }
-	
+
+cquizLogo.onclick = function() {
+	document.location.href = 'index.html';
+}
+
+cquizH1.onclick = function() {
+	document.location.href = 'index.html';
+}
 	
 	
 	
