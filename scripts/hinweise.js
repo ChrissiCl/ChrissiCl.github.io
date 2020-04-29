@@ -143,7 +143,7 @@ var meineDaten =
 			{
 				'raetselname': 'Rätsel 2',
 				'kategorie': 'Ding',
-				'hinweise': ['Ich bin zwischen arm und reich', 'Ich sorge für ein einschneidendes Erlebnis', 'Ich komme unHaus und Garten zum Einsatz', 'Für Linkshänder bin ich anders herum', 'Ich habe Blätter', 'Ich bin ein uraltes Werkzeug', 'Kinder werden vor mir gewarnt'],
+				'hinweise': ['Ich bin zwischen arm und reich', 'Ich sorge für ein einschneidendes Erlebnis', 'Ich komme in Haus und Garten zum Einsatz', 'Für Linkshänder bin ich anders herum', 'Ich habe Blätter', 'Ich bin ein uraltes Werkzeug', 'Kinder werden vor mir gewarnt'],
 				'loesung': ['Schere']
 			},
 			{
