@@ -151,7 +151,6 @@ weiterButton.onclick = function() {
 		}
 		if (quizNr == 3) {
 			document.location.href = 'raetselende_quiz3.html';
-			
 		}
 	}
 }
