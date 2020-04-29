@@ -161,7 +161,7 @@ var meineDaten =
 			{
 				'raetselname': 'Rätsel 5',
 				'kategorie': 'Ding',
-				'hinweise': ['Ich bin eine Paradiesfeige', 'Viele machen sich über meine Form Gedanken', 'Ich bin immer wieder Opfer von Pilzen', 'Ich bin eine Beere', 'Ich wachse in den Tropen', 'Für meine Reifung wir Ethen eingesetzt', 'Ich komme in einem Arbeitslied vor'],
+				'hinweise': ['Ich bin eine Paradiesfeige', 'Viele machen sich über meine Form Gedanken', 'Ich bin immer wieder Opfer von Pilzen', 'Ich bin eine Beere', 'Ich wachse in den Tropen', 'Für meine Reifung wird Ethen eingesetzt', 'Ich komme in einem Arbeitslied vor'],
 				'loesung': ['Banane']
 			},
 			{
@@ -190,7 +190,7 @@ var meineDaten =
 			},
 			{
 				'raetselname': 'Rätsel 10',
-				'kategorie': 'Jar',
+				'kategorie': 'Jahr',
 				'hinweise': ['Erdbeben in Haiti', 'Bei den olympischen Spielen stirbt ein Rodler', 'Ein Vulkan legt den Flugverkehr in Europa lahm', 'Deutschland gewinnt den ESC', 'Christian Wulff wird Bundespräsident', 'Eröffnung der Rheinseilbahn in Koblenz', 'Der FC Bayern München wird zum 22. Mal Deutscher Meister'],
 				'loesung': ['2010']
 			}			
