@@ -20,3 +20,6 @@ cquizLogo.onclick = function() {
 cquizH1.onclick = function() {
 	document.location.href = 'index.html';
 }
+
+var input = document.querySelector('#punktzahl');
+input.setAttribute('value', storedPoints);

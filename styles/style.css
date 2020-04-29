@@ -111,6 +111,7 @@ main {
 	border-radius: 5px;
 }
 
+/* Index */
 article {
 	background-color: #DDEBF7;
 	padding: 15px;
@@ -140,6 +141,7 @@ aside {
 	margin-top: 20px;
 }
 
+/* Quize */
 section {
 	margin-bottom: 20px;
 }
@@ -259,6 +261,8 @@ button:hover {
 	margin: 90px 30% 0 0;
 }
 
+
+/* Quizende */
 #solution {
 	border: 2px solid black;
 	margin: 5px 0;
@@ -284,12 +288,48 @@ button:hover {
 	border-radius: 5px;
 }
 
-#flower, #elephant {
+.username {
+	border: 2px solid black;
+	padding: 8px;
+	width: 65%;
+	min-width: 100px;
+	font-size: 16px;
+}
+#punkteform {
+	text-align: left;
+	width: 70%;
+	margin: 50px auto;
+}
+
+#punkteform p {
+	font-size: 17px;
+	margin: 20px 0;
+}
+
+#punkteform ul {
+	display: flex;
+	list-style-type: none;
+	padding: 0;
+}	
+
+#punktzahlsenden li {
+	flex: 1;
+	margin-left: 0;
+}
+
+#username {
+	width: 45%;
+}
+	
+
+.endebild {
 	display: block;
 	margin: 30px auto;
 	width: 70%;
 }
 
+
+/* Kontaktseite*/
 .kontaktmain {
 	background-color: #DDEBF7;
 	padding: 15px;

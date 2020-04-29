@@ -162,37 +162,37 @@ var meineDaten =
 				'raetselname': 'Rätsel 5',
 				'kategorie': 'Ding',
 				'hinweise': ['Ich bin eine Paradiesfeige', 'Viele machen sich über meine Form Gedanken', 'Ich bin immer wieder Opfer von Pilzen', 'Ich bin eine Beere', 'Ich wachse in den Tropen', 'Für meine Reifung wir Ethen eingesetzt', 'Ich komme in einem Arbeitslied vor'],
-				'loesung': ['Leiter']
+				'loesung': ['Banane']
 			},
 			{
 				'raetselname': 'Rätsel 6',
 				'kategorie': 'Person',
-				'hinweise': ['xy', 'xy', 'xy', 'xy', 'xy', 'xy', 'xy'],
+				'hinweise': ['Ich wurde in Frankfurt geboren', 'Meine Schwester hieß Cornelia', 'Ich war sehr gebildet', 'Die Antike war für mich vorbildlich', 'Ich war in allen drei literarischen Gattungen erfolgreich', 'Ich war Anwalt und Staatsdiener', 'Ich wurde in Italien wiedergeboren'],
 				'loesung': ['Johann Wolfgang von Goethe', 'Johann Goethe', 'Goethe']
 			},
 			{
 				'raetselname': 'Rätsel 7',
-				'kategorie': 'xy',
-				'hinweise': ['xy', 'xy', 'xy', 'xy', 'xy', 'xy', 'xy'],
-				'loesung': ['xy']
+				'kategorie': 'Ort',
+				'hinweise': ['Thomas Mann ließ den Tod zu mir kommen', 'Ich liege in einer Lagune', 'Bis 1797 war ich eine Republik', 'Ich bin Weltkulturerbe', 'Mein Schutzpatron ist Markus', 'Mein Zentralfriedhof liegt auf einer Insel', 'Meine Gebäude bestehen aus hohlen Ziegelsteinen'],
+				'loesung': ['Venedig']
 			},
 			{
 				'raetselname': 'Rätsel 8',
-				'kategorie': 'xy',
-				'hinweise': ['xy', 'xy', 'xy', 'xy', 'Ixy', 'xy', 'Sxy'],
-				'loesung': ['xy']
+				'kategorie': 'Ding',
+				'hinweise': ['Ich komme oft in Spielen vor', 'Wenn ich von den Weisen komme, mache ich unsterblich', 'Der Weg ist schwer, wenn ich darauf liege', 'Ich kann auf dem Wasser springen', 'Meist bin ich grau', 'Ich bin ein Baumaterial', 'Ich bin sehr alt'],
+				'loesung': ['Stein']
 			},
 			{
 				'raetselname': 'Rätsel 9',
-				'kategorie': 'xy',
-				'hinweise': ['xy'],
-				'loesung': ['xy']
+				'kategorie': 'Ding',
+				'hinweise': ['Ich bin vielseitig', 'Man kann mit mir lernen', 'Ich entführe in fremde Welten', 'Früher wurde ich aus Tierhaut hergestellt', 'Im 15. Jahrhundert war ich Gegenstand einer bedeutenden Entwicklung', 'Heutzutage werde ich zunehmend digital verwendet', 'Ich bin Gegenstand einer Freizeitaktivität'],
+				'loesung': ['Buch']
 			},
 			{
 				'raetselname': 'Rätsel 10',
-				'kategorie': 'xy',
-				'hinweise': ['xy'],
-				'loesung': ['xy']
+				'kategorie': 'Jar',
+				'hinweise': ['Erdbeben in Haiti', 'Bei den olympischen Spielen stirbt ein Rodler', 'Ein Vulkan legt den Flugverkehr in Europa lahm', 'Deutschland gewinnt den ESC', 'Christian Wulff wird Bundespräsident', 'Eröffnung der Rheinseilbahn in Koblenz', 'Der FC Bayern München wird zum 22. Mal Deutscher Meister'],
+				'loesung': ['2010']
 			}			
 			]
 		}

@@ -61,7 +61,8 @@ window.onload = function() {
 
 function hinweisHinzufuegen() {
 	if (gezeigteHinweise.length == 7){
-		document.getElementById('keinhinweis').textContent = 'Keine neuen Hinweise 🤔'
+		document.getElementById('keinhinweis').textContent = 'Keine neuen Hinweise 🤔';
+		return;
 	}
 	if (gezeigteHinweise.length == 6) {
 		weiterButton.style.visibility='visible';
@@ -146,6 +147,11 @@ weiterButton.onclick = function() {
 		}
 		if (quizNr == 2) {
 			document.location.href = 'raetselende_quiz2.html';
+			
+		}
+		if (quizNr == 3) {
+			document.location.href = 'raetselende_quiz3.html';
+			
 		}
 	}
 }

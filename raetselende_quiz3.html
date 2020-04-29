@@ -15,7 +15,7 @@
 				<ul>
 					<li><a href="index.html">Start</a></li>
 					<li><a href="quiz1.html">Quiz 1</a></li>
-					<li><span>Quiz 2</span></li>
+					<li><span>Quiz 3</span></li>
 					<li><a href="quiz3.html">Quiz 3</a></li>
 					<li><a href="kontakt.html">Kontakt</a></li>			
 				</ul>
@@ -25,8 +25,23 @@
 			<article class="ende">
 				<h2>Herzlichen Glückwunsch, du hast das Quiz geschafft! &#x1F60A </h2>
 				<p>Rätsel mit <span id="endpunktzahl"></span> Punkten abgeschlossen<p>
-				<img src="images/elephant.JPG" alt="Babyelefant mit Mama" class="endebild">
-				<button id="startquiz3">Weiter geht&apos;s zu Quiz 3</button> <!-- Dieser Button soll zu quiz2.html führen -->				
+				<form action="mailto:christina.clemens@outlook.com" method="post" id="punkteform">
+				<p>Anzeigenamen eingeben und Punkte absenden für das Ranking:</p>
+				<ul>
+					<li id="username">
+						<label for="name">Name:</label>
+						<input type="text" id="name" name="user_name" autocomplete="off" class="username">
+					</li>
+					<li>
+						<button type="submit" id="punktebutton">Absenden</button>
+					</li>
+					<li>
+						<input type="hidden" id="punktzahl" name="user_punktzahl" autocomplete="off">
+					</li>
+				</ul>
+				</form>
+				<img src="images/koenigssee.JPG" alt="Haus im See vor Bergen" class="endebild">
+				<button id="startquiz3">Weiter geht&apos;s zu Quiz 4</button> <!-- Dieser Button soll zu quiz2.html führen -->				
 			</article>
 		</main>
 		<footer>
