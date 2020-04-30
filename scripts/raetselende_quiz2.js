@@ -7,6 +7,9 @@ window.onload = function() {
 	endPunktzahl.textContent = storedPoints + '';
 }
 
+var input = document.querySelector('#punktzahl');
+input.setAttribute('value', storedPoints);
+
 var quiz2Button = document.querySelector('#startquiz3');
 
 quiz2Button.onclick = function() {
@@ -21,5 +24,4 @@ cquizH1.onclick = function() {
 	document.location.href = 'index.html';
 }
 
-var input = document.querySelector('#punktzahl');
-input.setAttribute('value', storedPoints);
+
