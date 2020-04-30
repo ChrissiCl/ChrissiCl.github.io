@@ -2,74 +2,73 @@ var meineDaten =
 {
 	'quize': [
 		{
-			'name': 'Quiz 1',
-			'abschlussseite': 'raetselende_quiz1.html',
+			'name': '1. Mai Quiz',
+			'abschlussseite': 'raetselende_maiquiz.html',
 			'raetsel': [
 			{
 				'raetselname': 'Rätsel 1',
 				'kategorie': 'Ding',
-				'hinweise': ['Ich benötige Holz zum Leben', 'Ich bin immmer hungrig', 'Ich kann gemütlich oder gefährlich sein', 'Ich leuchte', 'Der Teufel hat seinen Spaß mit mir', 'Ich kann alles verzehren', 'Ich bin ein Freund der Drachen'],
-				'loesung': ['Feuer']
+				'hinweise': ['Ich bin eine Blume', 'Ich wurde nach einem Gewürz benannt', 'In rot bin ich ein Symbol für den Sozialismus', 'In meiner Funktion als Gewürz sehe ich wie ein Nagel aus', 'Ich komme oft in der Weihnachtszeit zum Einsatz', 'Ich werde zum Würzen von Rotkohl verwendet', 'Ich schmecke intensiv'],
+				'loesung': ['Nelke']
 			},
 			{
 				'raetselname': 'Rätsel 2',
-				'kategorie': 'Ort',
-				'hinweise': ['Ich bin eine Hauptstadt für zwischendurch', 'Ich werde durch Wasser geteilt', 'In meiner Skyline findet man einen beeindruckenden Tower', 'Kirschblüten ziehen viele Menschen an', 'Seit 1770 ist mir Musik sehr wichtig', 'Gummibärchen sind lecker', 'Die 5. Jahreszeit ist das wichtigste Ereignis im Jahr'],
-				'loesung': ['Bonn']
+				'kategorie': 'Jahr',
+				'hinweise': ['Otto von Bismarck muss zurücktreten', 'Die Sozialdemokraten werden erstmals die stärkste Partei in Deutschland', 'Deutschland erhält Helgoland von Großbritannien', 'Nellie Bly reist in 73 Tagen um die Welt', 'Das Fin de Siècle beginnt', 'Das Bildnis des Dorian Gray von Oscar Wilde erscheint', 'Stan Laurel wird geboren'],
+				'loesung': ['1890']
 			},
 			{
 				'raetselname': 'Rätsel 3',
 				'kategorie': 'Ding',
-				'hinweise': ['Ich brauche keinen Meißel', 'In Europa bin ich oft grün, schwarz oder bunt', 'Als Herr mache ich meine Sache meist nicht schlecht', 'Bäume sind meine Heimat', 'Ich bin ein guter Kletterer', 'Ich bin ein guter Handwerker', 'Mein Schädel ist ein Naturwunder'],
-				'loesung': ['Specht']
+				'hinweise': ['Im 19. Jahrhundert war ich eine Revolution', 'Man verbindet mich mit Lärm und schlechter Luft', 'Ich gewinne und produziere Waren', 'Ich gehöre zum Sekundärsektor', 'Inzwischen wurde ich vom Tertiärsektor überholt', 'Ich habe das Handwerk abgelöst', 'Mein Aufschwung begann mit der Dampfmaschine'],
+				'loesung': ['Industrie']
 			},
 			{
 				'raetselname': 'Rätsel 4',
-				'kategorie': 'Jahr',
-				'hinweise': ['Haiyan sorgt in Ostasien für Chaos', 'Obama geht in die zweite Runde', 'Ein Papst dankt ab', 'Es gibt einige Enthüllungen', 'Bringe ich Glück?', 'Für Merkel sind aller guten Dinge 3', 'Eine Queen wird Urgroßmutter'],
-				'loesung': ['2013']
+				'kategorie': 'Ding',
+				'hinweise': ['Ich bin weiß', 'Ich schimmere', 'Ich habe Kätzchen', 'Mein Staub bringt so manchen zum Weinen', 'Ich kann sehr schnell sehr groß werden', 'Ich bin ein wichtiger Lebensraum', 'Ich bin ein Holzlieferant'],
+				'loesung': ['Birke']
 			},
 			{
 				'raetselname': 'Rätsel 5',
 				'kategorie': 'Person',
-				'hinweise': ['Ich bin kein Mönch', 'Rätsel lösen ist mein Beruf', 'Meine Heimat ist San Francisco', 'Ich leide unter Ängsten und Zwangsstörungen', 'Ich bin eine Fernsehfigur', 'In 8 Staffeln brachte ich die Zuschauer zum lachen und mitfiebern', 'Ich habe schon so manchen Verbrecher hinter Gitter gebracht'],
-				'loesung': ['Adrian Monk']
+				'hinweise': ['Im Mittelalter wurde ich verfolgt', 'Ich bin eine Märchenfigur', 'Ich bin eine Figur aus dem Aberglauben', 'Man sagt mir einen Pakt mit dem Teufel nach', 'Ich komme in den Harry Potter-Büchern vor', 'Spinnen und Kröten sind oft meine Begleiter', 'Mein Markenzeichen ist ein Reinigungsgerät'],
+				'loesung': ['Hexe', 'Magierin', 'Zauberin']
 			},
 			{
 				'raetselname': 'Rätsel 6',
-				'kategorie': 'Ort',
-				'hinweise': ['Ich habe 350.000 Einwohner', 'Das "Landnahmebuch" erzählt von meiner Besiedlung', 'Ich wurde von Wikingern entdeckt', 'Ich bin eine Insel', 'Ich bin zu großen Teilen von Wüste bedeckt', 'Der Wassergletscher ist sehr groß', 'Im Fußball sorge ich für Überraschungen'],
-				'loesung': ['Island']
+				'kategorie': 'Ding',
+				'hinweise': ['Ich werde oft mit Blut verglichen', 'Es gibt mich in vielen Nuancen', 'Manchmal warne ich vor etwas', 'Nicht alle Menschen können mich sehen', 'Eine Armee wurde nach mir benannt', 'Ein Sonnenuntergang mit mir ist schön anzusehen', 'Ich steche hervor'],
+				'loesung': ['Rot', 'rot']
 			},
 			{
 				'raetselname': 'Rätsel 7',
-				'kategorie': 'Ding',
-				'hinweise': ['Ich habe Beine', 'Ich bin belastbar', 'Ich werde täglich benutzt', 'Man findet mich in mehreren Räumen des Hauses', 'Man kann mich in eine Decke hüllen', 'Oft bin ich aus Holz', 'Bei den Brüder Grimm kann ich Wunder vollbringen'],
-				'loesung': ['Tisch']
+				'kategorie': 'Ort',
+				'hinweise': ['Ich liege am Michigansee', 'Ich bin eine Metropolregion', 'Ich liege in Illinois', 'In den 1920ern war ich das musikalische Zentrum des Jazz', 'Eine meiner Sportmannschaften besteht aus Bären', 'Ich bin die Geburtsstadt von Walt Disney', 'Mein Fluss wird am St. Patrick\'s Day grün gefärbt'],
+				'loesung': ['Chicago']
 			},
 			{
 				'raetselname': 'Rätsel 8',
-				'kategorie': 'Person',
-				'hinweise': ['Ich bin 70 oder 68 Jahre alt', 'Ich arbeite beim Fernsehen', 'Seit 1983 informiere ich die deutsche Bevölkerung', 'Ich bin der Vorgesetzte meiner Abteilung', 'Um 20:00 erreiche ich die meisten Menschen', 'Man kennt mich mit Brille', 'Mein Arbeitsort ist Hamburg'],
-				'loesung': ['Jan Hofer']
+				'kategorie': 'Ding',
+				'hinweise': ['Ich möchte etwas zeigen', 'Ich bin ein Grundrecht', 'Ich diene der Meinungsäußerung', 'Leider verlaufe ich nicht immer gewaltfrei', 'Ich bin ein Instrument der Öffentlichkeit', 'Mit Fahrrädern in Berlin bin ich am größten', 'Ich kann mich gegen vieles wenden'],
+				'loesung': ['Demonstration']
 			},
 			{
 				'raetselname': 'Rätsel 9',
-				'kategorie': 'Jahr',
-				'hinweise': ['Der 45. Präsident der USA wird gewählt', 'Es finden olympische Spiele statt', 'Die Fußball-EM ist in Frankreich', 'Der Brexit nimmt seinen Anfang', 'Jan Böhmermann legt sich mit Erdogan an', 'Leonardo DiCaprio erhält nach langer Wartezeit endlich einen Oscar', 'Ein Musiker erhält den Literaturnobelpreis'],
-				'loesung': ['2016']
+				'kategorie': 'Ding',
+				'hinweise': ['Ich bin eng mit Musik verbunden', 'Ich bin tief in der menschlichen Kultur verwurzelt', 'Es gibt mich in vielen verschiedenen Formen', 'Ich bin Bewegung', 'Ich kann Ritus, Sport oder Beruf sein', 'Ich kann auch auf dem Eis ausgeführt werden', 'Ich werde  bei vielen verschiedenen Anlässen verwendet'],
+				'loesung': ['Tanz']
 			},
 			{
 				'raetselname': 'Rätsel 10',
 				'kategorie': 'Ding',
-				'hinweise': ['Ich bin tierisch groß', 'Ich bin ein großer Garten', 'Ich bin museumsähnlich', 'Nachwuchs ist ein Besuchermagnet', 'Es gibt mich in viele Städten', 'Bei Kindern bin ich besonders beliebt', 'Ich bin ein Ausflugsziel'],
-				'loesung': ['Zoo', 'Tierpark']
+				'hinweise': ['Ich beginne im März und September', 'Ich bringe alles zum Erwachen', 'Vivaldi hat mich musikalisch dargestallt', 'Ich stehe für Wiedergeburt', 'Strawinksy hat ein Ballett über mich geschrieben', 'Ich wiederhole mich jährlich', 'Ich bin farbenfroh'],
+				'loesung': ['Frühling', 'Frühjahr']
 			}
 			]
 		},
 		{
 			'name': 'Quiz 2',
-			'abschlussseite': 'raetselende_quiz2.html',
 			'raetsel': [
 			{
 				'raetselname': 'Rätsel 1',
@@ -135,7 +134,6 @@ var meineDaten =
 		},
 		{
 			'name': 'Quiz 3',
-			'abschlussseite': 'raetselende_quiz3.html',
 			'raetsel': [
 			{
 				'raetselname': 'Rätsel 1',

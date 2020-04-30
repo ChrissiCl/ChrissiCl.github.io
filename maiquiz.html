@@ -2,7 +2,7 @@
 <html lang="de">
 	<head>
 		<meta charset="utf-8">
-		<title>Quiz 2</title>
+		<title>Quiz 1. Mai</title>
 		<link href="images/quiz_favicon.ico" rel="icon" type="image/x-icon">
 		<meta name="author" content="Christina Clemens">
 		<link href="styles/style.css" rel="stylesheet" type="text/css">
@@ -15,7 +15,7 @@
 			<nav>
 				<ul>
 					<li><a href="index.html">Start</a></li>
-					<li class="dropdown"><span>Standardquiz</span>
+					<li class="dropdown"><a>Standardquiz</a>
 						<ul class="dropdownlist">				
 							<li><a href="quiz1.html">Quiz 1</a></li>
 							<li><a href="quiz2.html">Quiz 2</a></li>
@@ -23,24 +23,24 @@
 							<li><a href="quiz4.html">Quiz 4</a></li>
 						</ul>
 					</li>
-					<li class="dropdown"><a>Themenquiz</a>
+					<li><span>Themenquiz</span>
 						<ul class="dropdownlist">				
 							<li><a href="maiquiz.html">Quiz zum 1. Mai</a></li>
 						</ul>
 					</li>
-					<li><a href="ranking.html">Ranking</a></li>
+					<li><a href="ranking.html">Ranking</a>
 					<li><a href="kontakt.html">Kontakt</a></li>
 				</ul>
 			</nav>
 		</header>
 		<main class="quizmain">
 		<section class="section1">
-				<h2 class="h2quiz"><span>Quiz 2</span></h2>
+			<h2 class="h2quiz"><span>Quiz zum 1. Mai</span></h2>
 				<section class="raetsel">
 					<h3 id="raetselname"></h3>
 					<p id="kategorie"></p>
 					<ol>
-						<li id="hinweis1">1. Hinweis:</li><!-- Nach diesem Text wird ein Hinweis zufällig aus der Textdatei ausgewählt. -->
+						<li id="hinweis1">1. Hinweis:</li>
 						<li id="hinweis2">2. Hinweis:</li>
 						<li id="hinweis3">3. Hinweis:</li>
 						<li id="hinweis4">4. Hinweis:</li>
@@ -65,12 +65,12 @@
 			<ul>
 				<li id="neuerhinweis">
 					<p id="keinhinweis">&nbsp;</p>
-					<button type ="button" id="hinweisbutton">Neuer Hinweis</button> <!-- Mit diesem Button wird zufällig ein neuer Hinweis ausgewählt -->
+					<button type ="button" id="hinweisbutton">Neuer Hinweis</button>
 				</li>
-				<li> <!-- Dieses Element soll ein überprüfbares Textelement sein -->
+				<li>
 					<label for="solution">Mein Lösungsvorschlag:</label>
-					<input type="text" id="solution" name="user_solution" autocomplete="off"><br>
-					<button type="submit" id="vorschlagbutton">Vorschlag abgeben</button> <!-- Mit diesem Button wird die Eingabe des Textfeldes überprüft, stimmt sie mit der Lösung überein, werden alle Hinweise eingeblendet und man kann zum nächsten Rätsel weitergehen. Ist sie nicht mit der Lösung identisch, wird der nächste Hinweis eingeblendet. -->
+					<input type="text" id="solution" name="user_solution" autocomplete="off">
+					<button type="submit" id="vorschlagbutton">Vorschlag abgeben</button>
 				</li>
 				<li>
 					<button type="button" id="weiter">Weiter zum nächsten Rätsel</button>
@@ -82,7 +82,7 @@
 			<p>&copy; 2020 CQuiz</p>
 			<p id="kontakt"><a href="kontakt.html" title="Kontakt">Kontakt</a></p>
 		</footer>
-		<script src="scripts/hinweise.js"></script>
-		<script id="script" data-quiznummer=2 src="scripts/quiz.js"></script>
+		<script src="scripts/hinweise_themenraetsel.js"></script>
+		<script id="script" data-quiznummer=1 src="scripts/quiz.js"></script>
 	</body>
 </html>

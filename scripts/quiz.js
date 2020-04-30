@@ -142,16 +142,7 @@ weiterButton.onclick = function() {
 	}
 	else {
 		sessionStorage.setItem('endpunktzahl', gesamtPunktzahl);
-		if (quizNr == 1) {
-			document.location.href = 'raetselende_quiz1.html';
-		}
-		if (quizNr == 2) {
-			document.location.href = 'raetselende_quiz2.html';
-			
-		}
-		if (quizNr == 3) {
-			document.location.href = 'raetselende_quiz3.html';
-		}
+		document.location.href = meineDaten.quize[quizNr - 1].abschlussseite;
 	}
 }
 
