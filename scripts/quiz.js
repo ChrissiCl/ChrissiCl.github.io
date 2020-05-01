@@ -40,7 +40,7 @@ function neuesRaetsel() {
 	gezeigteHinweise.push(hinweisZahl);
 	weiterButton.style.visibility = 'hidden';
 	document.getElementById('subsection2').style.visibility = 'hidden';
-	vorschlagButton.style.backgroundColor = '#203864';
+	vorschlagButton.setAttribute('class', 'enabled');
 	vorschlagButton.disabled = false;
 	punktZahl.textContent = 'Punktzahl für dieses Rätsel: 0';
 	hinweis2.textContent = '2. Hinweis: ';
@@ -104,7 +104,7 @@ hinweisButton.onclick = function() {
 vorschlagButton.onclick = function() {
 	if (meineDaten.quize[quizNr - 1].raetsel[raetselNummer].loesung.indexOf(document.getElementById('solution').value) == -1) {
 		if (gezeigteHinweise.length == 7) {
-			vorschlagButton.style.backgroundColor = 'gray';
+			vorschlagButton.setAttribute('class', 'disabled');
 			vorschlagButton.disabled = true;
 		}
 		if (gezeigteHinweise.length != 7) {
