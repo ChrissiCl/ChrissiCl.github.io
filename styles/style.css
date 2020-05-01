@@ -354,6 +354,24 @@ button:hover {
 	width: 70%;
 }
 
+/* Ranking */
+table {
+  border-collapse: collapse;
+  border: 2px solid black;
+  font-size: 18px;
+  width: 30%;
+  text-align: center;
+  margin-left: 3%;
+}
+
+td {
+      border: 1px solid black;
+      padding: 10px 20px;
+    }
+
+.firstcolumn {
+	text-align: left;
+}
 
 /* Kontaktseite*/
 .kontaktmain {
