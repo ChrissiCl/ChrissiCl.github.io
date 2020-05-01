@@ -62,7 +62,7 @@ var meineDaten =
 			{
 				'raetselname': 'Rätsel 10',
 				'kategorie': 'Ding',
-				'hinweise': ['Ich beginne im März und September', 'Ich bringe alles zum Erwachen', 'Vivaldi hat mich musikalisch dargestallt', 'Ich stehe für Wiedergeburt', 'Strawinksy hat ein Ballett über mich geschrieben', 'Ich wiederhole mich jährlich', 'Ich bin farbenfroh'],
+				'hinweise': ['Ich beginne im März und September', 'Ich bringe alles zum Erwachen', 'Vivaldi hat mich musikalisch dargestellt', 'Ich stehe für Wiedergeburt', 'Strawinksy hat ein Ballett über mich geschrieben', 'Ich wiederhole mich jährlich', 'Ich bin farbenfroh'],
 				'loesung': ['Frühling', 'Frühjahr']
 			}
 			]
