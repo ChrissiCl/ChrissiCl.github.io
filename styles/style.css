@@ -108,6 +108,7 @@ nav a, nav span {
 nav li:hover  .dropdownlist {
 	visibility: visible;
 	height: auto;
+	max-width: 100%;
 }
 
 nav a:hover, nav span:hover {
@@ -149,7 +150,7 @@ aside {
 	height: auto;
 }
 
-@media screen and (min-width: 500px) {
+@media screen and (min-width: 600px) {
 	.indexmain {
 		display: flex;
 	}
@@ -407,7 +408,7 @@ td {
 	
 }
 
-@media screen and (min-width: 400px) {
+@media screen and (min-width: 600px) {
 	.rankingmain {
 		display: flex;
 		flex-flow: row wrap;
