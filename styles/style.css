@@ -71,6 +71,7 @@ nav > ul {
 }
 
 nav li {
+	display. block;
 	text-align: center;
 	flex: 1;
 }
@@ -108,12 +109,12 @@ nav a, nav span {
 	background-color: #203864;
 }
 
-nav li:hover  .dropdownlist {
+nav li:hover  .dropdownlist, nav li:focus .dropdownlist {
 	visibility: visible;
 	height: auto;
 }
 
-nav a:hover, nav span:hover {
+nav a:hover, nav span:hover, nav a:focus, nav span:focus {
 	background-color: #BCD6EE;
 	color: black;
 }
