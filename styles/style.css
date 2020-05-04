@@ -86,12 +86,6 @@ nav a, nav span {
 	cursor: pointer;
 }
 
-@media screen and (min-width: 600px) {
-	nav a, nav span {
-		width: 70%;
-	}
-}
-
 .dropdownlist {
 	visibility: hidden;  
 	list-style-type: none;
@@ -104,11 +98,11 @@ nav a, nav span {
 
 .dropdownlist li {
 	display: block;
-	margin-right: 2%;
+	margin-right: 2.2%;
 }
 
 .dropdownlist a {
-	min-width: 70%;
+	width: 145%;
 	height: auto;
 	background-color: #203864;
 }
@@ -126,6 +120,16 @@ nav a:hover, nav span:hover {
 nav span {
 	background-color: #BCD6EE;
 	color: black;
+}
+
+@media screen and (min-width: 600px) {
+	nav a, nav span {
+		width: 70%;
+	}
+	
+	.dropdownlist a {
+		width: 70%;
+	}
 }
 
 /* Main */
@@ -193,6 +197,7 @@ section {
 
 .section1 {
 	order: 1;
+	margin: 0;
 }
 
 .section2 {
@@ -212,7 +217,7 @@ section {
 	border-radius: 5px;
 	border-color: black;
 	height: 180px;
-	margin-top: 80px;
+	margin-top: 5%;
 	font-size: 18px;
 	order: 2;
 }
@@ -223,7 +228,7 @@ section {
 	border-radius: 5px;
 	border-color: black;
 	height: 102px;
-	margin-top: 10%;
+	margin-top: 5%;
 	font-size: 18px;
 	order: 1;
 }
@@ -308,7 +313,7 @@ button:hover {
 }
 
 #keinhinweis {
-	margin: 0;
+	margin-bottom: 5%;
 	color: #DA371C;
 }
 
@@ -320,7 +325,7 @@ button:hover {
 	margin: 10% 0 0 0;
 }
 
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 600px) {
 	.section1 {
 		flex: 3;
 		order: 1;
@@ -377,6 +382,7 @@ button:hover {
 	
 	.subsection1 {
 		order: 1;
+		margin-top: 80px;
 	}
 	
 	#subsection2 {
@@ -415,10 +421,12 @@ button:hover {
 .username {
 	border: 2px solid black;
 	padding: 8px;
-	width: 65%;
+	width: 100%;
 	min-width: 100px;
 	font-size: 16px;
+	margin: 5% 0;
 }
+
 #punkteform {
 	text-align: left;
 	width: 70%;
@@ -431,25 +439,49 @@ button:hover {
 }
 
 #punkteform ul {
-	display: flex;
 	list-style-type: none;
 	padding: 0;
 }	
 
 #punktzahlsenden li {
-	flex: 1;
 	margin-left: 0;
 }
 
 #username {
-	width: 45%;
+	width: 100%;
 }
 	
 
 .endebild {
 	display: block;
 	margin: 30px auto;
-	width: 70%;
+	width: 90%;
+}
+
+@media screen and (min-width: 600px) {
+	#punkteform ul {
+		display: flex;
+		list-style-type: none;
+		padding: 0;
+	}
+	
+	#punktzahlsenden li {
+		flex: 1;
+		margin-left: 0;
+	}
+	
+	#username {
+		width: 45%;
+	}
+	
+	.username {
+		width: 65%;
+		margin: 0;
+	}
+	
+	.endebild {
+		width: 70%;
+	}
 }
 
 /* Ranking */
@@ -457,6 +489,10 @@ button:hover {
 	background-color: #DDEBF7;
 	padding: 15px;
 	border-radius: 5px;
+}
+
+.table {
+	margin: 8% 0;
 }
 
 table {
@@ -496,6 +532,7 @@ td {
 	
 	.table {
 		flex: 1;
+		margin: 0;
 	}
 }
 
@@ -508,24 +545,26 @@ td {
 
 .kontaktform ul {
 	list-style-type: none;
-	width: 70%;
+	width: 100%;
+	padding: 0;
 }
 
 .kontaktform li {
 	margin: 14px 0;
+	width: 100%;
 }
 
 .kontaktform label {
 	display: inline-block;
 	width: 90px;
-	text-align: right;
+	text-align: left;
 }
 
 .kontaktform input {
 	border: 2px solid black;
 	margin: 5px 0;
 	padding: 8px;
-	width: 35%;
+	width: 50%;
 	min-width: 100px;
 	font-size: 16px;
 }
@@ -543,7 +582,25 @@ textarea {
 }
 
 #nachrichtsenden {
-	margin-left: 35%
+	margin-left: 37%;
+}
+
+@media screen and (min-width: 600px) {
+	.kontaktform ul {
+		padding-left: 40px;
+	}
+	
+	.kontaktform input {
+		width: 25%;
+	}
+	
+	textarea {
+		width: 55%;
+	}
+	
+	#nachrichtsenden {
+		margin-left: 30%;
+	}
 }
 
 /* Footer */
