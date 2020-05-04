@@ -249,7 +249,7 @@ section {
 
 .raetsel {
 	background-color: #DDEBF7;
-	padding: 15px;
+	padding: 0 10px;
 	margin: 0;
 	font-size: 18px;
 	border: 2px solid;
@@ -314,8 +314,8 @@ button:hover {
 }
 
 #keinhinweis {
-	margin-bottom: 5%;
 	color: #DA371C;
+	margin: 5px 0;
 }
 
 #solution, #vorschlagbutton {
@@ -344,6 +344,7 @@ button:hover {
 	
 	.raetsel {
 		margin: 0 15px 0 10%;
+		padding: 15px;
 	}
 	
 	section {
