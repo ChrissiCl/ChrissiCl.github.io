@@ -407,7 +407,7 @@ td {
 	
 }
 
-@media screen and (min-width: 500px) {
+@media screen and (min-width: 400px) {
 	.rankingmain {
 		display: flex;
 		flex-flow: row wrap;
