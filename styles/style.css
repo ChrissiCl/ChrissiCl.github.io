@@ -43,6 +43,7 @@ h1 {
 	margin: 8px 0 0 10px;
 	flex: 5;
 	order: 2;
+	text-shadow: 1px 1px 3px gray;
 }
 
 header img {

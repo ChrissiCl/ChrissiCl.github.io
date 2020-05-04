@@ -102,7 +102,8 @@ hinweisButton.onclick = function() {
 }
 
 vorschlagButton.onclick = function() {
-	if (meineDaten.quize[quizNr - 1].raetsel[raetselNummer].loesung.indexOf(document.getElementById('solution').value) == -1) {
+	var loesungsWort = document.getElementById('solution').value.trim()
+	if (meineDaten.quize[quizNr - 1].raetsel[raetselNummer].loesung.indexOf(loesungsWort) == -1) {
 		if (gezeigteHinweise.length == 7) {
 			vorschlagButton.setAttribute('class', 'disabled');
 			vorschlagButton.disabled = true;
