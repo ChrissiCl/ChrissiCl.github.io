@@ -149,7 +149,7 @@ aside {
 	height: auto;
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 500px) {
 	.indexmain {
 		display: flex;
 	}
@@ -407,7 +407,7 @@ td {
 	
 }
 
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 500px) {
 	.rankingmain {
 		display: flex;
 		flex-flow: row wrap;
