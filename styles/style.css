@@ -22,7 +22,7 @@ h2 {
 	margin: 10px 0 20px 0; 
 }
 
-h3: {
+h3 {
 	font-size: 25px;
 }
 
@@ -103,7 +103,7 @@ nav a, nav span {
 }
 
 .dropdownlist a {
-	width: 145%;
+	width: 144%;
 	height: auto;
 	background-color: #203864;
 }
@@ -254,7 +254,6 @@ section {
 	font-size: 18px;
 	border: 2px solid;
 	border-radius: 5px;
-	border-color: #DDEBF7;
 }
 
 #raetselname, #kategorie {

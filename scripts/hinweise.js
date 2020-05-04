@@ -242,7 +242,7 @@ var meineDaten =
 			{
 				'raetselname': 'Rätsel 7',
 				'kategorie': 'Ort',
-				'hinweise': ['Meine Amtssprache ist arabisch', 'Meine Demokratie befindet sich in einem schlechten Zustand', 'Die Scharia bestimmt meine Gesetzgebung', 'In der Antike war ich eine Hochkultur', 'In der Anitke hieß ich "Kemet"', 'Asterix und Obelix waren bei mir zu Gast', 'Ich  in seit 1922 selbstständig'],
+				'hinweise': ['Meine Amtssprache ist arabisch', 'Meine Demokratie befindet sich in einem schlechten Zustand', 'Die Scharia bestimmt meine Gesetzgebung', 'In der Antike war ich eine Hochkultur', 'In der Anitke hieß ich "Kemet"', 'Asterix und Obelix waren bei mir zu Gast', 'Ich bin seit 1922 selbstständig'],
 				'loesung': ['Ägypten']
 			},
 			{
