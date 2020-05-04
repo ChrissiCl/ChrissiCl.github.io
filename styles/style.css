@@ -80,10 +80,16 @@ nav a, nav span {
 	height: 26px;
 	padding: 6px;
 	line-height: 1.4;
-	width: 70%;
+	width: 90%;
 	text-decoration: none;
 	color: white;
 	cursor: pointer;
+}
+
+@media screen and (min-width: 600px) {
+	nav a, nav span {
+		width: 70%;
+	}
 }
 
 .dropdownlist {
