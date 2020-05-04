@@ -103,6 +103,7 @@ nav a, nav span {
 
 .dropdownlist a {
 	min-width: 70%;
+	height: auto;
 	background-color: #203864;
 }
 
