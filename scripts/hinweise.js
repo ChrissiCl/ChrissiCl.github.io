@@ -198,6 +198,72 @@ var meineDaten =
 				'loesung': ['2010']
 			}			
 			]
+		},
+		{
+			'name': 'Quiz 4',
+			'abschlussseite': 'raetselende_quiz4.html',
+			'raetsel': [
+			{
+				'raetselname': 'Rätsel 1',
+				'kategorie': 'Ding',
+				'hinweise': ['Ich komme oft in der Bibel vor', 'Ich muss immer betreut werden', 'Wölfe mögen mich besonders gern', 'In schwarz bin ich eine Besonderheit', 'Ich werde oft gezählt', 'Ich bin flauschig', 'Manchmal habe ich Hörner'],
+				'loesung': ['Schaf']
+			},
+			{
+				'raetselname': 'Rätsel 2',
+				'kategorie': 'Ort',
+				'hinweise': ['Ich war eine Freie Reichsstadt', 'Einer meiner Stadtteile liegt im Meer', 'Ich biete hohe Lebensqualität', 'Ich bin ein bedeutender Musicalstandort', '2017 kam es zum Ausnahmezustand', 'Mein Konzerthaus besteht aus 1100 Glaselementen', 'Ich bin ein wichtiger Logistikstandort'],
+				'loesung': ['Hamburg']
+			},
+			{
+				'raetselname': 'Rätsel 3',
+				'kategorie': 'Ding',
+				'hinweise': ['Früher war ich ein Pharao', 'Ich kann natürlich entstehen', 'Ich kann künstlich hergestellt werden', 'Man findet mich im Museum', 'Ich bin gut verpackt', 'Ich komme in Gruselgeschichten vor', 'Man kennt mich vor allem aus Ägypten'],
+				'loesung': ['Mumie']
+			},
+			{
+				'raetselname': 'Rätsel 4',
+				'kategorie': 'Person',
+				'hinweise': ['Ich bin 1960 geboren', 'Meine Karriere begann beim SC Freiburg', 'Mit dem VfB Stuttgart gewann ich den DFB-Pokal', 'Ich habe nie für die Nationalmannschaft gespielt', '2014 war ein sehr erfolgreiches Jahr für mich', 'Heute bin ich vor allem als Trainer bekannt', 'Ich komme aus dem Schwarzwald'],
+				'loesung': ['Joachim Löw', 'Jogi Löw']
+			},
+			{
+				'raetselname': 'Rätsel 5',
+				'kategorie': 'Jahr',
+				'hinweise': ['Das Hirstorische Archiv der Stadt Köln stürzt ein', 'Die Schweinegrippe breitet sich aus', 'Albanien und Kroatien treten der NATO bei', 'Das Wattenmeer wird UNSECO-Weltnaturerbe', 'Es kommt zum Amoklauf in Winnenden', 'Der SV Werder Bremen gewinnt den DFB-Pokal', 'Michael Jackson stirbt'],
+				'loesung': ['2009']
+			},
+			{
+				'raetselname': 'Rätsel 6',
+				'kategorie': 'Ding',
+				'hinweise': ['Ich bin ein Schallereignis', 'Meine Höhe kann variieren', 'Mit mir kann man Stimmungen in der Literatur beschreiben', 'Ich bin visuell und akustisch wahrnehmbar', 'Ich bin ein Werkstoff', 'Ich komme in der Farbenlehre vor', 'Ich kann unterschiedlich lang sein'],
+				'loesung': ['Ton']
+			},
+			{
+				'raetselname': 'Rätsel 7',
+				'kategorie': 'Ort',
+				'hinweise': ['Meine Amtssprache ist arabisch', 'Meine Demokratie befindet sich in einem schlechten Zustand', 'Die Scharia bestimmt meine Gesetzgebung', 'In der Antike war ich eine Hochkultur', 'In der Anitke hieß ich "Kemet"', 'Asterix und Obelix waren bei mir zu Gast', 'Ich  in seit 1922 selbstständig'],
+				'loesung': ['Ägypten']
+			},
+			{
+				'raetselname': 'Rätsel 8',
+				'kategorie': 'Ding',
+				'hinweise': ['Mich gibt es in vielen Farben', 'Ich stamme vermutlich aus Arabien', 'Ursprünglich war ich ein Keks', 'Meine heutige Herstellungsweise geht auf Pierre Hermé zurück', 'Ich liege voll im Trend', 'Meine Herstellung ist aufwendig', 'Ich habe Schalen'],
+				'loesung': ['Macaron']
+			},
+			{
+				'raetselname': 'Rätsel 9',
+				'kategorie': 'Person',
+				'hinweise': ['Mich gibt es seit 1953', 'Ursprünglich war ich eine Romanfigur', 'Mein Name stammt von einem Ornithologen', 'Ich agiere überall auf der Welt', 'Ich trage gerne Anzüge', 'Ich spiele gerne', 'Ich lebe gerne luxuriös'],
+				'loesung': ['James Bond']
+			},
+			{
+				'raetselname': 'Rätsel 10',
+				'kategorie': 'Ding',
+				'hinweise': ['Ich bin gasförmig', 'Normalerweise komme ich zweifach vor', 'Ich bin gelblich-grün', 'Ich bin giftig', 'Ich bin reaktionsfreudig', 'Man findet mich im Periodensystem', 'Ich wirke desinfizierend'],
+				'loesung': ['Chlor']
+			}			
+			]
 		}
 	]
 };

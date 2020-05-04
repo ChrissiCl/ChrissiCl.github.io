@@ -10,10 +10,22 @@ window.onload = function() {
 var input = document.querySelector('#punktzahl');
 input.setAttribute('value', storedPoints);
 
-var quiz2Button = document.querySelector('#startquiz3');
+var quiz3Button = document.querySelector('#startquiz3');
 
-quiz2Button.onclick = function() {
+quiz3Button.onclick = function() {
 	document.location.href = 'quiz3.html';
+}
+
+var quiz4Button = document.querySelector('#startquiz4');
+
+quiz4Button.onclick = function() {
+	document.location.href = 'quiz4.html';
+}
+
+var quiz5Button = document.querySelector('#startquiz5');
+
+quiz5Button.onclick = function() {
+	document.location.href = 'quiz5.html';
 }
 
 cquizLogo.onclick = function() {
