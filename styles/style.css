@@ -121,12 +121,8 @@ nav span {
 }
 
 /* Main */
-main {
+main:not(.indexmain) {
 	margin: 10px 0;
-}
-
-.indexmain {
-	display: flex;
 }
 
 .quizmain {
@@ -139,18 +135,33 @@ main {
 
 /* Index */
 article {
+	margin: 10px 0;
 	background-color: #DDEBF7;
 	padding: 15px;
 	border-radius: 5px;
-	flex: 3;
 }
 
 aside {
-	flex: 1;
-	margin-left: 10px;
+	margin: 10px 0;
 	background-color: #DDEBF7;
 	padding: 15px;
 	border-radius: 5px;
+	height: auto;
+}
+
+@media screen and (min-width: 800px) {
+	.indexmain {
+		display: flex;
+	}
+	
+	article {
+		flex: 3;
+	}
+	
+	aside {
+		flex: 1;
+		margin-left: 10px;
+	}
 }
 
 #mountain {
@@ -370,26 +381,16 @@ button:hover {
 
 /* Ranking */
 .rankingmain {
-	display: flex;
-	flex-flow: row wrap;
 	background-color: #DDEBF7;
 	padding: 15px;
 	border-radius: 5px;
-}
-
-.h2ranking {
-	flex: 100%;
-}
-
-.table {
-	flex: 1;
 }
 
 table {
 	border-collapse: collapse;
 	border: 2px solid black;
 	font-size: 18px;
-	width: 65%;
+	width: 90%;
 	text-align: center;
 	margin-left: 3%;
 }
@@ -404,6 +405,25 @@ td {
 	text-align: left;
 	width: 33%;
 	
+}
+
+@media screen and (min-width: 900px) {
+	.rankingmain {
+		display: flex;
+		flex-flow: row wrap;
+	}
+	
+	.h2ranking {
+		flex: 100%;
+	}
+	
+	table {
+		width: 65%;
+	}
+	
+	.table {
+		flex: 1;
+	}
 }
 
 /* Kontaktseite*/
