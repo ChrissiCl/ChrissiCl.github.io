@@ -64,6 +64,7 @@ nav > ul {
 	padding: 0;
 	margin: 0;
 	display: flex;
+	flex-flow: row wrap;
 	list-style-type: none;
 	flex: 2;
 }
@@ -101,14 +102,13 @@ nav a, nav span {
 }
 
 .dropdownlist a {
-	width: 70%;
+	min-width: 70%;
 	background-color: #203864;
 }
 
 nav li:hover  .dropdownlist {
 	visibility: visible;
 	height: auto;
-	max-width: 100%;
 }
 
 nav a:hover, nav span:hover {
@@ -150,7 +150,7 @@ aside {
 	height: auto;
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 10px) {
 	.indexmain {
 		display: flex;
 	}
