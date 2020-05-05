@@ -110,7 +110,7 @@ nav a, nav span {
 	background-color: #203864;
 }
 
-nav li:hover  .dropdownlist, nav li:focus .dropdownlist, nav li:active .dropdownlist {
+nav li:hover  .dropdownlist, nav li:focus .dropdownlist, nav li:focus-within .dropdownlist, nav li:active .dropdownlist {
 	visibility: visible;
 	height: auto;
 }
