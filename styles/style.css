@@ -125,7 +125,7 @@ nav span {
 	color: black;
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 700px) {
 	nav a, nav span {
 		width: 70%;
 	}
@@ -164,7 +164,7 @@ aside {
 	height: auto;
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 700px) {
 	.indexmain {
 		display: flex;
 	}
@@ -255,6 +255,7 @@ section {
 	margin: 0;
 	font-size: 18px;
 	border-radius: 5px;
+	min-width: 360px;
 }
 
 #raetselname, #kategorie {
@@ -270,7 +271,7 @@ ol {
 ol li {
 	padding: 8px;
 	margin-bottom: 10px;
-	width: 100%;
+	width: 97%;
 	border-radius: 5px;
 	border: 2px solid black;
 }
@@ -326,7 +327,7 @@ button:hover {
 	margin: 10% 0 0 0;
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 700px) {
 	.section1 {
 		flex: 3;
 		order: 1;
@@ -345,6 +346,7 @@ button:hover {
 	.raetsel {
 		margin: 0 15px 0 10%;
 		padding: 15px;
+		width: 85%;
 	}
 	
 	section {
@@ -466,7 +468,7 @@ button:hover {
 	width: 90%;
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 700px) {
 	.ende p {
 		text-align: center;
 		margin: 30px auto;
@@ -531,7 +533,7 @@ td {
 	
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 700px) {
 	.tablesection {
 		display: flex;
 		flex-flow: row wrap;
@@ -604,7 +606,7 @@ textarea {
 	margin-left: 37%;
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 700px) {
 	.kontaktform ul {
 		padding-left: 40px;
 	}
