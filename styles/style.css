@@ -66,12 +66,13 @@ nav > ul {
 	margin: 0;
 	display: flex;
 	flex-flow: row wrap;
+	-webkit-flex-flow: row wrap;
 	list-style-type: none;
 	flex: 2;
 }
 
 nav li {
-	display. block;
+	display: block;
 	text-align: center;
 	flex: 1;
 }
@@ -82,7 +83,7 @@ nav a, nav span {
 	height: 26px;
 	padding: 6px;
 	line-height: 1.4;
-	width: 90%;
+	width: 95%;
 	text-decoration: none;
 	color: white;
 	cursor: pointer;
@@ -109,7 +110,7 @@ nav a, nav span {
 	background-color: #203864;
 }
 
-nav li:hover  .dropdownlist, nav li:focus .dropdownlist {
+nav li:hover  .dropdownlist, nav li:focus .dropdownlist, nav li:active .dropdownlist {
 	visibility: visible;
 	height: auto;
 }
@@ -531,7 +532,7 @@ td {
 }
 
 @media screen and (min-width: 600px) {
-	.rankingmain {
+	.tablesection {
 		display: flex;
 		flex-flow: row wrap;
 	}
@@ -547,6 +548,10 @@ td {
 	.table {
 		flex: 1;
 		margin: 0;
+	}
+	
+	.table2 {
+		width: 50%; /* später wieder ändern, wenn eine zweite Tabelle in diese Spalte kommt!*/
 	}
 }
 
