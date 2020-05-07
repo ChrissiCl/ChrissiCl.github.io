@@ -292,7 +292,7 @@ button {
 	font-size: 16px;
 }
 
-button:hover {
+button:not(.disabled):hover {
 	background-color: #BCD6EE;
 	color: black;
 }
