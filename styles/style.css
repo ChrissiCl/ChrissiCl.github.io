@@ -466,7 +466,7 @@ button:not(.disabled):hover {
 .endebild {
 	display: block;
 	margin: 30px auto;
-	width: 90%;
+	width: 100%;
 }
 
 @media screen and (min-width: 700px) {
@@ -498,8 +498,8 @@ button:not(.disabled):hover {
 	}
 	
 	.endebild {
-		width: 70%;
-	}
+	width: 90%;
+}
 }
 
 /* Ranking */

@@ -8,24 +8,26 @@ window.onload = function() {
 }
 
 var input = document.querySelector('#punktzahl');
-input.setAttribute('value', storedPoints);
+if (input != null) {
+	input.setAttribute('value', storedPoints);
+}
 
-var quiz3Button = document.querySelector('#startquiz3');
+var quizweiterButton = document.querySelector('.weiterquiz');
+var fileName = location.href.split("/").slice(-1); 
 
-quiz3Button.onclick = function() {
+quizweiterButton.onclick = function() {
+	if (fileName == 'raetselende_quiz2.html') {
 	document.location.href = 'quiz3.html';
-}
-
-var quiz4Button = document.querySelector('#startquiz4');
-
-quiz4Button.onclick = function() {
+	}
+	if (fileName == 'raetselende_quiz3.html') {
 	document.location.href = 'quiz4.html';
-}
-
-var quiz5Button = document.querySelector('#startquiz5');
-
-quiz5Button.onclick = function() {
+	}
+	if (fileName == 'raetselende_quiz4.html') {
 	document.location.href = 'quiz5.html';
+	}
+	if (fileName == 'raetselende_quiz5.html') {
+	document.location.href = 'quiz6.html';
+	}
 }
 
 cquizLogo.onclick = function() {
@@ -35,5 +37,3 @@ cquizLogo.onclick = function() {
 cquizH1.onclick = function() {
 	document.location.href = 'index.html';
 }
-
-

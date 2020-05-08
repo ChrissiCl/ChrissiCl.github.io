@@ -264,6 +264,72 @@ var meineDaten =
 				'loesung': ['Chlor']
 			}			
 			]
+		},
+		{
+			'name': 'Quiz 5',
+			'abschlussseite': 'raetselende_quiz5.html',
+			'raetsel': [
+			{
+				'raetselname': 'Rätsel 1',
+				'kategorie': 'Ort',
+				'hinweise': ['Ich bin nach einem römischen Gott benannt', 'Ich bestehe fast ausschließlich aus Wasserstoff', 'Ich werde von Eis- und Gesteinsbrocken umkreist', 'Galileo Galilei beobachtete mich als Erster', 'Die Menschen konnten mich schon immer sehen', 'Ich bin eine große Kugel', 'Ich habe einen Titan'],
+				'loesung': ['Saturn']
+			},
+			{
+				'raetselname': 'Rätsel 2',
+				'kategorie': 'Ding',
+				'hinweise': ['Ich habe eine lange Tradition', 'Ich stamme aus Asien', 'Aus meinen Blättern kann man die Zukunft lesen', 'Mit Eis bin ich eine Erfrischung', 'In Deutschland habe ich in Ostfriesland eine eigene Kultur', 'In Europa bin ich vor allem in schwarz, grün und weiß bekannt', 'Im weiteren Sinne gibt es mich auch mit Kräutern und Früchten'],
+				'loesung': ['Tee']
+			},
+			{
+				'raetselname': 'Rätsel 3',
+				'kategorie': 'Person',
+				'hinweise': ['Ich war ein Augustinermönch', 'Ich war sprachbegabt', 'Ich war sehr bibelkundig', 'Ich war Professor', 'Im Südturm meines Klosters hatte ich eine Erleuchtung', 'Eine Zeitlang war ich ein Ritter', 'Die Gebräuche des Klerus waren mir ein Dorn im Auge'],
+				'loesung': ['Martin Luther']
+			},
+			{
+				'raetselname': 'Rätsel 4',
+				'kategorie': 'Ding',
+				'hinweise': ['Ich bin ein elektrisches Gerät', 'Ich bin die Titelfigur einer Kindersendung', 'Ich bin ein Rübenreinigungslader', 'Ich bin eine Burg', 'Katzen mögen mich gern', 'Ich bin ein Haustier', 'Meist bin ich grau'],
+				'loesung': ['Maus']
+			},
+			{
+				'raetselname': 'Rätsel 5',
+				'kategorie': 'Jahr',
+				'hinweise': ['Die Epoche der Apartheid endet in Südafrika', 'Arved Fuchs und Reinhold Messner durchqueren die Antarktis zu Fuß', 'Die baltischen Staaten erklären sich für unabhängig', 'Schengen II wird unterzeichnet und tritt in Kraft', 'Die Färöer-Inseln besiegen Österreich in einem Fußballländerspiel', 'Wolfgang Schäuble wird Opfer eines Schussattentats', 'Akihito wird japanischer Kaiser'],
+				'loesung': ['1990']
+			},
+			{
+				'raetselname': 'Rätsel 6',
+				'kategorie': 'Ding',
+				'hinweise': ['Ich kann stehen', 'Ich bin ein Messgerät', 'Mithilfe von Atomen bin ich sehr genau', 'In der Antike wurde ich mit Sonne oder Wasser betrieben', 'Mich gibt es in vielen Formen und Größen', 'Es gibt mich analog und digital', 'Ich kann schlagen'],
+				'loesung': ['Uhr']
+			},
+			{
+				'raetselname': 'Rätsel 7',
+				'kategorie': 'Ding',
+				'hinweise': ['Früher war ich stumm', 'Mit mir kann man Preise gewinnen', 'Früher wurde ich zum Fotografieren benötigt', 'Ich bin eine dünne Schicht', 'Ich bin auch als "Streifen" bekannt', 'Ich bin eine Kunstform', 'Ich bin ein Zeitvertreib'],
+				'loesung': ['Film']
+			},
+			{
+				'raetselname': 'Rätsel 8',
+				'kategorie': 'Ort',
+				'hinweise': ['Viele Wege führen zu mir', 'Ich wurde nicht an einem Tag erbaut', 'Ich bin die ewige Stadt', 'Dem Mythos nach wurde ich von Zwillingen gegründet', 'Ich habe viele historische Gebäude', '1960 fanden hier die olympischen Spiele statt', 'Ich bin ein weltliches und geistliches Zentrum'],
+				'loesung': ['Rom']
+			},
+			{
+				'raetselname': 'Rätsel 9',
+				'kategorie': 'Person',
+				'hinweise': ['Ich bin ein Politiker', 'Ich bin ein Stellvertreter', 'Ich bin Anwalt', 'Ich bin schon lange bei der SPD', 'Ich bin Hamburger', 'Ich war schon Bürgermeister', 'Ich war Bundesminister für Arbeit und Soziales'],
+				'loesung': ['Olaf Scholz']
+			},
+			{
+				'raetselname': 'Rätsel 10',
+				'kategorie': 'Ding',
+				'hinweise': ['Ich bin ein Informationsmedium', 'Ich erscheine regelmäßig', 'Ich bestehe aus vielen kleinen Abschnitten', 'Eigentlich bin ich nur eine Nachricht', 'Heutzutage findet man mich zunehmend online', 'Ich habe viele Themen', 'Mich gibt es seit dem 18. Jahrhundert'],
+				'loesung': ['Zeitung']
+			}			
+			]
 		}
 	]
 };
