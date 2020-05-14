@@ -3,10 +3,6 @@ var cquizLogo = document.querySelector('#logo');
 var cquizH1 = document.querySelector('h1');
 var loesungsButton = document.querySelector('#loesungzeigen');
 
-window.onload = function() {
-	document.getElementById('loesungmonat').style.visibility = 'hidden';
-}
-
 quiz1Button.onclick = function() {
 	document.location.href = 'quiz1.html';
 }
