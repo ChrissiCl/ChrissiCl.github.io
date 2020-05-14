@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="334pt" height="231pt" viewBox="0 0 334 231" version="1.1">
+<defs>
+<clipPath id="clip1">
+  <rect x="0" y="0" width="334" height="231"/>
+</clipPath>
+<g id="surface5" clip-path="url(#clip1)">
+<rect x="0" y="0" width="334" height="231" style="fill:rgb(100%,100%,100%);fill-opacity:1;stroke:none;"/>
+<path style=" stroke:none;fill-rule:evenodd;fill:rgb(100%,100%,100%);fill-opacity:1;" d="M 0.800781 230.800781 L 333 230.800781 L 333 0.800781 L 0.800781 0.800781 Z M 0.800781 230.800781 "/>
+<path style=" stroke:none;fill-rule:evenodd;fill:rgb(85.499573%,0%,0%);fill-opacity:1;" d="M 0.800781 91.398438 L 91.398438 91.398438 L 91.398438 0.800781 L 0.800781 0.800781 Z M 0.800781 91.398438 "/>
+<path style=" stroke:none;fill-rule:evenodd;fill:rgb(85.499573%,0%,0%);fill-opacity:1;" d="M 0.800781 230.800781 L 91.398438 230.800781 L 91.398438 140 L 0.800781 140 Z M 0.800781 230.800781 "/>
+<path style=" stroke:none;fill-rule:evenodd;fill:rgb(85.499573%,0%,0%);fill-opacity:1;" d="M 136.601562 91.398438 L 333 91.398438 L 333 0.800781 L 136.601562 0.800781 Z M 136.601562 91.398438 "/>
+<path style=" stroke:none;fill-rule:evenodd;fill:rgb(0%,19.599915%,58.799744%);fill-opacity:1;" d="M 0.800781 130 L 333 130 L 333 103 L 0.800781 103 Z M 0.800781 130 "/>
+<path style=" stroke:none;fill-rule:evenodd;fill:rgb(0%,19.599915%,58.799744%);fill-opacity:1;" d="M 100.398438 230.800781 L 127.398438 230.800781 L 127.398438 0.800781 L 100.398438 0.800781 Z M 100.398438 230.800781 "/>
+<path style=" stroke:none;fill-rule:evenodd;fill:rgb(85.499573%,0%,0%);fill-opacity:1;" d="M 136.601562 230.800781 L 333 230.800781 L 333 140 L 136.601562 140 Z M 136.601562 230.800781 "/>
+</g>
+</defs>
+<g id="surface1">
+<use xlink:href="#surface5"/>
+</g>
+</svg>
