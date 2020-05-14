@@ -83,7 +83,7 @@ nav a, nav span {
 	height: 26px;
 	padding: 6px;
 	line-height: 1.4;
-	width: 90%;
+	width: 70%;
 	text-decoration: none;
 	color: white;
 	cursor: pointer;
@@ -105,7 +105,7 @@ nav a, nav span {
 }
 
 .dropdownlist a {
-	width: 150%;
+	width: 70%;
 	height: auto;
 	background-color: #203864;
 }
@@ -179,24 +179,19 @@ label.responsive-nav-label {
 	
 	nav ul ul {
 		position: relative !important;
-		width: 54% !important;
+		width: 91% !important; /*Am Handy testen, ob Größe verändert werden muss!*/
 		left: 0 !important;
 		top: 0 !important;
 		background: none !important;
 		box-shadow: none;
 		padding-left: 10% !important;
 	}
+	
+	nav a, nav span {
+		width: 90% !important;
+	}
 }
 
-@media screen and (min-width: 700px) {
-	nav a, nav span {
-		width: 70%;
-	}
-	
-	.dropdownlist a {
-		width: 70%;
-	}
-}
 
 /* Main */
 main:not(.indexmain) {
