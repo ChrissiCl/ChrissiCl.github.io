@@ -152,7 +152,7 @@ var meineDaten =
 			{
 				'raetselname': 'Rätsel 3',
 				'kategorie': 'Jahr',
-				'hinweise': ['Napoleon Bonaparte muss abdanken','Die norwegische Verfassung wird verabschiedet','Die finale Fassung von Fidelio von Beethoven wird uraufgeführt','Norwegen geht von Dänemark an Schweden','Der Friede von Gent beendet den Britisch-Amerikanischen Krieg','Der Wiener Kongress beginnt','Die Bourbonen kommen in Frankreich wieder an die Macht'],
+				'hinweise': ['Napoleon Bonaparte muss abdanken','Die norwegische Verfassung wird verabschiedet','Die finale Fassung der Oper Fidelio von Beethoven wird uraufgeführt','Norwegen geht von Dänemark an Schweden','Der Friede von Gent beendet den Britisch-Amerikanischen Krieg','Der Wiener Kongress beginnt','Die Bourbonen kommen in Frankreich wieder an die Macht'],
 				'loesung': ['1814']
 			},
 			{
