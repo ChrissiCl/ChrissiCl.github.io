@@ -231,7 +231,7 @@ var meineDaten =
 				'raetselname': 'Rätsel 5',
 				'kategorie': 'Ding',
 				'hinweise': ['Ich bin eine übernatürliche Sphäre','Ich kann hell oder dunkel sein','Meist bin ich blau','Ich bin Teil von manchen Möbelstücken','Ich komme in einem Weihnachtslied vor','Ich bin ein Naherholungsgebiet in Wien','Über den Weg zu mir wird viel nachgedacht'],
-				'loesung': ['Fahne']
+				'loesung': ['Himmel']
 			},
 			{
 				'raetselname': 'Rätsel 6',
