@@ -174,7 +174,7 @@ var meineDaten =
 				'loesung': ['Henrik Ibsen', 'Ibsen']
 			},
 			{
-				'raetselname': 'Rätsel 7 (das kennt jeder)',
+				'raetselname': 'Rätsel 7',
 				'kategorie': 'Ding',
 				'hinweise': ['Ich bin eine Bekleidung','In Deutschland denkt man bei mir vor allem an Bayern','Ich stamme vor allem aus dem 19. Jahrhundert','Ich vermittle eine Vielzahl an Informationen','In Norwegen heiße ich "bunad"','Ich bin ein Identifikationsmittel','Traditionell werde ich aufwändig hergestellt'],
 				'loesung': ['Tracht']
@@ -196,6 +196,72 @@ var meineDaten =
 				'kategorie': 'Ding',
 				'hinweise': ['Ich bin feierlich','Oft stamme ich aus der romantisch nationalistischen Bewegung','Ich bin nicht immer unproblematisch','Meist werde ich gesungen','Ich bin ein Staatssymbol','Ich werde vor allem bei internationalen Sportveranstaltungen genutzt','Über meine Texte wird viel diskutiert'],
 				'loesung': ['Nationalhymne']
+			}
+			]
+		},
+		{
+			'name': 'Quiz zu Himmelfahrt',
+			'abschlussseite': 'raetselende_himmelfahrt.html',
+			'raetsel': [
+			{
+				'raetselname': 'Rätsel 1',
+				'kategorie': 'Ding',
+				'hinweise': ['Ich kann kurz oder lang sein','Ich bin eine Fortbewegungsart','Seit der Aufklärung bin ich eine beliebte Freizeitbeschäftigung','Man kann einen ganzen Urlaub mit mir verbringen','Ich bin erholsam','Ich bin ein beliebtes Motiv in der Literatur und Kunst der Romantik', 'Ich bin ein Ausflug in die Natur'],
+				'loesung': ['Wanderung', 'Wandern']
+			},
+			{
+				'raetselname': 'Rätsel 2',
+				'kategorie': 'Person',
+				'hinweise': ['Ich bin ein Familienmitglied','Als Land bin ich eine Heimat','Gott wird oft wie ich genannt','Ich bin der Betreuer eines Doktoranden','Der Staat wird mit meinem Namen personifiziert','Ich kann heilig sein','Ich kann Urheber eines geistigen Produktes sein'],
+				'loesung': ['Vater']
+			},
+			{
+				'raetselname': 'Rätsel 3',
+				'kategorie': 'Ort',
+				'hinweise': ['In den meisten Sprachen bin ich nach Oliven benannt','Ich liegen östlich der Jerusalemer Altstadt','In vielen Religionen bin ich ein Ort, an dem Wunder geschehen','Hier ist der größte jüdische Friedhof der Welt','Ich bin der höchste Berg im Siebengebirge','Von hier fuhr Jesus in den Himmel auf','Ich liege über dem Kidrontal'],
+				'loesung': ['Ölberg']
+			},
+			{
+				'raetselname': 'Rätsel 4',
+				'kategorie': 'Jahr',
+				'hinweise': ['In Österreich kommt es zum Bürgerkrieg','Paul von Hindenburg stirbt','Der Lange Marsch der Roten Armee beginnt','Der erste Film mit Donald Duck erscheint','Die Perle Allahs, größte Perle der Welt, wird vor den Philippinen gefunden','Adolf Hitler wird "Führer", Reichspräsident und -kanzler in einem','Es kommt zum Röhm-Putsch'],
+				'loesung': ['1934']
+			},
+			{
+				'raetselname': 'Rätsel 5',
+				'kategorie': 'Ding',
+				'hinweise': ['Ich bin eine übernatürliche Sphäre','Ich kann hell oder dunkel sein','Meist bin ich blau','Ich bin Teil von manchen Möbelstücken','Ich komme in einem Weihnachtslied vor','Ich bin ein Naherholungsgebiet in Wien','Über den Weg zu mir wird viel nachgedacht'],
+				'loesung': ['Fahne']
+			},
+			{
+				'raetselname': 'Rätsel 6',
+				'kategorie': 'Ding',
+				'hinweise': ['Mich gibt es mehrmals im Jahr','In Österreich bin ich ein Fenster','Ich verlängere das Wochenende','In vielen Ländern bin ich schulfrei','Ich bin ein beliebter Anlass für Kurzurlaub','Ich verbinde zwei Tage miteinander','Viele versuchen mit mir ihren Urlaub optimal zu nutzen'],
+				'loesung': ['Brückentag']
+			},
+			{
+				'raetselname': 'Rätsel 7',
+				'kategorie': 'Person',
+				'hinweise': ['Mein Nachfolger war Ludwig der Fromme','800 wurde ich zum Kaiser gekrönt','Ich bin der "Vater Europas"','Ich war Karolinger','Ich wurde heiliggesprochen','Es gibt einen Mythos zu meiner Person','Meinen Beinamen erhielt ich erst viele Jahre später'],
+				'loesung': ['Karl der Große', 'Karl der große']
+			},
+			{
+				'raetselname': 'Rätsel 8',
+				'kategorie': 'Person',
+				'hinweise': ['Ich bin ein Nachkomme König Davids','Ich habe viele Wunder vollbracht','Ich bin in fast allen Religionen einen bedeutende Figur','Es gibt viele Namen für mich','In mich wird viel Hoffnung gesetzt','Seit dem 18. Jahrhundert werden meine wahren Lebensumstände erforscht','Ich habe viele Anhänger'],
+				'loesung': ['Jesus']
+			},
+			{
+				'raetselname': 'Rätsel 9',
+				'kategorie': 'Ding',
+				'hinweise': ['Ich bin ein Bauwerk','Ich bin eine Gemeinschaft','Man sollte mich im Dorf lassen','In vielen Ländern gibt es mich in jedem Ort','Ich habe ein Schiff','Ich bin eine christliche Organisationsform','Oft bin ich ein Kulturgut'],
+				'loesung': ['Kirche']
+			},
+			{
+				'raetselname': 'Rätsel 10',
+				'kategorie': 'Ort',
+				'hinweise': ['Ich bin eine ehemalige Reichsstadt','Ich bin ein Bischofssitz','Ich habe viele heilsame Quellen','Ich bin für Lebkuchen bekannt','Einmal im Jahr findet hier ein großes Reitturnier statt','Ich bin die westlichste deutsche Großstadt','600 Jahre lang wurden hier Könige gekrönt'],
+				'loesung': ['Aachen']
 			}
 			]
 		}

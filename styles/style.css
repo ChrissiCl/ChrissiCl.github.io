@@ -386,6 +386,16 @@ button:not(.disabled):hover {
 	margin: 14px 0 0 0;
 }
 
+#falschetipps {
+	visibility: hidden;
+	margin-top: 19px;
+	padding: 15px;
+	border: 2px solid;
+	border-radius: 5px;
+	border-color: black;
+	width: 70%;
+}
+
 #weiter {
 	margin: 10% 0 0 0;
 }
@@ -424,12 +434,12 @@ button:not(.disabled):hover {
 		width: 90%;
 	}
 	
-	.quizform ul {
+	.quizform > ul {
 		display: flex;
 		padding-left: 3%;
 	}
 
-	.quizform li {
+	.quizform > ul > li {
 		display: inline-block;
 		flex: 1
 	}
@@ -455,6 +465,10 @@ button:not(.disabled):hover {
 	#subsection2 {
 		margin-top: 190px;
 		order: 2;
+	}
+	
+	#falschetipps {
+		width: 60%;
 	}
 }
 

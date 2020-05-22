@@ -17,13 +17,15 @@ var min = 0;
 var max = 6;
 var hinweisZahl;
 var gezeigteHinweise = [];
-var raetselNummer = 0
+var raetselNummer = 0;
 var punktZahl = document.querySelector('#punktzahl');
-var gesamtPunktzahl = 0
-var paragraphGesamtpunktzahl = document.querySelector('#gesamtpunktzahl')
+var gesamtPunktzahl = 0;
+var paragraphGesamtpunktzahl = document.querySelector('#gesamtpunktzahl');
 var leeresElement = document.getElementById('keinhinweis').textContent;
-var script_tag = document.getElementById('script')
-var quizNr = script_tag.getAttribute('data-quiznummer')
+var script_tag = document.getElementById('script');
+var quizNr = script_tag.getAttribute('data-quiznummer');
+var falscheTipps = [];
+
 
 function emptyfield() {
 	document.getElementById('solution').value='';
@@ -104,19 +106,22 @@ hinweisButton.onclick = function() {
 vorschlagButton.onclick = function() {
 	var loesungsWort = document.getElementById('solution').value.trim()
 	if (meineDaten.quize[quizNr - 1].raetsel[raetselNummer].loesung.indexOf(loesungsWort) == -1) {
-		if (gezeigteHinweise.length == 7) {
-			vorschlagButton.setAttribute('class', 'disabled');
-			vorschlagButton.disabled = true;
-		}
+		var li = document.createElement('li');
+		li.appendChild(document.createTextNode(loesungsWort));
+		document.getElementById('listefalschetipps').appendChild(li);
+		document.getElementById('falschetipps').style.visibility = 'visible';
 		if (gezeigteHinweise.length != 7) {
 			hinweisHinzufuegen();
 		}
 		else {
 			document.getElementById('subsection2').style.visibility = 'visible';
 			document.getElementById('loesungswort').textContent = meineDaten.quize[quizNr - 1].raetsel[raetselNummer].loesung[0];
+			vorschlagButton.setAttribute('class', 'disabled');
+			vorschlagButton.disabled = true;
 		}
 		document.getElementById('solution').style.backgroundColor = '#DA371C';
 		setTimeout(weißMachen, 1000);
+		setTimeout(emptyfield, 1000);
 	}
 	else {
 		document.getElementById('solution').style.backgroundColor = '#85CA3A';
