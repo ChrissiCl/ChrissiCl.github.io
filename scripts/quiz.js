@@ -10,9 +10,9 @@ var hinweis5 = document.querySelector('#hinweis5');
 var hinweis6 = document.querySelector('#hinweis6');
 var hinweis7 = document.querySelector('#hinweis7');
 var hinweisButton = document.querySelector('#hinweisbutton');
-var vorschlagButton = document.querySelector('#vorschlagbutton')
-var weiterButton = document.querySelector('#weiter')
-var hinweis = 0
+var vorschlagButton = document.querySelector('#vorschlagbutton');
+var weiterButton = document.querySelector('#weiter');
+var hinweis = 0;
 var min = 0;
 var max = 6;
 var hinweisZahl;
@@ -36,6 +36,11 @@ function neuesRaetsel() {
 	kategorie.textContent = 'Kategorie: ' + meineDaten.quize[quizNr - 1].raetsel[raetselNummer].kategorie;
 	hinweis = 0;
 	gezeigteHinweise = [];
+	falscheTipps = [];
+	while (document.getElementById('listefalschetipps').firstChild) {
+		document.getElementById('listefalschetipps').removeChild(document.getElementById('listefalschetipps').firstChild);
+	}
+	document.getElementById('falschetipps').style.visibility = 'hidden';
 	emptyfield();
 	hinweisZahl  = Math.floor(Math.random() * (max - min + 1)) + min;
 	hinweis1.textContent = '1. Hinweis: ' + meineDaten.quize[quizNr - 1].raetsel[raetselNummer].hinweise[hinweisZahl];
@@ -133,7 +138,7 @@ vorschlagButton.onclick = function() {
 		weiterButton.style.visibility='visible';
 		punktZahl.textContent = 'Punktzahl für dieses Rätsel: ' + (8 - gezeigteHinweise.length).toString();
 		gesamtPunktzahl = gesamtPunktzahl + 8 - gezeigteHinweise.length;
-		paragraphGesamtpunktzahl.textContent = 'Gesamtpunktzahl: ' + gesamtPunktzahl
+		paragraphGesamtpunktzahl.textContent = 'Gesamtpunktzahl: ' + gesamtPunktzahl;
 		while(gezeigteHinweise.length != 7){
 			hinweisHinzufuegen();
 		}

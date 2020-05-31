@@ -264,6 +264,72 @@ var meineDaten =
 				'loesung': ['Aachen']
 			}
 			]
+		},
+		{
+			'name': 'Quiz zu Pfingsten',
+			'abschlussseite': 'raetselende_pfingsten.html',
+			'raetsel': [
+			{
+				'raetselname': 'Rätsel 1',
+				'kategorie': 'Ding',
+				'hinweise': ['Ich kann stechen','Ich bin eine Königin','Ich habe oft einen eigenen Garten','Meine Frucht ist die Hagebutte','Je nach Farbe symbolisiere ich unterschiedliche Dinge','Ich komme in vielen Namen und Wappen vor', 'Ich werde seit 2000 Jahren gezüchtet'],
+				'loesung': ['Rose']
+			},
+			{
+				'raetselname': 'Rätsel 2',
+				'kategorie': 'Ort',
+				'hinweise': ['Ich bin ein Ort der kulturellen Begegnung','Ich war im Laufe der Jahrhunderte immer umkämpft','Ich bin in mehrfacher Hinsicht heilig','Hier gibt es viele religiöse Gebäude','Ich wurde von König David erobert','Im 12. und 13. Jahrhundert war ich ein Königreich','Von meinem Tempel ist nicht mehr viel übrig'],
+				'loesung': ['Jerusalem']
+			},
+			{
+				'raetselname': 'Rätsel 3',
+				'kategorie': 'Ding',
+				'hinweise': ['Ursprünglich bin ich ein Kirchweihfest','Es gibt viele verschiedene Namen für mich','So werde ich vor allem in Mitteldeutschland genannt','bei Kindern bin ich besonders beliebt','Ich bestehe aus vielen Buden','Ich bin ein Volksfest','Ich bin mobil'],
+				'loesung': ['Kirmes']
+			},
+			{
+				'raetselname': 'Rätsel 4',
+				'kategorie': 'Ding',
+				'hinweise': ['Meine Wurzeln liegen im Judentum','Mein Symbol ist ein Kreuz','Es gibt viele veschiedene Arten von mir','Ich bin sehr alt','Viele wurden zu mir bekehrt','In meinem Namen wurden Kriege geführt','Ich bin weit verbreitet'],
+				'loesung': ['Christentum']
+			},
+			{
+				'raetselname': 'Rätsel 5',
+				'kategorie': 'Ding',
+				'hinweise': ['Sitze ich auf dem Dach, zieht man mir den Spatz vor','In weiß bin ich ein Friedenssymbol','Ich bezeichne gehörlose Menschen','Eine von meiner Art ist ein Postbote','Ich werde bei manchen Feiern fliegen gelassen','In der Stadt bin ich nicht sehr beliebt','In der Sintfluterzählung bringe ich frohe Botschaft'],
+				'loesung': ['Taube']
+			},
+			{
+				'raetselname': 'Rätsel 6',
+				'kategorie': 'Ding',
+				'hinweise': ['Mit angehängtem E bin ich eine Heuschrecke','Ich bin ein Rost','Im Auto werde ich vor dem Kühler angebracht','Im Sommer bin ich besonders beliebt','Mit mir kann man ein Fest veranstalten','Ich bin sehr heiß','Ich kann mit Gas, Kohle oder Strom betrieben werden'],
+				'loesung': ['Grill']
+			},
+			{
+				'raetselname': 'Rätsel 7',
+				'kategorie': 'Person',
+				'hinweise': ['Ich bin ein Gesandter','Ich bin damit beauftragt, zu verkünden','Es gibt 12 von mir','Meine Nachfolger sind Bischöfe','Es gibt eine Geschichte über mich','Eine Konfession ist nach mir benannt','Es gibt viele Gemälde von mir'],
+				'loesung': ['Apostel']
+			},
+			{
+				'raetselname': 'Rätsel 8',
+				'kategorie': 'Ding',
+				'hinweise': ['Wer mich sieht, bekommt einen Schreck','Es gibt Wissenschaften über mich','Ich bin ein Teil der Trinität','Jeder Mensch hat mich','Manchmal lebe ich in einer Flasche','Ich bin übersinnlich','Man kann auf mich gehen'],
+				'loesung': ['Geist']
+			},
+			{
+				'raetselname': 'Rätsel 9',
+				'kategorie': 'Ding',
+				'hinweise': ['Ich bin eine Gemeinschaft','Ich bin eine Ebene der biologischen Systematik','Mein Recht ist ein Teilgebiet des Zivilrechts','Ich kann groß oder klein sein','In mir kann etwas liegen','Es gibt mich in vielen Formen','Ich bin eine soziale Gruppe'],
+				'loesung': ['Familie']
+			},
+			{
+				'raetselname': 'Rätsel 10',
+				'kategorie': 'Ding',
+				'hinweise': ['Ich bin eine positive Erwartungshaltung','Man kann sich an mich klammern','Ich sterbe zuletzt','Ich kann leise sein','Man sollte mich nie aufgeben','Ich bin zukunftsgerichtet','Ich kann mich als Illusion erweisen'],
+				'loesung': ['Hoffnung']
+			}
+			]
 		}
 	]
 };
