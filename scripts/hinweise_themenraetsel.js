@@ -284,7 +284,7 @@ var meineDaten =
 			{
 				'raetselname': 'Rätsel 3',
 				'kategorie': 'Ding',
-				'hinweise': ['Ursprünglich bin ich ein Kirchweihfest','Es gibt viele verschiedene Namen für mich','So werde ich vor allem in Mitteldeutschland genannt','bei Kindern bin ich besonders beliebt','Ich bestehe aus vielen Buden','Ich bin ein Volksfest','Ich bin mobil'],
+				'hinweise': ['Ursprünglich bin ich ein Kirchweihfest','Es gibt viele verschiedene Namen für mich','So werde ich vor allem in Mitteldeutschland genannt','Bei Kindern bin ich besonders beliebt','Ich bestehe aus vielen Buden','Ich bin ein Volksfest','Ich bin mobil'],
 				'loesung': ['Kirmes']
 			},
 			{
