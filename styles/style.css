@@ -187,9 +187,14 @@ label.responsive-nav-label {
 		padding-left: 10% !important;
 	}
 	
+	nav ul ul li {
+		width: 325px;
+	}
+	
 	nav a, nav span {
 		width: 90% !important;
 	}
+	
 }
 
 
