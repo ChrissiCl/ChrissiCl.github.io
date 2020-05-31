@@ -188,7 +188,7 @@ label.responsive-nav-label {
 	}
 	
 	nav ul ul li {
-		min-width: 290px;
+		min-width: 200px;
 	}
 	
 	nav a, nav span {
