@@ -179,7 +179,7 @@ label.responsive-nav-label {
 	
 	nav ul ul {
 		position: relative !important;
-		width: 91% !important; /*Am Handy testen, ob Größe verändert werden muss!*/
+		width: 90.5% !important; /*Am Handy testen, ob Größe verändert werden muss!*/
 		left: 0 !important;
 		top: 0 !important;
 		background: none !important;
@@ -188,7 +188,7 @@ label.responsive-nav-label {
 	}
 	
 	nav ul ul li {
-		min-width: 200px;
+		min-width: 100px;
 	}
 	
 	nav a, nav span {
