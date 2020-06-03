@@ -1,6 +1,6 @@
-// <?php
+<?php
 
-// $gesendeteDaten = $_POST;
+$gesendeteDaten = $_GET;
 // //$gesendeteDaten = array("quizname" => "Quiz3", "name" => "Chrissi", "punktzahl" => 70);
 
 // $jsonDaten = file_get_contents("rankingdaten.json");
@@ -41,9 +41,9 @@
 // $myJSON = json_encode($myRanking);
 // file_put_contents("rankingdaten.json", $myJSON);
 
-// $responseStatus = '200 OK';
-// header($_SERVER['SERVER_PROTOCOL'].' '.$responseStatus);
-// header('Content-type: text/html; charset=utf-8');
-// echo $myJSON;
+$responseStatus = '200 OK';
+header($_SERVER['SERVER_PROTOCOL'].' '.$responseStatus);
+header('Content-type: text/html; charset=utf-8');
+echo $gesendeteDaten;
 
-// ?>
+?>
