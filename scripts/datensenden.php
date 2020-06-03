@@ -44,6 +44,6 @@ $gesendeteDaten = $_GET;
 $responseStatus = '200 OK';
 header($_SERVER['SERVER_PROTOCOL'].' '.$responseStatus);
 header('Content-type: text/html; charset=utf-8');
-echo $gesendeteDaten;
+echo $gesendeteDaten['quizname'];
 
 ?>
