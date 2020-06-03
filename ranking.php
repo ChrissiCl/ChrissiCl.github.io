@@ -59,7 +59,7 @@
 			</optgroup>
 		</select>
 		<?php
-		echo 'Hallo';
+		echo var_export($_GET);
 		?>
 		<!-- <section class="tablesection"> -->
 			<!-- <section class="table"> -->
