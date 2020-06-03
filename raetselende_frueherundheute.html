@@ -45,7 +45,18 @@
 			<article class="ende">
 				<h2>Herzlichen Glückwunsch, du hast das Quiz geschafft! &#x1F60A </h2>
 				<p>Rätsel mit <span id="endpunktzahl"></span> Punkten abgeschlossen<p>
-				<p class="nachricht">Wenn du in das Ranking aufgenommmen willst, schick mir eine Nachricht auf WhatsApp, über das Kontaktformular oder direkt eine Email mit deiner Punktzahl (Das Kontaktformular funktioniert am Handy leider nicht)</p>
+				<p>Anzeigenamen eingeben und Punkte absenden für das Ranking:</p>
+				<div id="punkteform">
+				<ul>
+					<li id="username">
+						<label for="name">Name:</label>
+						<input type ="text" id="name" name="user_name" autocomplete="off" class ="username">
+					</li>
+					<li id="punktzahlsenden">
+						<button type="submit" id="punktebutton">Absenden</button>
+					</li>
+				</ul>
+				</div>
 				<p>
 					<img src="images/schoenbrunn.JPG" alt="Schloss Schönbrunn, schwarzweiß vs. in Farbe" class="endebild">
 				</p>
@@ -55,6 +66,6 @@
 			<p>&copy; 2020 CQuiz</p>
 			<p id="kontakt"><a href="kontakt.html" title="Kontakt">Kontakt</a></p>
 		</footer>
-		<script src="scripts/raetselende_quiz2.js"></script>
+		<script id="script" data-quizname="Themenquiz Früher und Heute" src="scripts/raetselende.js"></script>
 	</body>
 </html>

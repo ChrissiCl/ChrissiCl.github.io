@@ -5,7 +5,7 @@ var cquizH1 = document.querySelector('h1');
 var request = new XMLHttpRequest();
 var buttonRanking = document.querySelector('#punktebutton');
 var script_tag = document.getElementById('script');
-var quizNr = script_tag.getAttribute('data-quiznummer');
+var quizNr = script_tag.getAttribute('data-quizname');
 
 window.onload = function() {
 	endPunktzahl.textContent = storedPoints + '';
@@ -34,7 +34,7 @@ buttonRanking.onclick = function() {
 			console.warn(request.statusText, request.responseText);
 		}
 	});
-	request.send('quizname=Quiz' + quizNr + '&name=' + document.getElementById('name').value + '&punktzahl=' + storedPoints);
+	request.send('quizname=' + quizNr + '&name=' + document.getElementById('name').value + '&punktzahl=' + storedPoints);
 }
 
 // var quizweiterButton = document.querySelector('.weiterquiz');
