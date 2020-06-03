@@ -193,6 +193,7 @@ label.responsive-nav-label {
 	
 	nav a, nav span {
 		width: 90% !important;
+		white-space: nowrap;
 	}
 	
 }
@@ -207,7 +208,7 @@ main:not(.indexmain) {
 	display: flex;
 	flex-flow: row wrap;
 	background-color: #DDEBF7;
-	padding: 15px;
+	padding: 20px;
 	border-radius: 5px;
 }
 
@@ -215,14 +216,14 @@ main:not(.indexmain) {
 article {
 	margin: 10px 0;
 	background-color: #DDEBF7;
-	padding: 15px;
+	padding: 20px;
 	border-radius: 5px;
 }
 
 aside {
 	margin: 10px 0;
 	background-color: #DDEBF7;
-	padding: 15px;
+	padding: 20px;
 	border-radius: 5px;
 	height: auto;
 }
@@ -585,8 +586,20 @@ button:not(.disabled):hover {
 /* Ranking */
 .rankingmain {
 	background-color: #DDEBF7;
-	padding: 15px;
+	padding: 20px;
 	border-radius: 5px;
+	min-height: 500px;
+}
+
+#rankingdropdown {
+	padding: 5px;
+	font-size: 17px;
+	margin: 1% 0;
+	border: 2px solid gray;
+}
+
+optgroup {
+	font-style: normal;
 }
 
 .table {
@@ -641,7 +654,7 @@ td {
 /* Kontaktseite*/
 .kontaktmain {
 	background-color: #DDEBF7;
-	padding: 15px;
+	padding: 20px;
 	border-radius: 5px;
 }
 

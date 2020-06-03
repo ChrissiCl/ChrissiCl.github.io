@@ -1,14 +1,10 @@
+var cquizLogo = document.querySelector('#logo');
+var cquizH1 = document.querySelector('h1');
+var selectMenu = document.querySelector('select')
 var request = new XMLHttpRequest();
-var buttonRanking = document.querySelector('#punktebutton');
-var input = document.querySelector('#punktzahl');
-var quizNummer = document.querySelector('#quiznummer');
 
-input.setAttribute('value', 45);
-quiznummer.setAttribute('value', 'Quiz 5')
-
-
-buttonRanking.onclick = function() {
-	request.open('POST','test.php');
+selectMenu.onchange = function() {
+	request.open('GET','scripts/datensenden.php');
 	request.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded; charset=UTF-8');
 	request.addEventListener('load', function(event) {
 		if (request.status >= 200 && request.status < 300) {
@@ -17,5 +13,14 @@ buttonRanking.onclick = function() {
 			console.warn(request.statusText, request.responseText);
 		}
 	});
-	request.send('quizname=' + document.getElementById('quiznummer').value + '&name=' + document.getElementById('name').value + '&punktzahl=' + document.getElementById('punktzahl').value);
+	request.send('quizname=' + selectMenu.value);
 }
+
+cquizLogo.onclick = function() {
+	document.location.href = 'index.html';
+}
+
+cquizH1.onclick = function() {
+	document.location.href = 'index.html';
+}
+
