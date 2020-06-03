@@ -16,8 +16,16 @@ window.onload = function() {
 	// input.setAttribute('value', storedPoints);
 // }
 
+var input = document.getElementById('name');
+input.addEventListener('keyup', function(event) {
+  if (event.keyCode === 13) {
+	event.preventDefault();
+	buttonRanking.click();
+  }
+});
+
 buttonRanking.onclick = function() {
-	request.open('POST','datenspeichern.php');
+	request.open('POST','scripts/datenspeichern.php');
 	request.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded; charset=UTF-8');
 	request.addEventListener('load', function(event) {
 		if (request.status >= 200 && request.status < 300) {

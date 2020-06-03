@@ -519,13 +519,11 @@ button:not(.disabled):hover {
 }
 
 #punkteform {
-	text-align: left;
-	width: 70%;
-	margin: 50px auto;
+	width: 40%;
+	margin: 0 auto;
 }
 
 #punkteform p {
-	text-align: left;
 	font-size: 17px;
 	margin: 20px 0;
 }
@@ -564,13 +562,14 @@ button:not(.disabled):hover {
 		padding: 0;
 	}
 	
-	#punktzahlsenden li {
+	#punktzahlsenden {
 		flex: 1;
 		margin-left: 0;
 	}
 	
 	#username {
 		width: 45%;
+		flex: 3;
 	}
 	
 	.username {
