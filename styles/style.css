@@ -193,6 +193,7 @@ label.responsive-nav-label {
 	
 	nav a, nav span {
 		width: 90% !important;
+		white-space: nowrap;
 	}
 	
 }

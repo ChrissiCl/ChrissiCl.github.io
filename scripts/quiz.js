@@ -32,6 +32,7 @@ function emptyfield() {
 }
 
 function neuesRaetsel() {
+	window.scrollTo(0, 0);
 	raetselname.textContent = meineDaten.quize[quizNr - 1].raetsel[raetselNummer].raetselname;
 	kategorie.textContent = 'Kategorie: ' + meineDaten.quize[quizNr - 1].raetsel[raetselNummer].kategorie;
 	hinweis = 0;
