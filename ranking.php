@@ -58,6 +58,9 @@
 				<option>Norwegenquiz zu Pfingsten</option>
 			</optgroup>
 		</select>
+		<?php
+		echo 'Hallo';
+		?>
 		<!-- <section class="tablesection"> -->
 			<!-- <section class="table"> -->
 			<!-- <h3>Quiz 3</h3> -->
