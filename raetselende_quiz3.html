@@ -45,17 +45,30 @@
 			<article class="ende">
 				<h2>Herzlichen Glückwunsch, du hast das Quiz geschafft! &#x1F60A </h2>
 				<p>Rätsel mit <span id="endpunktzahl"></span> Punkten abgeschlossen<p>
-				<p class="nachricht">Wenn du in das Ranking aufgenommmen willst, schick mir eine Nachricht auf WhatsApp, über das Kontaktformular oder direkt eine Email mit deiner Punktzahl (Das Kontaktformular funktioniert am Handy leider nicht)</p>
-				<p>
-					<img src="images/koenigssee.JPG" alt="Haus im See vor Bergen" class="endebild">
-					<button class="weiterquiz">Weiter geht&apos;s zu Quiz 4</button>
-				</p>
+				<p>Anzeigenamen eingeben und Punkte absenden für das Ranking:</p>
+				<div id="punkteform">
+				<ul>
+					<li id="username">
+						<label for="name">Name:</label>
+						<input type ="text" id="name" name="user_name" autocomplete="off" class ="username">
+					</li>
+					<li>
+						<button type="submit" id="punktebutton">Absenden</button>
+					</li>
+					<li>
+						<input type="hidden" id="punktzahl" name="user_punktzahl">
+					</li>
+					</li>
+						<input type="hidden" id="quiznummer" name="quiz_nummer">
+					</li>
+				</ul>
+				</div>
 			</article>
 		</main>
 		<footer>
 			<p>&copy; 2020 CQuiz</p>
 			<p id="kontakt"><a href="kontakt.html" title="Kontakt">Kontakt</a></p>
 		</footer>
-		<script src="scripts/raetselende_quiz2.js"></script>
+		<script id="script" data-quiznummer=3 src="scripts/raetselende_quiz2.js"></script>
 	</body>
 </html>

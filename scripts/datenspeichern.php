@@ -3,7 +3,7 @@
 $gesendeteDaten = $_POST;
 //$gesendeteDaten = array("quizname" => "Quiz3", "name" => "Chrissi", "punktzahl" => 70);
 
-$jsonDaten = file_get_contents("test.json");
+$jsonDaten = file_get_contents("rankingdaten.json");
 $myRanking = json_decode($jsonDaten, True);
 
 $zeile["name"] = $gesendeteDaten["name"];
@@ -39,7 +39,7 @@ else{
 }
 
 $myJSON = json_encode($myRanking);
-file_put_contents("test.json", $myJSON);
+file_put_contents("rankingdaten.json", $myJSON);
 
 $responseStatus = '200 OK';
 header($_SERVER['SERVER_PROTOCOL'].' '.$responseStatus);
