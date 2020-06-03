@@ -4,19 +4,17 @@ var cquizLogo = document.querySelector('#logo');
 var cquizH1 = document.querySelector('h1');
 var request = new XMLHttpRequest();
 var buttonRanking = document.querySelector('#punktebutton');
-var quizNummer = document.querySelector('#quiznummer'); //Kann man diese, die nächste Zeile und Zeile 19 irgendwie zusammenfassen?
+var script_tag = document.getElementById('script');
 var quizNr = script_tag.getAttribute('data-quiznummer');
 
 window.onload = function() {
 	endPunktzahl.textContent = storedPoints + '';
 }
 
-var input = document.querySelector('#punktzahl');
-if (input != null) {
-	input.setAttribute('value', storedPoints);
-}
-
-quiznummer.setAttribute('value', 'Quiz' + quizNr);
+// var input = document.querySelector('#punktzahl');
+// if (input != null) {
+	// input.setAttribute('value', storedPoints);
+// }
 
 buttonRanking.onclick = function() {
 	request.open('POST','datenspeichern.php');
@@ -28,7 +26,7 @@ buttonRanking.onclick = function() {
 			console.warn(request.statusText, request.responseText);
 		}
 	});
-	request.send('quizname=' + document.getElementById('quiznummer').value + '&name=' + document.getElementById('name').value + '&punktzahl=' + document.getElementById('punktzahl').value);
+	request.send('quizname=Quiz' + quizNr + '&name=' + document.getElementById('name').value + '&punktzahl=' + storedPoints);
 }
 
 var quizweiterButton = document.querySelector('.weiterquiz');
