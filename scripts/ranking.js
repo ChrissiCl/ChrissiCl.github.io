@@ -19,12 +19,12 @@ cquizH1.onclick = function() {
 	document.location.href = 'index.html';
 }
 
-function plusersetzen(textMitPlus) {
+function unterstrichersetzen(textMitPlus) {
 	return textMitPlus.replace(/\+/g, ' ');
 }
 
 function leerzeichenersetzen(textMitLeerzeichen) {
-	return textMitLeerzeichen.replace(/ /g, '+');
+	return textMitLeerzeichen.replace(/ /g, '_');
 }
 
 dropdown.onchange = function() {

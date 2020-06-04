@@ -25,7 +25,7 @@ input.addEventListener('keyup', function(event) {
 });
 
 function leerzeichenersetzen(textMitLeerzeichen) {
-	return textMitLeerzeichen.replace(/ /g, '+');
+	return textMitLeerzeichen.replace(/ /g, '_');
 }
 
 buttonRanking.onclick = function() {

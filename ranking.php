@@ -46,16 +46,16 @@
 		<label for="rankingdropdown">Wähle ein Quiz aus, für das du das Ranking sehen möchtest:</label><br>
 		<select id="rankingdropdown">
 			<optgroup label="Standardquiz">
-				<option value="Quiz+3">Quiz 3</option>
-				<option value="Quiz+4">Quiz 4</option>
-				<option value="Quiz+5">Quiz 5</option>
+				<option value="Quiz_3">Quiz 3</option>
+				<option value="Quiz_4">Quiz 4</option>
+				<option value="Quiz_5">Quiz 5</option>
 			</optgroup>
 			<optgroup label="Themenquiz">
-				<option value="Quiz+zum+1.+Mai">Quiz zum 1. Mai</option>
-				<option value="Themenquiz+Frueher+und+Heute">Themenquiz Früher und Heute</option>
-				<option value="Norwegenquiz+zum+17.+Mai">Norwegenquiz zum 17. Mai</option>
-				<option value="Norwegenquiz+zu+Himmelfahrt">Norwegenquiz zu Himmelfahrt</option>
-				<option value="Norwegenquiz+zu+Pfingsten">Norwegenquiz zu Pfingsten</option>
+				<option value="Quiz_zum-1._Mai">Quiz zum 1. Mai</option>
+				<option value="Themenquiz_Frueher_und_Heute">Themenquiz Früher und Heute</option>
+				<option value="Norwegenquiz_zum_17._Mai">Norwegenquiz zum 17. Mai</option>
+				<option value="Norwegenquiz_zu_Himmelfahrt">Norwegenquiz zu Himmelfahrt</option>
+				<option value="Norwegenquiz_zu_Pfingsten">Norwegenquiz zu Pfingsten</option>
 			</optgroup>
 		</select>
 		<?php
