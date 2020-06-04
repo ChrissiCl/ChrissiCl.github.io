@@ -19,7 +19,7 @@ cquizH1.onclick = function() {
 	document.location.href = 'index.html';
 }
 
-function unterstrichersetzen(textMitPlus) {
+function unterstrichersetzen(textMitPlus) { //Text ändern!
 	return textMitPlus.replace(/\+/g, ' ');
 }
 
