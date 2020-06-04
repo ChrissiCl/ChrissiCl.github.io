@@ -39,7 +39,7 @@ buttonRanking.onclick = function() {
 			console.warn(request.statusText, request.responseText);
 		}
 	});
-	request.send('quizname=' + quizNr + '&name=' + document.getElementById('name').value + '&punktzahl=' + storedPoints);
+	request.send('quizname=' + leerzeichenersetzen(quizNr) + '&name=' + document.getElementById('name').value + '&punktzahl=' + storedPoints);
 }
 
 // var quizweiterButton = document.querySelector('.weiterquiz');
