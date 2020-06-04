@@ -73,7 +73,7 @@
 			return False;
 		}
 		$infos = $myRanking["ranking"][quiznummer($angefragterQuizname, $myRanking["ranking"])];
-		echo var_export($infos);
+		echo var_export($infos, true);
 		?>
 		<!-- <section class="tablesection"> -->
 			<!-- <section class="table"> -->
