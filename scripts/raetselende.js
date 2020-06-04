@@ -30,6 +30,7 @@ buttonRanking.onclick = function() {
 	request.addEventListener('load', function(event) {
 		if (request.status >= 200 && request.status < 300) {
 			console.log(request.responseText);
+			document.location.href = 'ranking.php?quizname=' + quizNr;
 		} else {
 			console.warn(request.statusText, request.responseText);
 		}

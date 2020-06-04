@@ -44,7 +44,8 @@
 		<main class="rankingmain">
 		<h2 class="h2ranking"><span>Ranking &#x1F3C6;</span></h2>
 		<label for="rankingdropdown">Wähle ein Quiz aus, für das du das Ranking sehen möchtest:</label><br>
-		<select id="rankingdropdown">
+		<?php echo
+		'<select id="rankingdropdown">
 			<optgroup label="Standardquiz">
 				<option selected>Quiz 3</option>
 				<option>Quiz 4</option>
@@ -57,9 +58,9 @@
 				<option>Norwegenquiz zu Himmelfahrt</option>
 				<option>Norwegenquiz zu Pfingsten</option>
 			</optgroup>
-		</select>
-		<?php
-		echo var_export($_GET);
+		</select>';
+		
+		echo var_export($_GET['quizname']);
 		?>
 		<!-- <section class="tablesection"> -->
 			<!-- <section class="table"> -->
