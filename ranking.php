@@ -44,23 +44,36 @@
 		<main class="rankingmain">
 		<h2 class="h2ranking"><span>Ranking &#x1F3C6;</span></h2>
 		<label for="rankingdropdown">Wähle ein Quiz aus, für das du das Ranking sehen möchtest:</label><br>
-		<?php echo
-		'<select id="rankingdropdown">
+		<select id="rankingdropdown">
 			<optgroup label="Standardquiz">
-				<option selected>Quiz 3</option>
-				<option>Quiz 4</option>
-				<option>Quiz 5</option>
+				<option value="Quiz+3">Quiz 3</option>
+				<option value="Quiz+4">Quiz 4</option>
+				<option value="Quiz+5">Quiz 5</option>
 			</optgroup>
 			<optgroup label="Themenquiz">
-				<option>Quiz zum 1. Mai</option>
-				<option>Themenquiz Früher und Heute</option>
-				<option>Norwegenquiz zum 17. Mai</option>
-				<option>Norwegenquiz zu Himmelfahrt</option>
-				<option>Norwegenquiz zu Pfingsten</option>
+				<option value="Quiz+zum+1.+Mai">Quiz zum 1. Mai</option>
+				<option value="Themenquiz+Frueher+und+Heute">Themenquiz Früher und Heute</option>
+				<option value="Norwegenquiz+zum+17.+Mai">Norwegenquiz zum 17. Mai</option>
+				<option value="Norwegenquiz+zu+Himmelfahrt">Norwegenquiz zu Himmelfahrt</option>
+				<option value="Norwegenquiz+zu+Pfingsten">Norwegenquiz zu Pfingsten</option>
 			</optgroup>
-		</select>';
-		
-		echo var_export($_GET['quizname']);
+		</select>
+		<?php
+		$jsonDaten = file_get_contents("rankingdaten.json");
+		$myRanking = json_decode($jsonDaten, True);
+		$angefragterQuizname = $_GET['quizname'];
+		function quiznummer($name, $liste){
+			$nummer = 0;
+			foreach($liste as $key=>$val){
+				if ($name == $val["quizname"]){
+					return $nummer;
+				}
+				$nummer = $nummer + 1;
+			}
+			return False;
+		}
+		$infos = $myRanking["ranking"][quiznummer($angefragterQuizname, $myRanking["ranking"])];
+		echo var_export($infos);
 		?>
 		<!-- <section class="tablesection"> -->
 			<!-- <section class="table"> -->
