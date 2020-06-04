@@ -59,7 +59,7 @@
 			</optgroup>
 		</select>
 		<?php
-		$jsonDaten = file_get_contents("rankingdaten.json");
+		$jsonDaten = file_get_contents("scripts/rankingdaten.json");
 		$myRanking = json_decode($jsonDaten, True);
 		$angefragterQuizname = $_GET['quizname'];
 		function quiznummer($name, $liste){
@@ -73,7 +73,8 @@
 			return False;
 		}
 		$infos = $myRanking["ranking"][quiznummer($angefragterQuizname, $myRanking["ranking"])];
-		echo var_export($infos, true);
+		echo $infos["quizname"] . '<br>';
+		echo var_export($infos["user"][0]["name"], true);
 		?>
 		<!-- <section class="tablesection"> -->
 			<!-- <section class="table"> -->
