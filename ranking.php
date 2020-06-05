@@ -104,7 +104,7 @@
 						<td>Cathi</td>
 						<td>21 Punkte</td>
 					</tr>
-				</table>'
+				</table>';
 		echo $infos["quizname"] . '<br>';
 		echo var_export($infos["user"][0]["name"], true);
 		?>
