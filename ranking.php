@@ -74,7 +74,7 @@
 		}
 		$infos = $myRanking["ranking"][quiznummer($angefragterQuizname, $myRanking["ranking"])];
 		echo
-		'<h3>'
+		'<h3>';
 		echo str_replace("_", " ", $infos["quizname"]);
 		echo '</h3>
 				<table>
