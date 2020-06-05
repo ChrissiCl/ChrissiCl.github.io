@@ -72,43 +72,66 @@
 			}
 			return False;
 		}
-		$infos = $myRanking["ranking"][quiznummer($angefragterQuizname, $myRanking["ranking"])];
-		echo
-		'<h3>';
-		echo str_replace("_", " ", $infos["quizname"]);
-		echo '</h3>
-				<table>
-					<tr>
-						<td class="firstcolumn" rowspan="2">1. Platz &#x1F947;</td>
-						<td>Julian</td>
-						<td rowspan="2">39 Punkte</td>
-					</tr>
-					<tr>
-						<td>Andrea</td>
-					</tr>
-					<tr>
-						<td class="firstcolumn">2. Platz &#x1F948;</td>
-						<td>Conny, Fabian</td>
-						<td>38 Punkte</td>
-					</tr>					
-					<tr>
-						<td class="firstcolumn">3. Platz &#x1F949;</td>
-						<td>Jan</td>
-						<td>32 Punkte</td>
-					</tr>
-					<tr>
-						<td class="firstcolumn">4. Platz</td>
-						<td>Iris</td>
-						<td>30 Punkte</td>
-					</tr>
-					<tr>
-						<td class="firstcolumn">5. Platz</td>
-						<td>Cathi</td>
-						<td>21 Punkte</td>
-					</tr>
-				</table>';
-		echo $infos["quizname"] . '<br>';
-		echo var_export($infos["user"][0]["name"], true);
+		function quizvorhanden($name, $liste){
+			foreach($liste as $key=>$val){
+				if ($name == $val["quizname"]){
+					return True;
+				}
+			}
+			return False;
+		}
+		if (quizvorhanden($angefragterQuizname, $myRanking["ranking"])) {
+			$infos = $myRanking["ranking"][quiznummer($angefragterQuizname, $myRanking["ranking"])];
+			echo
+			'<h3>';
+			echo str_replace("_", " ", $infos["quizname"]);
+			echo '</h3>
+					<table>
+						<tr>
+							<td class="firstcolumn">1. Platz &#x1F947;</td>
+							<td>'
+							echo $infos["user"][0]["name"];
+							echo '</td>
+							<td rowspan="2">39 Punkte</td>
+						</tr>
+						<tr>
+							<td>'
+							echo $infos["user"][0]["name"];
+							echo '</td>
+						</tr>
+						<tr>
+							<td class="firstcolumn">2. Platz &#x1F948;</td>
+							<td>'
+							echo $infos["user"][0]["name"];
+							echo '</td>
+							<td>38 Punkte</td>
+						</tr>					
+						<tr>
+							<td class="firstcolumn">3. Platz &#x1F949;</td>
+							<td>'
+							echo $infos["user"][0]["name"]
+							echo '</td>
+							<td>32 Punkte</td>
+						</tr>
+						<tr>
+							<td class="firstcolumn">4. Platz</td>
+							<td>'
+							echo $infos["user"][0]["name"]
+							echo '</td>
+							<td>30 Punkte</td>
+						</tr>
+						<tr>
+							<td class="firstcolumn">5. Platz</td>
+							<td>'
+							echo $infos["user"][0]["name"]
+							echo '</td>
+							<td>21 Punkte</td>
+						</tr>
+					</table>';
+		} else {
+			echo '<h3>Für dieses Quiz ist noch kein Ranking vorhanden.</h3>';
+		}
+		// echo var_export($infos["user"][0]["name"], true);
 		?>
 		<!-- <section class="tablesection"> -->
 			<!-- <section class="table"> -->
