@@ -80,9 +80,9 @@
 			}
 			return False;
 		}
-		if (quizvorhanden($angefragterQuizname, $myRanking["ranking"])) {
-			$infos = $myRanking["ranking"][quiznummer($angefragterQuizname, $myRanking["ranking"])];
-			echo
+		// if (quizvorhanden($angefragterQuizname, $myRanking["ranking"])) {
+			// $infos = $myRanking["ranking"][quiznummer($angefragterQuizname, $myRanking["ranking"])];
+			// echo
 			'<h3>';
 			// echo str_replace("_", " ", $infos["quizname"]);
 			// echo '</h3>
@@ -150,10 +150,10 @@
 							// echo $infos["user"][5]["punktzahl"] . " Punkte";
 							// echo '</td>
 						// </tr>
-					echo '</table>';
-		} else {
-			echo '<h3>Für dieses Quiz ist noch kein Ranking vorhanden.</h3>';
-		}
+					// echo '</table>';
+		// } else {
+			// echo '<h3>Für dieses Quiz ist noch kein Ranking vorhanden.</h3>';
+		// }
 		// echo var_export($infos["user"][0]["name"], true);
 		?>
 		<!-- <section class="tablesection"> -->
