@@ -150,7 +150,7 @@
 							// echo $infos["user"][5]["punktzahl"] . " Punkte";
 							// echo '</td>
 						// </tr>
-					</table>';
+					echo '</table>';
 		} else {
 			echo '<h3>Für dieses Quiz ist noch kein Ranking vorhanden.</h3>';
 		}
