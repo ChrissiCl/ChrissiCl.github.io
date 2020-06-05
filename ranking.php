@@ -73,6 +73,38 @@
 			return False;
 		}
 		$infos = $myRanking["ranking"][quiznummer($angefragterQuizname, $myRanking["ranking"])];
+		echo
+		'<h3>Quiz 3</h3>
+				<table>
+					<tr>
+						<td class="firstcolumn" rowspan="2">1. Platz &#x1F947;</td>
+						<td>Julian</td>
+						<td rowspan="2">39 Punkte</td>
+					</tr>
+					<tr>
+						<td>Andrea</td>
+					</tr>
+					<tr>
+						<td class="firstcolumn">2. Platz &#x1F948;</td>
+						<td>Conny, Fabian</td>
+						<td>38 Punkte</td>
+					</tr>					
+					<tr>
+						<td class="firstcolumn">3. Platz &#x1F949;</td>
+						<td>Jan</td>
+						<td>32 Punkte</td>
+					</tr>
+					<tr>
+						<td class="firstcolumn">4. Platz</td>
+						<td>Iris</td>
+						<td>30 Punkte</td>
+					</tr>
+					<tr>
+						<td class="firstcolumn">5. Platz</td>
+						<td>Cathi</td>
+						<td>21 Punkte</td>
+					</tr>
+				</table>'
 		echo $infos["quizname"] . '<br>';
 		echo var_export($infos["user"][0]["name"], true);
 		?>
