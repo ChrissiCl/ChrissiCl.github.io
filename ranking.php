@@ -92,7 +92,9 @@
 							<td>';
 							echo $infos["user"][0]["name"];
 							echo '</td>
-							<td rowspan="2">39 Punkte</td>
+							<td rowspan="2">';
+							echo $infos["user"][0]["punktzahl"];
+							echo'</td>
 						</tr>
 						<tr>
 							<td>';
@@ -104,28 +106,36 @@
 							<td>';
 							echo $infos["user"][2]["name"];
 							echo '</td>
-							<td>38 Punkte</td>
+							<td>';
+							echo $infos["user"][2]["name"];
+							echo '</td>
 						</tr>					
 						<tr>
 							<td class="firstcolumn">3. Platz &#x1F949;</td>
 							<td>';
 							echo $infos["user"][3]["name"];
 							echo '</td>
-							<td>32 Punkte</td>
+							<td>';
+							echo $infos["user"][3]["name"];
+							echo '</td>
 						</tr>
 						<tr>
 							<td class="firstcolumn">4. Platz</td>
 							<td>';
 							echo $infos["user"][4]["name"];
 							echo '</td>
-							<td>30 Punkte</td>
+							<td>';
+							echo $infos["user"][4]["name"];
+							echo '</td>
 						</tr>
-						<tr>;
+						<tr>
 							<td class="firstcolumn">5. Platz</td>
 							<td>';
 							echo $infos["user"][5]["name"];
 							echo '</td>
-							<td>21 Punkte</td>
+							<td>';
+							echo $infos["user"][5]["name"];
+							echo '</td>
 						</tr>
 					</table>';
 		} else {
