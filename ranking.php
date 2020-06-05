@@ -81,6 +81,7 @@
 			return False;
 		}
 		if (quizvorhanden($angefragterQuizname, $myRanking["ranking"])) {
+			//Neue Liste mit absteigenden Punkten
 			$infos = $myRanking["ranking"][quiznummer($angefragterQuizname, $myRanking["ranking"])];
 			echo
 			'<h3>';
@@ -92,6 +93,15 @@
 							echo '<tr>
 							<td class="firstcolumn">';
 							echo $platz . ". Platz";
+							if ($platz == 1){
+								echo "&#x1F947;";
+							}
+							if ($platz == 2){
+								echo "&#x1F948;";
+							}
+							if ($platz == 3){
+								echo "&#x1F949;";
+							}
 							echo '</td>
 							<td>';
 							echo $u["name"];
@@ -100,7 +110,7 @@
 							echo $u["punktzahl"] . " Punkte";
 							echo '</td>
 							</tr>';
-							$platz = $platz + 1
+							$platz = $platz + 1;
 						};
 						
 						// <tr>
