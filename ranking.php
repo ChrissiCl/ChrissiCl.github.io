@@ -93,7 +93,7 @@
 							echo $infos["user"][0]["name"];
 							echo '</td>
 							<td rowspan="2">';
-							echo $infos["user"][0]["punktzahl"] . "Punkte";
+							echo $infos["user"][0]["punktzahl"] . " Punkte";
 							echo'</td>
 						</tr>
 						<tr>
@@ -107,7 +107,7 @@
 							echo $infos["user"][2]["name"];
 							echo '</td>
 							<td>';
-							echo $infos["user"][2]["punktzahl"] . "Punkte";
+							echo $infos["user"][2]["punktzahl"] . " Punkte";
 							echo '</td>
 						</tr>					
 						<tr>
@@ -116,7 +116,7 @@
 							echo $infos["user"][3]["name"];
 							echo '</td>
 							<td>';
-							echo $infos["user"][3]["punktzahl"] . "Punkte";
+							echo $infos["user"][3]["punktzahl"] . " Punkte";
 							echo '</td>
 						</tr>
 						<tr>
@@ -125,7 +125,7 @@
 							echo $infos["user"][4]["name"];
 							echo '</td>
 							<td>';
-							echo $infos["user"][4]["punktzahl"] . "Punkte";
+							echo $infos["user"][4]["punktzahl"] . " Punkte";
 							echo '</td>
 						</tr>
 						<tr>
@@ -134,7 +134,7 @@
 							echo $infos["user"][5]["name"];
 							echo '</td>
 							<td>';
-							echo $infos["user"][5]["punktzahl"] . "Punkte";
+							echo $infos["user"][5]["punktzahl"] . " Punkte";
 							echo '</td>
 						</tr>
 					</table>';
