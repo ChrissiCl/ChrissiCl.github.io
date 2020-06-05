@@ -86,57 +86,70 @@
 			'<h3>';
 			echo str_replace("_", " ", $infos["quizname"]);
 			echo '</h3>
-					<table>
-						<tr>
-							<td class="firstcolumn" rowspan="2">1. Platz &#x1F947;</td>
+					<table>';
+						foreach ($infos["ranking"] as $infos["user"]){
+							echo 
+							'<tr>
+							<td class="firstcolumn">1. Platz &#x1F947;</td>
 							<td>';
-							echo $infos["user"][0]["name"];
+							echo $infos["name"];
 							echo '</td>
-							<td rowspan="2">';
-							echo $infos["user"][0]["punktzahl"] . " Punkte";
+							<td>';
+							echo $infos["punktzahl"] . " Punkte";
 							echo'</td>
-						</tr>
-						<tr>
-							<td>';
-							echo $infos["user"][1]["name"];
-							echo '</td>
-						</tr>
-						<tr>
-							<td class="firstcolumn">2. Platz &#x1F948;</td>
-							<td>';
-							echo $infos["user"][2]["name"];
-							echo '</td>
-							<td>';
-							echo $infos["user"][2]["punktzahl"] . " Punkte";
-							echo '</td>
-						</tr>					
-						<tr>
-							<td class="firstcolumn">3. Platz &#x1F949;</td>
-							<td>';
-							echo $infos["user"][3]["name"];
-							echo '</td>
-							<td>';
-							echo $infos["user"][3]["punktzahl"] . " Punkte";
-							echo '</td>
-						</tr>
-						<tr>
-							<td class="firstcolumn">4. Platz</td>
-							<td>';
-							echo $infos["user"][4]["name"];
-							echo '</td>
-							<td>';
-							echo $infos["user"][4]["punktzahl"] . " Punkte";
-							echo '</td>
-						</tr>
-						<tr>
-							<td class="firstcolumn">5. Platz</td>
-							<td>';
-							echo $infos["user"][5]["name"];
-							echo '</td>
-							<td>';
-							echo $infos["user"][5]["punktzahl"] . " Punkte";
-							echo '</td>
-						</tr>
+							</tr>';
+						};
+						
+						// <tr>
+							// <td class="firstcolumn" rowspan="2">1. Platz &#x1F947;</td>
+							// <td>';
+							// echo $infos["user"][0]["name"];
+							// echo '</td>
+							// <td rowspan="2">';
+							// echo $infos["user"][0]["punktzahl"] . " Punkte";
+							// echo'</td>
+						// </tr>
+						// <tr>
+							// <td>';
+							// echo $infos["user"][1]["name"];
+							// echo '</td>
+						// </tr>
+						// <tr>
+							// <td class="firstcolumn">2. Platz &#x1F948;</td>
+							// <td>';
+							// echo $infos["user"][2]["name"];
+							// echo '</td>
+							// <td>';
+							// echo $infos["user"][2]["punktzahl"] . " Punkte";
+							// echo '</td>
+						// </tr>					
+						// <tr>
+							// <td class="firstcolumn">3. Platz &#x1F949;</td>
+							// <td>';
+							// echo $infos["user"][3]["name"];
+							// echo '</td>
+							// <td>';
+							// echo $infos["user"][3]["punktzahl"] . " Punkte";
+							// echo '</td>
+						// </tr>
+						// <tr>
+							// <td class="firstcolumn">4. Platz</td>
+							// <td>';
+							// echo $infos["user"][4]["name"];
+							// echo '</td>
+							// <td>';
+							// echo $infos["user"][4]["punktzahl"] . " Punkte";
+							// echo '</td>
+						// </tr>
+						// <tr>
+							// <td class="firstcolumn">5. Platz</td>
+							// <td>';
+							// echo $infos["user"][5]["name"];
+							// echo '</td>
+							// <td>';
+							// echo $infos["user"][5]["punktzahl"] . " Punkte";
+							// echo '</td>
+						// </tr>
 					</table>';
 		} else {
 			echo '<h3>Für dieses Quiz ist noch kein Ranking vorhanden.</h3>';
