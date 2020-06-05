@@ -89,41 +89,41 @@
 					<table>
 						<tr>
 							<td class="firstcolumn">1. Platz &#x1F947;</td>
-							<td>'
+							<td>';
 							echo $infos["user"][0]["name"];
 							echo '</td>
 							<td rowspan="2">39 Punkte</td>
 						</tr>
 						<tr>
-							<td>'
+							<td>';
 							echo $infos["user"][0]["name"];
 							echo '</td>
 						</tr>
 						<tr>
 							<td class="firstcolumn">2. Platz &#x1F948;</td>
-							<td>'
+							<td>';
 							echo $infos["user"][0]["name"];
 							echo '</td>
 							<td>38 Punkte</td>
 						</tr>					
 						<tr>
 							<td class="firstcolumn">3. Platz &#x1F949;</td>
-							<td>'
-							echo $infos["user"][0]["name"]
+							<td>';
+							echo $infos["user"][0]["name"];
 							echo '</td>
 							<td>32 Punkte</td>
 						</tr>
 						<tr>
 							<td class="firstcolumn">4. Platz</td>
-							<td>'
-							echo $infos["user"][0]["name"]
+							<td>';
+							echo $infos["user"][0]["name"];
 							echo '</td>
 							<td>30 Punkte</td>
 						</tr>
-						<tr>
+						<tr>;
 							<td class="firstcolumn">5. Platz</td>
-							<td>'
-							echo $infos["user"][0]["name"]
+							<td>';
+							echo $infos["user"][0]["name"];
 							echo '</td>
 							<td>21 Punkte</td>
 						</tr>
