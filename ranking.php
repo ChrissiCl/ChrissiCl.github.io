@@ -61,7 +61,7 @@
 		<?php
 		$jsonDaten = file_get_contents("scripts/rankingdaten.json");
 		$myRanking = json_decode($jsonDaten, True);
-		$angefragterQuizname = $_GET['quizname'];
+		$angefragterQuizname = $_GET["quizname"];
 		function quiznummer($name, $liste){
 			$nummer = 0;
 			foreach($liste as $key=>$val){
@@ -74,7 +74,9 @@
 		}
 		$infos = $myRanking["ranking"][quiznummer($angefragterQuizname, $myRanking["ranking"])];
 		echo
-		'<h3>Quiz 3</h3>
+		'<h3>'
+		echo str_replace("_", " ", "quizname"),
+		echo '</h3>
 				<table>
 					<tr>
 						<td class="firstcolumn" rowspan="2">1. Platz &#x1F947;</td>
