@@ -85,11 +85,14 @@
 			echo
 			'<h3>';
 			echo str_replace("_", " ", $infos["quizname"]);
-			echo '</h3>;
+			echo '</h3>
 					<table>';
+						$platz = 1;
 						foreach($infos["user"] as $u){
 							echo '<tr>
-							<td class="firstcolumn">1. Platz &#x1F947;</td>
+							<td class="firstcolumn">';
+							echo $platz . ". Platz";
+							echo '</td>
 							<td>';
 							echo $u["name"];
 							echo '</td>
@@ -97,6 +100,7 @@
 							echo $u["punktzahl"] . " Punkte";
 							echo '</td>
 							</tr>';
+							$platz = $platz + 1
 						};
 						
 						// <tr>
