@@ -87,16 +87,16 @@
 			echo str_replace("_", " ", $infos["quizname"]);
 			echo '</h3>
 					<table>';
-						foreach ($infos["ranking"] as $infos["user"]){
+						foreach ($infos["user"] as $u){
 							echo 
 							'<tr>
 							<td class="firstcolumn">1. Platz &#x1F947;</td>
 							<td>';
-							echo $infos["name"];
+							echo $u["name"];
 							echo '</td>
 							<td>';
-							echo $infos["punktzahl"] . " Punkte";
-							echo'</td>
+							echo $u["punktzahl"] . " Punkte";
+							echo '</td>
 							</tr>';
 						};
 						
