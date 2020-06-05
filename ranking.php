@@ -92,12 +92,12 @@
 							'<tr>
 							<td class="firstcolumn">1. Platz &#x1F947;</td>
 							<td>';
-							echo $u["name"];
-							echo '</td>
-							<td>';
-							echo $u["punktzahl"] . " Punkte";
-							echo '</td>
-							</tr>';
+							// echo $u["name"];
+							// echo '</td>
+							// <td>';
+							// echo $u["punktzahl"] . " Punkte";
+							// echo '</td>
+							// </tr>';
 						};
 						
 						// <tr>
