@@ -86,20 +86,19 @@
 			'<h3>';
 			echo str_replace("_", " ", $infos["quizname"]);
 			echo '</h3>';
-		};	
-					// <table>';
-						// foreach($infos["user"] as $u){
-							// echo "Hallo";
-							// '<tr>
-							// <td class="firstcolumn">1. Platz &#x1F947;</td>
-							// <td>';
-							// echo $u["name"];
-							// echo '</td>
-							// <td>';
-							// echo $u["punktzahl"] . " Punkte";
-							// echo '</td>
-							// </tr>';
-						// };
+					<table>';
+						foreach($infos["user"] as $u){
+							echo "Hallo";
+							'<tr>
+							<td class="firstcolumn">1. Platz &#x1F947;</td>
+							<td>';
+							echo $u["name"];
+							echo '</td>
+							<td>';
+							echo $u["punktzahl"] . " Punkte";
+							echo '</td>
+							</tr>';
+						};
 						
 						// <tr>
 							// <td class="firstcolumn" rowspan="2">1. Platz &#x1F947;</td>
@@ -151,10 +150,10 @@
 							// echo $infos["user"][5]["punktzahl"] . " Punkte";
 							// echo '</td>
 						// </tr>
-					// echo '</table>';
-		// } else {
-			// echo '<h3>Für dieses Quiz ist noch kein Ranking vorhanden.</h3>';
-		// }
+					echo '</table>';
+		} else {
+			echo '<h3>Für dieses Quiz ist noch kein Ranking vorhanden.</h3>';
+		}
 		// echo var_export($infos["user"][0]["name"], true);
 		?>
 		<!-- <section class="tablesection"> -->
