@@ -98,7 +98,7 @@
 							// echo $u["punktzahl"] . " Punkte";
 							// echo '</td>
 							// </tr>';
-						};
+						// };
 						
 						// <tr>
 							// <td class="firstcolumn" rowspan="2">1. Platz &#x1F947;</td>
