@@ -88,8 +88,7 @@
 			echo '</h3>;
 					<table>';
 						foreach($infos["user"] as $u){
-							echo "Hallo";
-							'<tr>
+							echo '<tr>
 							<td class="firstcolumn">1. Platz &#x1F947;</td>
 							<td>';
 							echo $u["name"];
