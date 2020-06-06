@@ -81,26 +81,33 @@
 			return False;
 		}
 		if (quizvorhanden($angefragterQuizname, $myRanking["ranking"])) {
-			//Neue Liste mit absteigenden Punkten
 			$infos = $myRanking["ranking"][quiznummer($angefragterQuizname, $myRanking["ranking"])];
+			$sortierteliste = [];
+			foreach($infos["user"] as $u){
+				$stelle = 0;
+				while($u["punktzahl"] > $sortierteliste[$stelle]["punktzahl"] && $stelle > count(sortierteliste)){
+					$stelle = $stelle + 1;
+				}
+				array_splice($sortierteliste, $stelle, 0, array($u));
+			}
 			echo
 			'<h3>';
 			echo str_replace("_", " ", $infos["quizname"]);
 			echo '</h3>
 					<table>';
 						$platz = 1;
-						foreach($infos["user"] as $u){
+						foreach($sortierteliste["user"] as $u){
 							echo '<tr>
 							<td class="firstcolumn">';
 							echo $platz . ". Platz";
 							if ($platz == 1){
-								echo "&#x1F947;";
+								echo " &#x1F947;";
 							}
 							if ($platz == 2){
-								echo "&#x1F948;";
+								echo " &#x1F948;";
 							}
 							if ($platz == 3){
-								echo "&#x1F949;";
+								echo " &#x1F949;";
 							}
 							echo '</td>
 							<td>';
