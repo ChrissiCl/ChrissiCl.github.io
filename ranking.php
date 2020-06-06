@@ -96,7 +96,7 @@
 			echo '</h3>
 					<table>';
 						$platz = 1;
-						foreach($sortierteliste["user"] as $u){
+						foreach($sortierteliste as $u){
 							echo '<tr>
 							<td class="firstcolumn">';
 							echo $platz . ". Platz";
