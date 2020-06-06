@@ -82,7 +82,7 @@
 		}
 		if (quizvorhanden($angefragterQuizname, $myRanking["ranking"])) {
 			$infos = $myRanking["ranking"][quiznummer($angefragterQuizname, $myRanking["ranking"])];
-			$sortierteliste = ( );
+			$sortierteliste = array();
 			foreach($infos["user"] as $u){
 				$stelle = 0;
 				while($u["punktzahl"] > $sortierteliste[$stelle]["punktzahl"] && $stelle > count(sortierteliste)){
