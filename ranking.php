@@ -82,14 +82,14 @@
 		}
 		if (quizvorhanden($angefragterQuizname, $myRanking["ranking"])) {
 			$infos = $myRanking["ranking"][quiznummer($angefragterQuizname, $myRanking["ranking"])];
-			$sortierteliste = [];
-			foreach($infos["user"] as $u){
-				$stelle = 0;
-				while($u["punktzahl"] > $sortierteliste[$stelle]["punktzahl"] && $stelle > count(sortierteliste)){
-					$stelle = $stelle + 1;
-				}
-				array_splice($sortierteliste, $stelle, 0, array($u));
-			}
+			$sortierteliste = $infos;
+			// foreach($infos["user"] as $u){
+				// $stelle = 0;
+				// while($u["punktzahl"] > $sortierteliste[$stelle]["punktzahl"] && $stelle > count(sortierteliste)){
+					// $stelle = $stelle + 1;
+				// }
+				// array_splice($sortierteliste, $stelle, 0, array($u));
+			// }
 			echo
 			'<h3>';
 			echo str_replace("_", " ", $infos["quizname"]);
