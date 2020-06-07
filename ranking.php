@@ -142,8 +142,7 @@
 							else {
 								echo '<td>';
 							}
-								echo $u["punktzahl"] . " Punkte";
-							}
+							echo $u["punktzahl"] . " Punkte";
 							echo '</td>
 							</tr>';
 							$platz = $platz + 1;
