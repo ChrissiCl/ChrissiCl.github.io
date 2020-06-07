@@ -98,9 +98,9 @@
 						$platz = 1;
 						foreach($sortierteliste as $u){
 							$anzahlgleichepunkte = 2;
-							if ($u["punktzahl"] == $u["punktzahl"]){
+							if ($u["punktzahl"] == $sortierteliste[$platz]["punktzahl"]){
 								echo '<tr>
-								<td class="firstcolumn" rowspan="$anzahlgleichepunkte">';
+								<td class="firstcolumn" rowspan=' . $anzahlgleichepunkte . '>';
 							}
 							else {
 								echo '<tr>
