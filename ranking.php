@@ -85,7 +85,7 @@
 			$sortierteliste = array();
 			foreach($infos["user"] as $u){
 				$stelle = 0;
-				while($u["punktzahl"] < $sortierteliste[$stelle]["punktzahl"] && $stelle < count(sortierteliste) - 1){
+				while($u["punktzahl"] < $sortierteliste[$stelle]["punktzahl"] && $stelle < count($sortierteliste) - 1){
 					$stelle = $stelle + 1;
 				}
 				array_splice($sortierteliste, $stelle, 0, array($u));
