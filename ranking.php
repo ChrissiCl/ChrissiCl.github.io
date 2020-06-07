@@ -90,7 +90,7 @@
 				}
 				array_splice($sortierteliste, $stelle, 0, array($u));
 			}
-			echo $u["punktzahl"];
+			echo $sortierteliste[$stelle]["punktzahl"];
 			echo
 			'<h3>';
 			echo str_replace("_", " ", $infos["quizname"]);
