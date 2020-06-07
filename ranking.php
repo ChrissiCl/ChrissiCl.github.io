@@ -128,14 +128,9 @@
 									echo " &#x1F949;";
 								}
 								echo '</td>';
-							}
-							else {
-								$platzAnzeigen = true;
-							}
-							echo '<td>';
-							echo $u["name"];
-							echo '</td>';
-							if ($platzAnzeigen == true) {
+								echo '<td>';
+								echo $u["name"];
+								echo '</td>';
 								if ($u["punktzahl"] == $user[$platz]["punktzahl"]){
 									echo '<td rowspan=' . $anzahlgleichepunkte . '>';
 								}
@@ -143,9 +138,15 @@
 									echo '<td>';
 								}
 								echo $u["punktzahl"] . " Punkte";
-							}						
-							echo '</td>
-							</tr>';
+								echo '</td>';
+							}
+							else {
+								echo '<td>';
+								echo $u["name"];
+								echo '</td>';
+								$platzAnzeigen = true;
+							}							
+							echo '</tr>';
 							$platz = $platz + 1;
 						};
 						
