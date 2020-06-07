@@ -54,8 +54,8 @@
 				<option value="Quiz_zum_1._Mai">Quiz zum 1. Mai</option>
 				<option value="Themenquiz_Frueher_und_Heute">Themenquiz Früher und Heute</option>
 				<option value="Norwegenquiz_zum_17._Mai">Norwegenquiz zum 17. Mai</option>
-				<option value="Norwegenquiz_zu_Himmelfahrt">Norwegenquiz zu Himmelfahrt</option>
-				<option value="Norwegenquiz_zu_Pfingsten">Norwegenquiz zu Pfingsten</option>
+				<option value="Quiz_zu_Himmelfahrt">Quiz zu Himmelfahrt</option>
+				<option value="Quiz_zu_Pfingsten">Quiz zu Pfingsten</option>
 			</optgroup>
 		</select>
 		<?php
