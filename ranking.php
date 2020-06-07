@@ -135,11 +135,13 @@
 							echo '<td>';
 							echo $u["name"];
 							echo '</td>';
-							if ($u["punktzahl"] == $user[$platz]["punktzahl"]){
-								echo '<td rowspan=' . $anzahlgleichepunkte . '>';
-							}
-							else {
-								echo '<td>';
+							if ($platzAnzeigen == true) {
+								if ($u["punktzahl"] == $user[$platz]["punktzahl"]){
+									echo '<td rowspan=' . $anzahlgleichepunkte . '>';
+								}
+								else {
+									echo '<td>';
+								}
 							}
 							echo $u["punktzahl"] . " Punkte";
 							echo '</td>
