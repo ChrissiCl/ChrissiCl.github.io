@@ -97,8 +97,15 @@
 					<table>';
 						$platz = 1;
 						foreach($sortierteliste as $u){
-							echo '<tr>
-							<td class="firstcolumn">';
+							$anzahlgleichepunkte = 2;
+							if ($u["punktzahl"] == $u["punktzahl"]){
+								echo '<tr>
+								<td class="firstcolumn" rowspan="$anzahlgleichepunkte">';
+							}
+							else {
+								echo '<tr>
+								<td class="firstcolumn">';
+							}
 							echo $platz . ". Platz";
 							if ($platz == 1){
 								echo " &#x1F947;";
