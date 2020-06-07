@@ -88,7 +88,6 @@
 				$punktzahl[$key] = $row["punktzahl"];
 			}
 			array_multisort($punktzahl, SORT_DESC, $user);
-			echo var_export($user, true);
 //			$sortierteliste = array();
 //			foreach($infos["user"] as $u){
 //				$stelle = 0;
