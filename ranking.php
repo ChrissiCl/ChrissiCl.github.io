@@ -106,16 +106,16 @@
 						$platz = 1;
 						$platzAnzeigen = true;
 						foreach($user as $u){
+							echo '<tr>';
 							$anzahlgleichepunkte = 2;
 							if ($platzAnzeigen == true) {
 								if ($u["punktzahl"] == $user[$platz]["punktzahl"]){
-									echo '<tr>
+									echo '
 									<td class="firstcolumn" rowspan=' . $anzahlgleichepunkte . '>';
 									$platzAnzeigen = false;
 								}
 								else {
-									echo '<tr>
-									<td class="firstcolumn">';
+									echo '<td class="firstcolumn">';
 								}
 								echo $platz . ". Platz";
 								if ($platz == 1){
@@ -136,7 +136,15 @@
 							echo $u["name"];
 							echo '</td>
 							<td>';
-							echo $u["punktzahl"] . " Punkte";
+							if ($platzAnzeigen == true) {
+								if ($u["punktzahl"] == $user[$platz]["punktzahl"]){
+									echo '<td rowspan=' . $anzahlgleichepunkte . '>';
+								}
+								else {
+									echo '<td>';
+								}
+								echo $u["punktzahl"] . " Punkte";
+							}
 							echo '</td>
 							</tr>';
 							$platz = $platz + 1;
