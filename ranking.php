@@ -82,42 +82,57 @@
 		}
 		if (quizvorhanden($angefragterQuizname, $myRanking["ranking"])) {
 			$infos = $myRanking["ranking"][quiznummer($angefragterQuizname, $myRanking["ranking"])];
-			$sortierteliste = array();
-			foreach($infos["user"] as $u){
-				$stelle = 0;
-				while($u["punktzahl"] < $sortierteliste[$stelle]["punktzahl"] && $stelle < count($sortierteliste) - 1){
-					$stelle = $stelle + 1;
-				}
-				array_splice($sortierteliste, $stelle, 0, array($u));
+			$user = $infos["user"];
+			foreach ($user as $key => $row){
+				$name[$key] = $row["name"];
+				$punktzahl[$key] = $row["punktzahl"];
 			}
+			array_multisort($punktzahl, SORT_DESC, $user);
+			echo var_export($user, true);
+//			$sortierteliste = array();
+//			foreach($infos["user"] as $u){
+//				$stelle = 0;
+//				while($u["punktzahl"] < $sortierteliste[$stelle]["punktzahl"] && $stelle < count($sortierteliste) - 1){
+//					$stelle = $stelle + 1;
+//				}
+//				echo $u["punktzahl"] . " " . var_export($sortierteliste[$stelle], true) . "<br>";
+//				array_splice($sortierteliste, $stelle, 0, array($u));
+//			}
 			echo
 			'<h3>';
 			echo str_replace("_", " ", $infos["quizname"]);
 			echo '</h3>
 					<table>';
 						$platz = 1;
-						foreach($sortierteliste as $u){
+						$platzAnzeigen = true;
+						foreach($user as $u){
 							$anzahlgleichepunkte = 2;
-							if ($u["punktzahl"] == $sortierteliste[$platz]["punktzahl"]){
-								echo '<tr>
-								<td class="firstcolumn" rowspan=' . $anzahlgleichepunkte . '>';
+							if ($platzAnzeigen == true) {
+								if ($u["punktzahl"] == $user[$platz]["punktzahl"]){
+									echo '<tr>
+									<td class="firstcolumn" rowspan=' . $anzahlgleichepunkte . '>';
+									$platzAnzeigen = false;
+								}
+								else {
+									echo '<tr>
+									<td class="firstcolumn">';
+								}
+								echo $platz . ". Platz";
+								if ($platz == 1){
+									echo " &#x1F947;";
+								}
+								if ($platz == 2){
+									echo " &#x1F948;";
+								}
+								if ($platz == 3){
+									echo " &#x1F949;";
+								}
+								echo '</td>';
 							}
 							else {
-								echo '<tr>
-								<td class="firstcolumn">';
+								$platzAnzeigen = true;
 							}
-							echo $platz . ". Platz";
-							if ($platz == 1){
-								echo " &#x1F947;";
-							}
-							if ($platz == 2){
-								echo " &#x1F948;";
-							}
-							if ($platz == 3){
-								echo " &#x1F949;";
-							}
-							echo '</td>
-							<td>';
+							echo '<td>';
 							echo $u["name"];
 							echo '</td>
 							<td>';
