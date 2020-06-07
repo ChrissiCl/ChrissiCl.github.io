@@ -134,8 +134,7 @@
 							}
 							echo '<td>';
 							echo $u["name"];
-							echo '</td>
-							<td>';
+							echo '</td>';
 							if ($u["punktzahl"] == $user[$platz]["punktzahl"]){
 								echo '<td rowspan=' . $anzahlgleichepunkte . '>';
 							}
