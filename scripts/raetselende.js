@@ -26,11 +26,12 @@ input.addEventListener('keyup', function(event) {
 
 function leerzeichenersetzen(textMitLeerzeichen) {
 	return textMitLeerzeichen.replace(/ /g, '_');
+	return textMitUmlauten.replace(/iui/g, 'ü');
 }
 
-function umlauteersetzen(textMitUmlauten) {
-	return textMitUmlauten.replace('iui', 'ü');
-}
+// function umlauteersetzen(textMitUmlauten) {
+	
+// }
 
 buttonRanking.onclick = function() {
 	request.open('POST','scripts/datenspeichern.php');
