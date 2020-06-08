@@ -29,7 +29,7 @@ function leerzeichenersetzen(textMitLeerzeichen) {
 }
 
 function umlauteersetzen(textMitUmlauten) {
-	return textMitUmlauten.replace(/[iui]/g, 'ü');
+	return textMitUmlauten.replace('iui', 'ü');
 }
 
 buttonRanking.onclick = function() {
