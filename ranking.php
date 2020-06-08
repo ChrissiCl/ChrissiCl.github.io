@@ -52,7 +52,7 @@
 			</optgroup>
 			<optgroup label="Themenquiz">
 				<option value="Quiz_zum_1._Mai">Quiz zum 1. Mai</option>
-				<option value="Themenquiz_Frueher_und_Heute">Themenquiz Früher und Heute</option>
+				<option value="Themenquiz_Friuiher_und_Heute">Themenquiz Früher und Heute</option>
 				<option value="Norwegenquiz_zum_17._Mai">Norwegenquiz zum 17. Mai</option>
 				<option value="Quiz_zu_Himmelfahrt">Quiz zu Himmelfahrt</option>
 				<option value="Quiz_zu_Pfingsten">Quiz zu Pfingsten</option>
@@ -108,7 +108,7 @@
 							echo '<tr>';
 							$anzahlgleichepunkte = 2;
 							if ($platzAnzeigen == true) {
-								if ($u["punktzahl"] == $user[$platz]["punktzahl"]){
+								if ($u["punktzahl"] === $user[$platz]["punktzahl"]){
 									echo '
 									<td class="firstcolumn" rowspan=' . $anzahlgleichepunkte . '>';
 									$platzAnzeigen = false;
@@ -130,7 +130,7 @@
 								echo '<td>';
 								echo $u["name"];
 								echo '</td>';
-								if ($u["punktzahl"] == $user[$platz]["punktzahl"]){
+								if ($u["punktzahl"] === $user[$platz]["punktzahl"]){
 									echo '<td rowspan=' . $anzahlgleichepunkte . '>';
 								}
 								else {
