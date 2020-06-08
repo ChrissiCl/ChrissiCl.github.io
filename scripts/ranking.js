@@ -19,10 +19,6 @@ cquizH1.onclick = function() {
 	document.location.href = 'index.html';
 }
 
-function unterstrichersetzen(textMitPlus) { //Text ändern!
-	return textMitPlus.replace(/\+/g, ' ');
-}
-
 function leerzeichenersetzen(textMitLeerzeichen) {
 	return textMitLeerzeichen.replace(/ /g, '_');
 }

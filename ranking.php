@@ -99,7 +99,7 @@
 //			}
 			echo
 			'<h3>';
-			echo str_replace("_", " ", $infos["quizname"]);
+			echo str_replace(array("_", "iui"), array(" ", "ü"), $infos["quizname"]);
 			echo '</h3>
 					<table>';
 						$platz = 1;
