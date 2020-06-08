@@ -596,10 +596,12 @@ button:not(.disabled):hover {
 	font-size: 17px;
 	margin: 1% 0;
 	border: 2px solid gray;
+	background-color: white;
 }
 
 optgroup {
-	font-style: normal;
+	font-style: bold;
+	font-size: 15px;
 }
 
 .table {
@@ -648,6 +650,10 @@ td {
 	
 	.table3 {
 		width: 50%; /* später wieder ändern, wenn eine zweite Tabelle in diese Spalte kommt!*/
+	}
+	
+	optgroup {
+		font-size: 17px;
 	}
 }
 
