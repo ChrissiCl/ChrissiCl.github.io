@@ -600,8 +600,7 @@ button:not(.disabled):hover {
 }
 
 optgroup {
-	font-style: bold;
-	font-size: 15px;
+	font-style: normal;
 }
 
 .table {
@@ -650,10 +649,6 @@ td {
 	
 	.table3 {
 		width: 50%; /* später wieder ändern, wenn eine zweite Tabelle in diese Spalte kommt!*/
-	}
-	
-	optgroup {
-		font-size: 17px;
 	}
 }
 
