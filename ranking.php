@@ -35,6 +35,7 @@
 							<li><a href="quiz_norge.html">17. Mai</a></li>
 							<li><a href="quiz_himmelfahrt.html">Himmelfahrt</a></li>
 							<li><a href="quiz_pfingsten.html">Pfingsten</a></li>
+							<li><a href="quiz_sommer.html">Sommerquiz</a></li>
 						</ul>
 					</li>
 					<li><span>Ranking</span></li>
@@ -58,6 +59,7 @@
 				<option value="Norwegenquiz_zum_17._Mai">Norwegenquiz zum 17. Mai</option>
 				<option value="Quiz_zu_Himmelfahrt">Quiz zu Himmelfahrt</option>
 				<option value="Quiz_zu_Pfingsten">Quiz zu Pfingsten</option>
+				<option value="Sommerquiz">Sommerquiz</option>
 			</optgroup>
 		</select>
 		<?php

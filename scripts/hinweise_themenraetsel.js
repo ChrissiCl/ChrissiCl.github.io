@@ -330,6 +330,72 @@ var meineDaten =
 				'loesung': ['Hoffnung']
 			}
 			]
+		},
+		{
+			'name': 'Sommerquiz',
+			'abschlussseite': 'raetselende_sommer.html',
+			'raetsel': [
+			{
+				'raetselname': 'Rätsel 1',
+				'kategorie': 'Ding',
+				'hinweise': ['Ich bestehe aus Gas','Ich bin eine Grundvoraussetzung für das Leben auf der Erde','Ich teile den Tag und das Jahr ein','Im Yoga werde ich viel begrüßt', 'In vielen alten Kulturen gibt es einen Gott für mich','Obwohl ich ein Zwerg bin, bin ich riesig', 'Ich drehe mich in 25 Tagen um mich selbst'],
+				'loesung': ['Sonne']
+			},
+			{
+				'raetselname': 'Rätsel 2',
+				'kategorie': 'Jahr',
+				'hinweise': ['Mein Sommer wird in einem bekannten Lied besungen','Willy Brandt wird deutscher Bundeskanzler','Zum ersten Mal landen Menschen auf dem Mond','Thor Heyerdahl versucht den Atlantik mit einem Papyrusboot zu überqueren','Das Internet entsteht','Das Woodstock-Festival findet statt','Michael Schumacher wird geboren'],
+				'loesung': ['1969']
+			},
+			{
+				'raetselname': 'Rätsel 3',
+				'kategorie': 'Ding',
+				'hinweise': ['Ich liegen an einem Gewässer','Ich bin sandig','Ich bin eine Randerscheinung','In weiß gelte ich als besonders schön','Ich bin auf vielen Urlaubsbildern','Manchmal werde ich künstlich erschaffen','Ich kann aus Kies bestehen'],
+				'loesung': ['Strand']
+			},
+			{
+				'raetselname': 'Rätsel 4',
+				'kategorie': 'Ding',
+				'hinweise': ['Ich kann auslaufen','Manche meiner Art machen ordentlich Dampf','Meine Namen sind meistens weiblich','Ich habe einen Schornstein','Knoten sind bedeutend für mich','Mich zu steuern ist eine Kunst','Man findet mich auf dem Wasser'],
+				'loesung': ['Schiff']
+			},
+			{
+				'raetselname': 'Rätsel 5',
+				'kategorie': 'Ding',
+				'hinweise': ['Ich bin eine Süßspeise','Andersherum bin ich ein Pronomen','Ich bin kalt','Ich bin oft glatt','Was auf mit liegt, wurde aufgeschoben','Ich bin ein Kristall','Ich bin ein E mit einem Kreuz'],
+				'loesung': ['Eis']
+			},
+			{
+				'raetselname': 'Rätsel 6',
+				'kategorie': 'Ort',
+				'hinweise': ['Ich bin ein Königreich','Meine größte Insel gehört zu einem anderen Kontinent','Ich habe nur eine Landesgrenze','Ich habe sehr viele Inseln','Mein höchster Berg ist 170m hoch','Mein bekanntester Schriftsteller schrieb vor allem Märchen','Einer meiner Landsmänner entwarf die Oper von Sydney'],
+				'loesung': ['Dänemark']
+			},
+			{
+				'raetselname': 'Rätsel 7',
+				'kategorie': 'Ding',
+				'hinweise': ['Ich kann in Wellen kommen','Ich kann große Schäden anrichten','Manche Menschen kommen mit mir besser aus als andere','An Schulen sorge ich für Kürzungen','In extremen Situationen muss man sich vor mir schützen','Ich kann vorhergesagt werden','Mam findet mich im Ofen'],
+				'loesung': ['Hitze']
+			},
+			{
+				'raetselname': 'Rätsel 8',
+				'kategorie': 'Person',
+				'hinweise': ['Ich komme aus einer sportlichen Familie','2012 wurde ich Olympiasieger','Mein Bruder wurde 2016 Olympiasieger in derselben Disziplin','Ich werfe gerne um mich','Ich wurde in der DDR geboren','Ich war drei Mal Sportler des Jahres','Meine persönliche Bestleistung liegt bei 70,66m'],
+				'loesung': ['Robert Harting']
+			},
+			{
+				'raetselname': 'Rätsel 9',
+				'kategorie': 'Ort',
+				'hinweise': ['Meine Fläche beträgt ca. 200.000m\xB2','Ich erstrecke mich über acht Länder','Ich bin ein Erholungsraum','Ich bin gefaltet','Ich bin zwischen Jura- und Kreidezeit entstanden','Ich kann glühen','Früher war ich ein Verkehrshindernis'],
+				'loesung': ['Alpen']
+			},
+			{
+				'raetselname': 'Rätsel 10',
+				'kategorie': 'Ding',
+				'hinweise': ['Vincent van Gogh malte eine ganze Serie von mir','Mein Öl wird in der Küche viel verwendet','Ich habe essbare Kerne','Man findet mich im Logo der Partei Bündnis 90/Die Grünen','In Wien sind die Geländer der Stadtbahn nach mir benannt','Ich bin eine Pflanze','Ich kann bis zu drei Meter hoch werden'],
+				'loesung': ['Sonnenblume']
+			}
+			]
 		}
 	]
 };
