@@ -362,7 +362,7 @@ var meineDaten =
 			{
 				'raetselname': 'Rätsel 5',
 				'kategorie': 'Ding',
-				'hinweise': ['Ich bin eine Süßspeise','Andersherum bin ich ein Pronomen','Ich bin kalt','Ich bin oft glatt','Was auf mit liegt, wurde aufgeschoben','Ich bin ein Kristall','Ich bin ein E mit einem Kreuz'],
+				'hinweise': ['Ich bin eine Süßspeise','Andersherum bin ich ein Pronomen','Ich bin kalt','Ich bin oft glatt','Was auf mir liegt, wurde aufgeschoben','Ich bin ein Kristall','Ich bin ein E mit einem Kreuz'],
 				'loesung': ['Eis']
 			},
 			{
