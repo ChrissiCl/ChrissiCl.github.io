@@ -26,6 +26,7 @@
 							<li><a href="quiz4.html">Quiz 4</a></li>
 							<li><a href="quiz5.html">Quiz 5</a></li>
 							<li><a href="quiz6.html">Quiz 6</a></li>
+							<li><a href="quiz7.html">Quiz 7</a></li>
 						</ul>
 					</li>
 					<li class="dropdown"><a href="#">Themenquiz</a>
@@ -52,6 +53,7 @@
 				<option value="Quiz_4">Quiz 4</option>
 				<option value="Quiz_5">Quiz 5</option>
 				<option value="Quiz_6">Quiz 6</option>
+				<option value="Quiz_7">Quiz 7</option>
 			</optgroup>
 			<optgroup label="Themenquiz">
 				<option value="Quiz_zum_1._Mai">Quiz zum 1. Mai</option>

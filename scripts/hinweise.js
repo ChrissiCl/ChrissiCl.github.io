@@ -396,6 +396,72 @@ var meineDaten =
 				'loesung': ['Mühle']
 			}			
 			]
-		}
+		},
+		{
+			'name': 'Quiz 7',
+			'abschlussseite': 'raetselende_quiz7.html',
+			'raetsel': [
+			{
+				'raetselname': 'Rätsel 1',
+				'kategorie': 'Ding',
+				'hinweise': ['Am größten bin ich am Südpol', 'Ich bedecke 1/5 der Landfläche der Erde', 'Ich bin öde', 'In der Bibel bin ich ein Rückzugsort', 'Ich bin ein extremer Lebensraum', 'Meistens bestehe ich aus Stein', 'Meine Ausbreitung wird durch Menschen verursacht'],
+				'loesung': ['Wüste']
+			},
+			{
+				'raetselname': 'Rätsel 2',
+				'kategorie': 'Ort',
+				'hinweise': ['Ich besitze die längste Landesgrenze aller Staaten', 'Ich habe 14 Nachbarländer', 'Mehr als 2000 Jahre war ich ein Kaiserreich', 'Meine bekannteste Sehenswürdigkeit ist über 20.000km lang', 'Meine Bevölkerung setzt sich aus vielen verschiedenen Ethnien zusammen', 'Mein bekanntestes Fabelwesen ist ein Drache', 'Ein Sack Reis verdient nicht so viel Aufmerksamkeit'],
+				'loesung': ['China']
+			},
+			{
+				'raetselname': 'Rätsel 3',
+				'kategorie': 'Ding',
+				'hinweise': ['Ich bin ein Bauwerk', 'Ich bin ein geometrischer Körper', 'Man findet mich vor dem Louvre', 'Ich bin vor allem aus alten Kulturen bekannt', 'Ich kann ein Grabmal sein', 'Ich bin spitz', 'Ich bin eine Weihnachtsdekoration'],
+				'loesung': ['Pyramide']
+			},
+			{
+				'raetselname': 'Rätsel 4',
+				'kategorie': 'Person',
+				'hinweise': ['Ich war Schriftsteller', 'Ich war ein großer Redner', 'Meine Name wurde später ein Herrschertitel', 'Der von mir eingeführte Kalender galt bis ins 16. Jahrhundert', 'Shakespeare schrieb ein Theaterstück über mich', 'Ich war ein Diktator', 'Ich fiel einer Verschörung zu Opfer'],
+				'loesung': ['Gaius Julius Cäsar', 'Cäsar', 'Caesar', 'Gaius Julius Caesar', 'Gaius Iulius Caesar']
+			},
+			{
+				'raetselname': 'Rätsel 5',
+				'kategorie': 'Ding',
+				'hinweise': ['Ich kann fliegen', 'Man sollte immer auf mir bleiben', 'Ich kann Geheimnisse verstecken', 'Ich bin Dekoration', 'Viele meiner Exemplare kommen aus Asien', 'Ich bin bunt', 'Ich bin eine Textilie'],
+				'loesung': ['Teppich']
+			},
+			{
+				'raetselname': 'Rätsel 6',
+				'kategorie': 'Ding',
+				'hinweise': ['Von mir sind zwei Arten besonders verbreitet', 'Ursprünglich stamme ich aus Südamerika', 'Man findet mich in den Tropen', 'Ich bin eine Kletterpflanze', 'Schrumplig schmecke ich am besten', 'Ich habe viele Vitamine', 'Ich habe viele Kerne'],
+				'loesung': ['Maracuja/ Passionsfrucht', 'Maracuja', 'Marakuja', 'Passionsfrucht', 'Granadilla']
+			},
+			{
+				'raetselname': 'Rätsel 7',
+				'kategorie': 'Person',
+				'hinweise': ['Ich bin mit meiner Familie in die Niederlande ausgewandert', 'Ich wurde 1929 geboren', 'Ich starb 1945', 'Die Tür zu meinem Zuhause war mehrere Jahre ein Bücherregal', 'Ich musste in ständiger Angst leben', 'Mein einziges Werk ist weltberühmt', 'Ich war ein Opfer der Nazis'],
+				'loesung': ['Anne Frank']
+			},
+			{
+				'raetselname': 'Rätsel 8',
+				'kategorie': 'Jahr',
+				'hinweise': ['60. Thronjubiläum von Queen Elizabeth', 'Joachim Gauck wird Bundespräsident', 'Einige glaubten, wenn ich ende, endet alles', 'Die Costa Concordia kentert', 'Whitney Houston wird tot in ihrem Hotelzimmer aufgefunden', 'Borussia Dortmund wird zum bisher letzten Mal deutscher Fußballmeister', 'Obama wird wiedergewählt'],
+				'loesung': ['2012']
+			},
+			{
+				'raetselname': 'Rätsel 9',
+				'kategorie': 'Ding',
+				'hinweise': ['Ich bin wegweisend', 'In Alexandria war ich ein Weltwunder', 'Man findet mich an Küsten', 'Die Feuerhöhe ist für meine Standortwahl entscheidend', 'Jeder meiner Art hat einen einzigartigen Charakter', 'Ich bin oft geringelt', 'Heutzutage funktioniere ich automatisch'],
+				'loesung': ['Leuchtturm']
+			},
+			{
+				'raetselname': 'Rätsel 10',
+				'kategorie': 'Ding',
+				'hinweise': ['Es gibt eine große und eine kleine Art von mir', 'Ich bin das Symbol des WWF', 'Ich bin schwarz-weiß', 'Ich bin Vegetarier', 'Ich bin ein Einzelgänger', 'Ich gehöre zur Ordnung der Raubtiere', 'Ich bin chinesisch'],
+				'loesung': ['Panda', 'Pandabär']
+			}
+			]
+		},
 	]
 };
