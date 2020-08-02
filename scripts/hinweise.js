@@ -422,7 +422,7 @@ var meineDaten =
 			{
 				'raetselname': 'Rätsel 4',
 				'kategorie': 'Person',
-				'hinweise': ['Ich war Schriftsteller', 'Ich war ein großer Redner', 'Meine Name wurde später ein Herrschertitel', 'Der von mir eingeführte Kalender galt bis ins 16. Jahrhundert', 'Shakespeare schrieb ein Theaterstück über mich', 'Ich war ein Diktator', 'Ich fiel einer Verschörung zu Opfer'],
+				'hinweise': ['Ich war Schriftsteller', 'Ich war ein großer Redner', 'Meine Name wurde später ein Herrschertitel', 'Der von mir eingeführte Kalender galt bis ins 16. Jahrhundert', 'Shakespeare schrieb ein Theaterstück über mich', 'Ich war ein Diktator', 'Ich fiel einer Verschwörung zu Opfer'],
 				'loesung': ['Gaius Julius Cäsar', 'Cäsar', 'Caesar', 'Gaius Julius Caesar', 'Gaius Iulius Caesar']
 			},
 			{
