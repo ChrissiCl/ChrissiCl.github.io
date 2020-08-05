@@ -330,6 +330,138 @@ var meineDaten =
 				'loesung': ['Zeitung']
 			}			
 			]
-		}
+		},
+		{
+			'name': 'Quiz 6',
+			'abschlussseite': 'raetselende_quiz6.html',
+			'raetsel': [
+			{
+				'raetselname': 'Rätsel 1',
+				'kategorie': 'Ding',
+				'hinweise': ['Ich bin Teil von einem Service', 'Wer mich nicht im Schrank hat, ist verrückt', 'Ich werde vor allem für Heißgetränke verwendet', 'Man kann mit mir Kuchen backen', 'Meine Form und Größe hängt von meinem Inhalt ab', 'Traditionell bestehe ich aus Porzellan', 'Mein Untersatz wird oft mit Flugobjekten verglichen'],
+				'loesung': ['Tasse']
+			},
+			{
+				'raetselname': 'Rätsel 2',
+				'kategorie': 'Jahr',
+				'hinweise': ['"Findet Nemo" kommt in die Kinos', '"Harry Potter und der Orden des Phönix" erscheint', 'Die 100-Jahr-Feier der Tour de France findet statt', 'SARS wird als Pandemie eingestuft', 'Es gibt eine Hitzewelle in Europa', 'Greta Thunberg wird geboren', 'Der Irak-Krieg beginnt'],
+				'loesung': ['2003']
+			},
+			{
+				'raetselname': 'Rätsel 3',
+				'kategorie': 'Ding',
+				'hinweise': ['Ich bin ein Symbol des Klimawandels', 'Ich liebe Robben', 'Ich bin ein Raubtier', 'Ich kann gut schwimmen', 'Ich bin auf dem Wappen Grönlands abgebildet', 'Ich unternehme lange Wanderungen', 'Ich kann bis zu 800kg schwer werden'],
+				'loesung': ['Eisbär']
+			},
+			{
+				'raetselname': 'Rätsel 4',
+				'kategorie': 'Person',
+				'hinweise': ['Ich bin ein Klassiker', 'Ich wurde nur 35 Jahre alt', 'Ich war sehr produktiv', 'Ich hatte sehr viel Talent', 'Ich war Freimaurer', 'Musik war mein Leben', 'Ich bin sehr berühmt'],
+				'loesung': ['Wolfgang Amadeus Mozart', 'Mozart', 'Wolfgang Mozart', 'Amadeus Mozart']
+			},
+			{
+				'raetselname': 'Rätsel 5',
+				'kategorie': 'Ort',
+				'hinweise': ['Ich komme in einem Märchen vor', 'Ich bin eine Hansestadt', 'Mein Fußballstadion ist nach meinem Fluss benannt', 'Der Vater von Robinson Crusoe kam hier her', 'Meine 5. Jahreszeit liegt im Oktober', 'Mehere Schiffe wurden nach mir benannt', 'Auf meinem Marktplatz steht ein Sagenheld'],
+				'loesung': ['Bremen']
+			},
+			{
+				'raetselname': 'Rätsel 6',
+				'kategorie': 'Jahr',
+				'hinweise': ['Das Deutsche Reich wird gegründet', 'Wilhelm I. wird Deutscher Kaiser', 'Die Bismarcksche Reichsverfassung tritt in Kraft', 'Heinrich Schliemann erhält die Genehmigung in Troja zu graben', 'Rom wird Hauptstadt des Königreich Italiens', 'Es kommt zum Großbrand von Chicago', '"Aida" von Guiseppe Verdi wird uraufgeführt'],
+				'loesung': ['1871']
+			},
+			{
+				'raetselname': 'Rätsel 7',
+				'kategorie': 'Ding',
+				'hinweise': ['Ich bin ein Arbeitsbereich bei Film und Theater', 'Mit mir kann man Daten erfassen', 'Man kann mit mir Fotos korrigieren', 'Ich komme in manchen Sportarten vor', 'Ich bin bin ein Schutz', 'Ich bin ein Objekt aus Brauchtum und Kunst', 'Wer mich ablegt, zeigt sein wahres Gesicht'],
+				'loesung': ['Maske']
+			},
+			{
+				'raetselname': 'Rätsel 8',
+				'kategorie': 'Ort',
+				'hinweise': ['Ich liege auf 2430m', 'Ich liege in den Anden', 'Ich wurde im 15. Jahrhundert erbaut', 'Ich bin eine Ruine', 'Ich bin eine der größten Touristenattraktionen Südamerikas', 'Ich liege zwischen dem alten und dem neuen Gipfel', 'Ich wurde von den Inkas erbaut'],
+				'loesung': ['Machu Picchu']
+			},
+			{
+				'raetselname': 'Rätsel 9',
+				'kategorie': 'Person',
+				'hinweise': ['Ich hatte mehrere Gastauftritte in "The Big Bang Theory"', 'Ich habe länger gelebt, als zunächst vermutet', 'Ich habe in Cambridge gelebt und gelehrt', 'Mein Interesse galt vor allem schwarzen Löcher und dem Universum', 'Ich war Theoretiker', 'Eigentlich konnte ich nicht mehr sprechen', 'Ich war ein populärwissenschafticher Autor'],
+				'loesung': ['Stephen Hawking', 'Hawking']
+			},
+			{
+				'raetselname': 'Rätsel 10',
+				'kategorie': 'Ding',
+				'hinweise': ['Traditionell werde ich mit Wind oder Wasser betrieben', 'Ich bin eine Anlage zum Zerkleinern', 'Ich bin ein Brettspiel', 'Ich arbeite mit vielen verschiedenen Materialien', 'Ich bin eine Sehenswürdigkeit', 'Ich bin ein Küchengerät', 'Als Bauwerk gibt es mich seit der Römerzeit'],
+				'loesung': ['Mühle']
+			}			
+			]
+		},
+		{
+			'name': 'Quiz 7',
+			'abschlussseite': 'raetselende_quiz7.html',
+			'raetsel': [
+			{
+				'raetselname': 'Rätsel 1',
+				'kategorie': 'Ding',
+				'hinweise': ['Am größten bin ich am Südpol', 'Ich bedecke 1/5 der Landfläche der Erde', 'Ich bin öde', 'In der Bibel bin ich ein Rückzugsort', 'Ich bin ein extremer Lebensraum', 'Meistens bestehe ich aus Stein', 'Meine Ausbreitung wird durch Menschen verursacht'],
+				'loesung': ['Wüste']
+			},
+			{
+				'raetselname': 'Rätsel 2',
+				'kategorie': 'Ort',
+				'hinweise': ['Ich besitze die längste Landesgrenze aller Staaten', 'Ich habe 14 Nachbarländer', 'Mehr als 2000 Jahre war ich ein Kaiserreich', 'Meine bekannteste Sehenswürdigkeit ist über 20.000km lang', 'Meine Bevölkerung setzt sich aus vielen verschiedenen Ethnien zusammen', 'Mein bekanntestes Fabelwesen ist ein Drache', 'Ein Sack Reis verdient nicht so viel Aufmerksamkeit'],
+				'loesung': ['China']
+			},
+			{
+				'raetselname': 'Rätsel 3',
+				'kategorie': 'Ding',
+				'hinweise': ['Ich bin ein Bauwerk', 'Ich bin ein geometrischer Körper', 'Man findet mich vor dem Louvre', 'Ich bin vor allem aus alten Kulturen bekannt', 'Ich kann ein Grabmal sein', 'Ich bin spitz', 'Ich bin eine Weihnachtsdekoration'],
+				'loesung': ['Pyramide']
+			},
+			{
+				'raetselname': 'Rätsel 4',
+				'kategorie': 'Person',
+				'hinweise': ['Ich war Schriftsteller', 'Ich war ein großer Redner', 'Meine Name wurde später ein Herrschertitel', 'Der von mir eingeführte Kalender galt bis ins 16. Jahrhundert', 'Shakespeare schrieb ein Theaterstück über mich', 'Ich war ein Diktator', 'Ich fiel einer Verschwörung zu Opfer'],
+				'loesung': ['Gaius Julius Cäsar', 'Cäsar', 'Caesar', 'Gaius Julius Caesar', 'Gaius Iulius Caesar']
+			},
+			{
+				'raetselname': 'Rätsel 5',
+				'kategorie': 'Ding',
+				'hinweise': ['Ich kann fliegen', 'Man sollte immer auf mir bleiben', 'Ich kann Geheimnisse verstecken', 'Ich bin Dekoration', 'Viele meiner Exemplare kommen aus Asien', 'Ich bin bunt', 'Ich bin eine Textilie'],
+				'loesung': ['Teppich']
+			},
+			{
+				'raetselname': 'Rätsel 6',
+				'kategorie': 'Ding',
+				'hinweise': ['Von mir sind zwei Arten besonders verbreitet', 'Ursprünglich stamme ich aus Südamerika', 'Man findet mich in den Tropen', 'Ich bin eine Kletterpflanze', 'Schrumplig schmecke ich am besten', 'Ich habe viele Vitamine', 'Ich habe viele Kerne'],
+				'loesung': ['Maracuja/ Passionsfrucht', 'Maracuja', 'Marakuja', 'Passionsfrucht', 'Granadilla']
+			},
+			{
+				'raetselname': 'Rätsel 7',
+				'kategorie': 'Person',
+				'hinweise': ['Ich bin mit meiner Familie in die Niederlande ausgewandert', 'Ich wurde 1929 geboren', 'Ich starb 1945', 'Die Tür zu meinem Zuhause war mehrere Jahre ein Bücherregal', 'Ich musste in ständiger Angst leben', 'Mein einziges Werk ist weltberühmt', 'Ich war ein Opfer der Nazis'],
+				'loesung': ['Anne Frank']
+			},
+			{
+				'raetselname': 'Rätsel 8',
+				'kategorie': 'Jahr',
+				'hinweise': ['60. Thronjubiläum von Queen Elizabeth', 'Joachim Gauck wird Bundespräsident', 'Einige glaubten, wenn ich ende, endet alles', 'Die Costa Concordia kentert', 'Whitney Houston wird tot in ihrem Hotelzimmer aufgefunden', 'Borussia Dortmund wird zum bisher letzten Mal deutscher Fußballmeister', 'Obama wird wiedergewählt'],
+				'loesung': ['2012']
+			},
+			{
+				'raetselname': 'Rätsel 9',
+				'kategorie': 'Ding',
+				'hinweise': ['Ich bin wegweisend', 'In Alexandria war ich ein Weltwunder', 'Man findet mich an Küsten', 'Die Feuerhöhe ist für meine Standortwahl entscheidend', 'Jeder meiner Art hat einen einzigartigen Charakter', 'Ich bin oft geringelt', 'Heutzutage funktioniere ich automatisch'],
+				'loesung': ['Leuchtturm']
+			},
+			{
+				'raetselname': 'Rätsel 10',
+				'kategorie': 'Ding',
+				'hinweise': ['Es gibt eine große und eine kleine Art von mir', 'Ich bin das Symbol des WWF', 'Ich bin schwarz-weiß', 'Ich bin Vegetarier', 'Ich bin ein Einzelgänger', 'Ich gehöre zur Ordnung der Raubtiere', 'Ich bin chinesisch'],
+				'loesung': ['Panda', 'Pandabär']
+			}
+			]
+		},
 	]
 };

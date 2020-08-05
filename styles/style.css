@@ -208,7 +208,7 @@ main:not(.indexmain) {
 	display: flex;
 	flex-flow: row wrap;
 	background-color: #DDEBF7;
-	padding: 15px;
+	padding: 20px;
 	border-radius: 5px;
 }
 
@@ -216,14 +216,14 @@ main:not(.indexmain) {
 article {
 	margin: 10px 0;
 	background-color: #DDEBF7;
-	padding: 15px;
+	padding: 20px;
 	border-radius: 5px;
 }
 
 aside {
 	margin: 10px 0;
 	background-color: #DDEBF7;
-	padding: 15px;
+	padding: 20px;
 	border-radius: 5px;
 	height: auto;
 }
@@ -520,13 +520,11 @@ button:not(.disabled):hover {
 }
 
 #punkteform {
-	text-align: left;
-	width: 70%;
-	margin: 50px auto;
+	width: 40%;
+	margin: 0 auto;
 }
 
 #punkteform p {
-	text-align: left;
 	font-size: 17px;
 	margin: 20px 0;
 }
@@ -565,13 +563,14 @@ button:not(.disabled):hover {
 		padding: 0;
 	}
 	
-	#punktzahlsenden li {
+	#punktzahlsenden {
 		flex: 1;
 		margin-left: 0;
 	}
 	
 	#username {
 		width: 45%;
+		flex: 3;
 	}
 	
 	.username {
@@ -587,8 +586,21 @@ button:not(.disabled):hover {
 /* Ranking */
 .rankingmain {
 	background-color: #DDEBF7;
-	padding: 15px;
+	padding: 20px;
 	border-radius: 5px;
+	min-height: 500px;
+}
+
+#rankingdropdown {
+	padding: 5px;
+	font-size: 17px;
+	margin: 1% 0;
+	border: 2px solid gray;
+	background-color: white;
+}
+
+optgroup {
+	font-style: normal;
 }
 
 .table {
@@ -627,7 +639,7 @@ td {
 	}
 	
 	table {
-		width: 65%;
+		width: 50%;
 	}
 	
 	.table {
@@ -643,7 +655,7 @@ td {
 /* Kontaktseite*/
 .kontaktmain {
 	background-color: #DDEBF7;
-	padding: 15px;
+	padding: 20px;
 	border-radius: 5px;
 }
 

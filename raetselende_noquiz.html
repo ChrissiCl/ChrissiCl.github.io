@@ -25,6 +25,8 @@
 							<li><a href="quiz3.html">Quiz 3</a></li>
 							<li><a href="quiz4.html">Quiz 4</a></li>
 							<li><a href="quiz5.html">Quiz 5</a></li>
+							<li><a href="quiz6.html">Quiz 6</a></li>
+							<li><a href="quiz7.html">Quiz 7</a></li>
 						</ul>
 					</li>
 					<li class="dropdown"><a id ="clicked" href="#">Themenquiz</a>
@@ -34,9 +36,10 @@
 							<li><a href="quiz_norge.html">17. Mai</a></li>
 							<li><a href="quiz_himmelfahrt.html">Himmelfahrt</a></li>
 							<li><a href="quiz_pfingsten.html">Pfingsten</a></li>
+							<li><a href="quiz_sommer.html">Sommerquiz</a></li>
 						</ul>
 					</li>
-					<li><a href="ranking.html">Ranking</a></li>
+					<li><a href="ranking.php?quizname=Quiz_3">Ranking</a></li>
 					<li><a href="kontakt.html">Kontakt</a></li>
 				</ul>
 			</nav>
@@ -45,9 +48,20 @@
 			<article class="ende">
 				<h2>Herzlichen Glückwunsch, du hast das Quiz geschafft! &#x1F60A <br>Gratulerer med dagen! &#x1F389;</h2>
 				<p>Rätsel mit <span id="endpunktzahl"></span> Punkten abgeschlossen<p>
-				<p class="nachricht">Wenn du in das Ranking aufgenommmen willst, schick mir eine Nachricht auf WhatsApp, über das Kontaktformular oder direkt eine Email mit deiner Punktzahl (Das Kontaktformular funktioniert am Handy leider nicht)</p>
+				<p>Anzeigenamen eingeben und Punkte absenden für das Ranking:</p>
+				<div id="punkteform">
+				<ul>
+					<li id="username">
+						<label for="name">Name:</label>
+						<input type ="text" id="name" name="user_name" autocomplete="off" class ="username">
+					</li>
+					<li id="punktzahlsenden">
+						<button type="submit" id="punktebutton">Absenden</button>
+					</li>
+				</ul>
+				</div>
 				<p>
-					<img src="images/norge.jpg" alt="Collage mit Norwegenbildern" class="endebild">
+					<img src="images/norge.jpg" alt="Collage mit schönen Norwegenbildern" class="endebild">
 				</p>
 			</article>
 		</main>
@@ -55,6 +69,6 @@
 			<p>&copy; 2020 CQuiz</p>
 			<p id="kontakt"><a href="kontakt.html" title="Kontakt">Kontakt</a></p>
 		</footer>
-		<script src="scripts/raetselende_quiz2.js"></script>
+		<script id="script" data-quizname="Norwegenquiz zum 17. Mai" src="scripts/raetselende.js"></script>
 	</body>
 </html>
