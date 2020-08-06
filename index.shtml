@@ -16,6 +16,7 @@
 			<input type="checkbox" id="responsive-nav">
 			<label for="responsive-nav" class="responsive-nav-label"><span>&#9776;</span></label>
 			<!-- #include file="menu.shtml" -->
+			<!--#echo var="DATE_LOCAL" -->
 		</header>
 		<main class="indexmain">
 			<article class="indexarticle">
