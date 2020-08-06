@@ -1,6 +1,6 @@
 <nav>
 	<ul>
-		<li id="index"><a href="index.html">Start</a></li>
+		<li id="index"><a href="index.shtml">Start</a></li>
 		<li id="standardquiz" class="dropdown"><a href="#">Standardquiz</a>
 			<ul class="dropdownlist">			
 				<li><a href="quiz1.html">Quiz 1</a></li>

@@ -126,7 +126,7 @@ nav li:focus-within .dropdownlist {
 	height: auto;
 }
 
-nav a:hover, nav a:focus {
+nav a:hover, nav span:hover, nav a:focus, nav span:focus {
 	background-color: #BCD6EE;
 	color: black;
 }
