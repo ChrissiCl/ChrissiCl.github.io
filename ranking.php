@@ -15,7 +15,7 @@
 			<img src="images/cquiz_logo.png" alt="Fragezeichen-Logo" id="logo">
 			<input type="checkbox" id="responsive-nav">
 			<label for="responsive-nav" class="responsive-nav-label"><span>&#9776;</span></label>
-			<!--#include file="menu.shtml" -->
+			<?php include('menu.shtml'); ?>
 		</header>
 		<main class="rankingmain">
 		<h2 class="h2ranking"><span>Ranking &#x1F3C6;</span></h2>
