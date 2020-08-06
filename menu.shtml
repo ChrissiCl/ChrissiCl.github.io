@@ -1,7 +1,7 @@
 <nav>
 	<ul>
-		<li><span>Start</span></li>
-		<li class="dropdown"><a href="#">Standardquiz</a>
+		<li id="index"><a href="index.html">Start</a></li>
+		<li id="standardquiz" class="dropdown"><a href="#">Standardquiz</a>
 			<ul class="dropdownlist">			
 				<li><a href="quiz1.html">Quiz 1</a></li>
 				<li><a href="quiz2.html">Quiz 2</a></li>
@@ -12,7 +12,7 @@
 				<li><a href="quiz7.html">Quiz 7</a></li>							
 			</ul>
 		</li>	
-		<li class="dropdown"><a href="#">Themenquiz</a>
+		<li id="themenquiz" class="dropdown"><a href="#">Themenquiz</a>
 			<ul class="dropdownlist">				
 				<li><a href="maiquiz.html">Quiz zum 1. Mai</a></li>
 				<li><a href="quiz_frueherundheute.html">Früher und Heute</a></li>
@@ -22,7 +22,7 @@
 				<li><a href="quiz_sommer.html">Sommerquiz</a></li>
 			</ul>					
 		</li>			
-		<li><a href="ranking.php?quizname=Quiz_3">Ranking</a></li>
-		<li><a href="kontakt.html">Kontakt</a></li>
+		<li id="ranking"><a href="ranking.php?quizname=Quiz_3">Ranking</a></li>
+		<li id="kontakt"><a href="kontakt.html">Kontakt</a></li>
 	</ul>
 </nav>
