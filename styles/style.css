@@ -77,7 +77,7 @@ nav li {
 	flex: 1;
 }
 
-nav a, nav span {
+nav a {
 	display: inline-block;
 	font-size: 20px;
 	height: 26px;
@@ -154,9 +154,9 @@ label.responsive-nav-label {
 		border-radius: 5px;
 	}
 	
-	label.responsive-nav-label span {
-		font-size: 35px;
-	}
+	/* label.responsive-nav-label span { */
+		/* font-size: 35px; */
+	/* } */
 	
 	nav {
 		position: absolute;
@@ -191,7 +191,7 @@ label.responsive-nav-label {
 		min-width: 100px;
 	}
 	
-	nav a, nav span {
+	nav a {
 		width: 90% !important;
 		white-space: nowrap;
 	}
