@@ -131,7 +131,7 @@ nav a:hover, nav a:focus {
 	color: black;
 }
  
-.index #index a, .standardquiz #standardquiz ~ a, .themenquiz #themenquiz ~ a, .ranking #ranking a, .kontaktseite #kontaktseite a {
+.index #index a, .standardquiz #standardquiz > a, .themenquiz #themenquiz > a, .ranking #ranking a, .kontaktseite #kontaktseite a {
 	background-color: #BCD6EE;
 	color: black;
 }
