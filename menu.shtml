@@ -3,26 +3,26 @@
 		<li id="index"><a href="index.shtml">Start</a></li>
 		<li id="standardquiz" class="dropdown"><a href="#">Standardquiz</a>
 			<ul class="dropdownlist">			
-				<li><a href="quiz1.html">Quiz 1</a></li>
-				<li><a href="quiz2.html">Quiz 2</a></li>
-				<li><a href="quiz3.html">Quiz 3</a></li>
-				<li><a href="quiz4.html">Quiz 4</a></li>
-				<li><a href="quiz5.html">Quiz 5</a></li>
-				<li><a href="quiz6.html">Quiz 6</a></li>
-				<li><a href="quiz7.html">Quiz 7</a></li>							
+				<li><a href="quiz1.shtml">Quiz 1</a></li>
+				<li><a href="quiz2.shtml">Quiz 2</a></li>
+				<li><a href="quiz3.shtml">Quiz 3</a></li>
+				<li><a href="quiz4.shtml">Quiz 4</a></li>
+				<li><a href="quiz5.shtml">Quiz 5</a></li>
+				<li><a href="quiz6.shtml">Quiz 6</a></li>
+				<li><a href="quiz7.shtml">Quiz 7</a></li>							
 			</ul>
 		</li>	
 		<li id="themenquiz" class="dropdown"><a href="#">Themenquiz</a>
 			<ul class="dropdownlist">				
-				<li><a href="maiquiz.html">Quiz zum 1. Mai</a></li>
-				<li><a href="quiz_frueherundheute.html">Früher und Heute</a></li>
-				<li><a href="quiz_norge.html">17. Mai</a></li>
-				<li><a href="quiz_himmelfahrt.html">Himmelfahrt</a></li>
-				<li><a href="quiz_pfingsten.html">Pfingsten</a></li>
-				<li><a href="quiz_sommer.html">Sommerquiz</a></li>
+				<li><a href="maiquiz.shtml">Quiz zum 1. Mai</a></li>
+				<li><a href="quiz_frueherundheute.shtml">Früher und Heute</a></li>
+				<li><a href="quiz_norge.shtml">17. Mai</a></li>
+				<li><a href="quiz_himmelfahrt.shtml">Himmelfahrt</a></li>
+				<li><a href="quiz_pfingsten.shtml">Pfingsten</a></li>
+				<li><a href="quiz_sommer.shtml">Sommerquiz</a></li>
 			</ul>					
 		</li>			
 		<li id="ranking"><a href="ranking.php?quizname=Quiz_3">Ranking</a></li>
-		<li id="kontaktseite"><a href="kontakt.html">Kontakt</a></li>
+		<li id="kontaktseite"><a href="kontakt.shtml">Kontakt</a></li>
 	</ul>
 </nav>
