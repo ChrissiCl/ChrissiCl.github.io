@@ -10,13 +10,13 @@ window.onload = function() {
 var quiz2Button = document.querySelector('#startquiz2');
 
 quiz2Button.onclick = function() {
-	document.location.href = 'quiz2.html';
+	document.location.href = 'quiz2.shtml';
 }
 
 cquizLogo.onclick = function() {
-	document.location.href = 'index.html';
+	document.location.href = 'index.shtml';
 }
 
 cquizH1.onclick = function() {
-	document.location.href = 'index.html';
+	document.location.href = 'index.shtml';
 }

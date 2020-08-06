@@ -159,11 +159,11 @@ weiterButton.onclick = function() {
 }
 
 cquizLogo.onclick = function() {
-	document.location.href = 'index.html';
+	document.location.href = 'index.shtml';
 }
 
 cquizH1.onclick = function() {
-	document.location.href = 'index.html';
+	document.location.href = 'index.shtml';
 }
 	
 	
