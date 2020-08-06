@@ -15,8 +15,7 @@
 			<img src="images/cquiz_logo.png" alt="Fragezeichen-Logo" id ="logo">
 			<input type="checkbox" id="responsive-nav">
 			<label for="responsive-nav" class="responsive-nav-label"><span>&#9776;</span></label>
-			<!-- #include file="menu.shtml" -->
-			<!--#echo var="DATE_LOCAL" -->
+			<!--#include file="menu.shtml" -->
 		</header>
 		<main class="indexmain">
 			<article class="indexarticle">
