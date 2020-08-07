@@ -453,7 +453,7 @@ var meineDaten =
 				'raetselname': 'Rätsel 9',
 				'kategorie': 'Film',
 				'hinweise': ['Ich bin eine Musicalverfilmung','Meine Handlung stammt aus einem Roman von Victor Hugo','Ich spiele während des Juniaufstand 1832','Mein Handlungsort ist Paris','Mein bekanntestes Lied heißt "Do you hear the people sing?"','Meine Gesangsaufnahmen wurde komplett am Set und nicht im Studio gemacht','Ich bin ein britischer Film'],
-				'loesung': ['Les Misérable','Les Miserable']
+				'loesung': ['Les Misérables','Les Miserables']
 			},
 			{
 				'raetselname': 'Rätsel 10',
