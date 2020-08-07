@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="de">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1">
+		<title>Filmquiz</title>
+		<link href="images/quiz_favicon.ico" rel="icon" type="image/x-icon">
+		<meta name="author" content="Christina Clemens">
+		<link href="styles/style.css" rel="stylesheet" type="text/css">
+		<link href="https://fonts.googleapis.com/css2?family=Actor&display=swap" rel="stylesheet" type="text/css">
+	</head>
+	<body class="themenquiz">
+		<header>
+			<h1>CQuiz</h1>
+			<img src="images/cquiz_logo.png" alt="Fragezeichen-Logo" id="logo">
+			<input type="checkbox" id="responsive-nav">
+			<label for="responsive-nav" class="responsive-nav-label"><span>&#9776;</span></label>
+			<!--#include file="menu.shtml" -->
+		</header>
+		<main>
+			<article class="ende">
+				<h2>Herzlichen Glückwunsch, du hast das Quiz geschafft! &#x1F60A </h2>
+				<p>Rätsel mit <span id="endpunktzahl"></span> Punkten abgeschlossen<p>
+				<p>Anzeigenamen eingeben und Punkte absenden für das Ranking:</p>
+				<div id="punkteform">
+				<ul>
+					<li id="username">
+						<label for="name">Name:</label>
+						<input type ="text" id="name" name="user_name" autocomplete="off" class ="username">
+					</li>
+					<li id="punktzahlsenden">
+						<button type="submit" id="punktebutton">Absenden</button>
+					</li>
+				</ul>
+				</div>
+				<p>
+					<img src="images/film.jpg" alt="Meer mit steiler Küste und Segelbooten" class="endebild">
+				</p>
+			</article>
+		</main>
+		<footer>
+			<p>&copy; 2020 CQuiz</p>
+			<p id="kontakt"><a href="kontakt.html" title="Kontakt">Kontakt</a></p>
+		</footer>
+		<script id="script" data-quizname="Filmquiz" src="scripts/raetselende.js"></script>
+	</body>
+</html>

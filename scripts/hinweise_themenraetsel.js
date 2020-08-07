@@ -396,6 +396,72 @@ var meineDaten =
 				'loesung': ['Sonnenblume']
 			}
 			]
+		},
+		{
+			'name': 'Filme',
+			'abschlussseite': 'raetselende_filme.shtml',
+			'raetsel': [
+			{
+				'raetselname': 'Rätsel 1',
+				'kategorie': 'Film',
+				'hinweise': ['Mein 1. Teil erschien 1993','Mein ursprünglicher Regisseur war Stephen Spielberg','Ich vereine Vergangenheit und Gegenwart','Meine Musik ist von John Williams', 'Ich handle von Genetik','Alles beginnt mit einer Mücke in Bernstein', 'Ich bin ein Science-Fiction-Film mit Elementen aus Thriller- und Horrorfilmen'],
+				'loesung': ['Jurassic Park', 'Jurassic park']
+			},
+			{
+				'raetselname': 'Rätsel 2',
+				'kategorie': 'Film',
+				'hinweise': ['Ich bin eine Komödie','Mein Hauptdarsteller ist Heinz Rühmann','Ich musste von Hitler und Goebbels genehmigt werden','Mein Titel ist ein Getränk','Ich laufe oft in der Weihnachtszeit im Fernsehen','Meine Hauptfigur ist ein Schriftsteller','Mein Handlungsort ist ein Gymnasium'],
+				'loesung': ['Die Feuerzangenbowle', 'Feuerzangenbowle']
+			},
+			{
+				'raetselname': 'Rätsel 3',
+				'kategorie': 'Film',
+				'hinweise': ['Im Wesentlichen bestehe ich aus 3 Trilogien','Ich handle vom andauernden Kampf zwischen Gut und Böse','In meiner Handlung taucht immer wieder ein grünes Männchen auf','Ich habe insgesamt 10 Oscars erhalten','Mein Tag ist am 4. Mai','Meine Musik ist von John Williams','Mein 1. Teil kam 1977 in die Kinos'],
+				'loesung': ['Star Wars']
+			},
+			{
+				'raetselname': 'Rätsel 4',
+				'kategorie': 'Film',
+				'hinweise': ['Ich bin ein Fernsehfilm','Ich bin eine Gemeinschaftsproduktion von ARD, ORF und SRF','Von mir gibt es über 1100 Filme','Neue Teile von mir erscheinen etwa 35 Mal im Jahr','Ich sorge für Spannung im deutschsprachigen Raum','Ich habe viele verschiedenen Schauplätze','Das Lokalkolorit ist eines meiner wichtigsten Merkmale'],
+				'loesung': ['Tatort']
+			},
+			{
+				'raetselname': 'Rätsel 5',
+				'kategorie': 'Film',
+				'hinweise': ['Ich bin als Zeichentrickfilm bekannt','Es gibt viele verschiedene Versionen von mir','Ich halte mich nicht sehr nah an die Buchvorlage','Gemütlichkeit ist bei mir ein wichtiges Motiv','Ich bin einer der erfolgreichsten Disenyfilme','Ich handle von vielen Tieren','Ich spiele in Indien'],
+				'loesung': ['Das Dschungelbuch', 'Dschungelbuch']
+			},
+			{
+				'raetselname': 'Rätsel 6',
+				'kategorie': 'Film',
+				'hinweise': ['Ich brachte viele Frauen zum Weinen','Ich nehme kein gutes Ende','Ich bin ein Film von James Cameron','Ich teile mir mit zwei anderen Filmen den Rekord der meisten Oscargewinne','Ich kam 1997 und 2012 in die Kinos','Meine Handlung spielt 1912','Für meine historisch möglichst korrekte Darstellung wurde ein großer (finanzieller) Aufwand betrieben'],
+				'loesung': ['Titanic']
+			},
+			{
+				'raetselname': 'Rätsel 7',
+				'kategorie': 'Film',
+				'hinweise': ['Ich bin ein Film von Stephen Spielberg','Ich bin eine Filmbiografie','Ich wurde vor allem in Krakau gedreht','Ich wurde im Schwarz-Weiß-Verfahren gedreht','Ich erschien 1993','Mein Hauptdarsteller ist Liam Neeson','Meine Musik ist sehr bekannt und bekam einen Oscar'],
+				'loesung': ['Schindlers Liste']
+			},
+			{
+				'raetselname': 'Rätsel 8',
+				'kategorie': 'Film',
+				'hinweise': ['Ich handle von Verbrechern','Mein Soundtrack stammt von Hans Zimmer','Ich bin ein Disneyfilm','Ich habe eine exzentrische Hauptfigur','Ich bediene viele Klischees','Ich spiele im 18. Jahrhundert','Ich habe viele Fantasy-Elemente'],
+				'loesung': ['Fluch der Karibik']
+			},
+			{
+				'raetselname': 'Rätsel 9',
+				'kategorie': 'Film',
+				'hinweise': ['Ich bin eine Musicalverfilmung','Meine Handlung stammt aus einem Roman von Victor Hugo','Ich spiele während des Juniaufstand 1832','Mein Handlungsort ist Paris','Mein bekanntestes Lied heißt "Do you hear the people sing?"','Meine Gesangsaufnahmen wurde komplett am Set und nicht im Studio gemacht','Ich bin ein britischer Film'],
+				'loesung': ['Les Misérable','Les Miserable']
+			},
+			{
+				'raetselname': 'Rätsel 10',
+				'kategorie': 'Film',
+				'hinweise': ['Ich bin ein Film von James Cameron','Ich wurde mit einer neuen Kameratechnik gedreht','Ich bin ein Science-Fiction-Film','Ich war mehrere Jahre der finanziell erfolgreichste Film aller Zeiten','Ich war ein blaues Wunder','Ich spiele in mehr als 100 Jahren','Ich spiele auf einem Mond'],
+				'loesung': ['Avatar - Aufbruch nach Pandora','Avatar']
+			}
+			]
 		}
 	]
 };
