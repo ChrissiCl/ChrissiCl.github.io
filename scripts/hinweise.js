@@ -3,7 +3,7 @@ var meineDaten =
 	'quize': [
 		{
 			'name': 'Quiz 1',
-			'abschlussseite': 'raetselende_quiz1.html',
+			'abschlussseite': 'raetselende_quiz1.shtml',
 			'raetsel': [
 			{
 				'raetselname': 'Rätsel 1',
@@ -69,7 +69,7 @@ var meineDaten =
 		},
 		{
 			'name': 'Quiz 2',
-			'abschlussseite': 'raetselende_quiz2.html',
+			'abschlussseite': 'raetselende_quiz2.shtml',
 			'raetsel': [
 			{
 				'raetselname': 'Rätsel 1',
@@ -135,7 +135,7 @@ var meineDaten =
 		},
 		{
 			'name': 'Quiz 3',
-			'abschlussseite': 'raetselende_quiz3.html',
+			'abschlussseite': 'raetselende_quiz3.shtml',
 			'raetsel': [
 			{
 				'raetselname': 'Rätsel 1',
@@ -201,7 +201,7 @@ var meineDaten =
 		},
 		{
 			'name': 'Quiz 4',
-			'abschlussseite': 'raetselende_quiz4.html',
+			'abschlussseite': 'raetselende_quiz4.shtml',
 			'raetsel': [
 			{
 				'raetselname': 'Rätsel 1',
@@ -267,7 +267,7 @@ var meineDaten =
 		},
 		{
 			'name': 'Quiz 5',
-			'abschlussseite': 'raetselende_quiz5.html',
+			'abschlussseite': 'raetselende_quiz5.shtml',
 			'raetsel': [
 			{
 				'raetselname': 'Rätsel 1',
@@ -333,7 +333,7 @@ var meineDaten =
 		},
 		{
 			'name': 'Quiz 6',
-			'abschlussseite': 'raetselende_quiz6.html',
+			'abschlussseite': 'raetselende_quiz6.shtml',
 			'raetsel': [
 			{
 				'raetselname': 'Rätsel 1',
@@ -399,7 +399,7 @@ var meineDaten =
 		},
 		{
 			'name': 'Quiz 7',
-			'abschlussseite': 'raetselende_quiz7.html',
+			'abschlussseite': 'raetselende_quiz7.shtml',
 			'raetsel': [
 			{
 				'raetselname': 'Rätsel 1',
