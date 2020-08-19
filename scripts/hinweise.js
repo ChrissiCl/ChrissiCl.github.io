@@ -512,7 +512,7 @@ var meineDaten =
 			{
 				'raetselname': 'Rätsel 8',
 				'kategorie': 'Ding',
-				'hinweise': ['Ich bin mobil', 'Ich bin ein Präfix', 'Heute bin ich weltweit stark verbreitet', 'Hoffentlich habe ich kein Rad ab', 'Ich werde ständig weiterentwickelt', 'Seit 1900 erlebe ich einen Aufschwung', 'ich verursache viele Kosten'],
+				'hinweise': ['Ich bin mobil', 'Ich bin ein Präfix', 'Heute bin ich weltweit stark verbreitet', 'Hoffentlich habe ich kein Rad ab', 'Ich werde ständig weiterentwickelt', 'Seit 1900 erlebe ich einen Aufschwung', 'Ich verursache viele Kosten'],
 				'loesung': ['Auto']
 			},
 			{
