@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="de">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1">
+		<title>Quiz 8</title>
+		<link href="images/quiz_favicon.ico" rel="icon" type="image/x-icon">
+		<meta name="author" content="Christina Clemens">
+		<link href="styles/style.css" rel="stylesheet" type="text/css">
+		<link href="https://fonts.googleapis.com/css2?family=Actor&display=swap" rel="stylesheet" type="text/css">
+	</head>
+	<body class="standardquiz">
+		<header>
+			<h1>CQuiz</h1>
+			<img src="images/cquiz_logo.png" alt="Fragezeichen-Logo" id="logo">
+			<input type="checkbox" id="responsive-nav">
+			<label for="responsive-nav" class="responsive-nav-label"><span>&#9776;</span></label>
+			<!--#include file="menu.shtml" -->
+		</header>
+		<main class="quizmain">
+		<section class="section1">
+			<h2 class="h2quiz"><span>Quiz 8</span></h2>
+				<section class="raetsel">
+					<h3 id="raetselname"></h3>
+					<p id="kategorie"></p>
+					<ol>
+						<li id="hinweis1">1. Hinweis:</li>
+						<li id="hinweis2">2. Hinweis:</li>
+						<li id="hinweis3">3. Hinweis:</li>
+						<li id="hinweis4">4. Hinweis:</li>
+						<li id="hinweis5">5. Hinweis:</li>
+						<li id="hinweis6">6. Hinweis:</li>
+						<li id="hinweis7">7. Hinweis:</li>
+					</ol>
+				</section>
+			</section>
+			<section class="section2">
+				<section class="subsection1">
+					<h3>Punktestand:</h3>
+					<p id="gesamtpunktzahl">Gesamtpunktzahl: 0</p>
+					<p id="punktzahl"></p>
+				</section>
+				<section id="subsection2">
+					<h3>Lösung:</h3>
+					<p id="loesungswort"></p>
+				</section>
+			</section>
+		<form class="quizform">
+			<ul>
+				<li id="neuerhinweis">
+					<p id="keinhinweis">&nbsp;</p>
+					<button type ="button" id="hinweisbutton">Neuer Hinweis</button>
+				</li>
+				<li>
+					<label for="solution">Mein Lösungsvorschlag:</label>
+					<input type="text" id="solution" name="user_solution" autocomplete="off"><br>
+					<button type="submit" id="vorschlagbutton">Vorschlag abgeben</button>
+					<div id="falschetipps">Bisher abgegebene Vorschläge:
+						<ul id="listefalschetipps">
+						</ul>
+					</div>
+				</li>
+				<li>
+					<button type="button" id="weiter">Weiter zum nächsten Rätsel</button>
+				</li>
+			</ul>
+		</form>
+		</main>
+		<footer>
+			<p>&copy; 2020 CQuiz</p>
+			<p id="kontakt"><a href="kontakt.html" title="Kontakt">Kontakt</a></p>
+		</footer>
+		<script src="scripts/hinweise.js"></script>
+		<script id="script" data-quiznummer=8 src="scripts/quiz.js"></script>
+	</body>
+</html>

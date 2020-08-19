@@ -463,5 +463,71 @@ var meineDaten =
 			}
 			]
 		},
+		{
+			'name': 'Quiz 8',
+			'abschlussseite': 'raetselende_quiz8.shtml',
+			'raetsel': [
+			{
+				'raetselname': 'Rätsel 1',
+				'kategorie': 'Ding',
+				'hinweise': ['Ich bin ein spitzes Werkzeug', 'Man findet mich an manchen Bäumen', 'Ich werde in der Medizin eingesetzt', 'Ich stecke in einem Kompass', 'Ich komme in der Textilverarbeitung zum Einsatz', 'Unter Heu bin ich gut versteckt', 'Ich bin Teil eines Plattenspielers'],
+				'loesung': ['Nadel']
+			},
+			{
+				'raetselname': 'Rätsel 2',
+				'kategorie': 'Jahr',
+				'hinweise': ['In Indien wird erstmals eine Frau Präsidentin', 'Das iPhone kommt auf den Markt', 'Der VfB Stuttgart wird Deutscher Fußballmeister', 'Stoiber und Müntefering treten zurück', 'Eisbärchen Knut sorgt für Medienrummel', 'Die Linke wird gegründet', '"Kyrill" verwüstet Mitteleuropa'],
+				'loesung': ['2007']
+			},
+			{
+				'raetselname': 'Rätsel 3',
+				'kategorie': 'Ding',
+				'hinweise': ['Ich kann gut boxen', 'Ich bin Sprungweltmeister', 'Ich habe immer einen Beutel dabei', 'Meine größte Art ist rot', 'Ich bin ein Mathematik-Wettbewerb', 'Ich bin Kommunist', 'Ich habe sehr lange Hinterbeine'],
+				'loesung': ['Känguru']
+			},
+			{
+				'raetselname': 'Rätsel 4',
+				'kategorie': 'Ort',
+				'hinweise': ['Ich liege wahrscheinlich im Nordwesten der Türkei', 'Meine tatsächliche Lage beschäftigt die Wissenschaft', 'Ich werde in der Ilias thematisiert', 'Ich bin ein Film von 2004', 'Ich bin Teil der griechischen Mythologie', 'Ich wurde mit einem einzigen Pferd erobert', 'Es ist unsicher, ob es mich wirklich gab'],
+				'loesung': ['Troja']
+			},
+			{
+				'raetselname': 'Rätsel 5',
+				'kategorie': 'Ding',
+				'hinweise': ['Ich kann für Wirbel sorgen', 'Ich habe Beine', 'Ich bin ein Flächentyp in der Mathematik', 'Wer mich anhat, hat das Sagen', 'Eine Jacke ist genauso egal', 'Was in mich geht, geht schief', 'Es gibt mich für drunter und drüber'],
+				'loesung': ['Hose']
+			},
+			{
+				'raetselname': 'Rätsel 6',
+				'kategorie': 'Ort',
+				'hinweise': ['Ich bin eine Hauptstadt', 'Vor vielen Jahren hat man mir einen Bären aufgebunden', 'Ich liege auf einer ehemaligen Sumpflandschaft', 'Ich war einige Jahre fremdbestimmt', 'Ich habe ein weltberühmtes Orchester', 'Hier findet sich die bedeutendste Sammlung der altägyptischen Hochkultur', 'Von meinen ehemals 18 Stadttoren steht heute nur noch eins'],
+				'loesung': ['Berlin']
+			},
+			{
+				'raetselname': 'Rätsel 7',
+				'kategorie': 'Person',
+				'hinweise': ['Musik ist mein Beruf', 'Ich bin ein Hollywood-Star', 'Ich lebe in Los Angeles', 'Ich begann meine Musikkarriere mit Werbemusik', 'Ich habe ein eigenes Musikstudio', 'Ich habe in meinem Fach keine Ausbildung', 'Meine Art der Musikproduktion ist nicht unumstritten'],
+				'loesung': ['Hans Zimmer']
+			},
+			{
+				'raetselname': 'Rätsel 8',
+				'kategorie': 'Ding',
+				'hinweise': ['Ich bin mobil', 'Ich bin ein Präfix', 'Heute bin ich weltweit stark verbreitet', 'Hoffentlich habe ich kein Rad ab', 'Ich werde ständig weiterentwickelt', 'Seit 1900 erlebe ich einen Aufschwung', 'ich verursache viele Kosten'],
+				'loesung': ['Auto']
+			},
+			{
+				'raetselname': 'Rätsel 9',
+				'kategorie': 'Person',
+				'hinweise': ['Ich war ein Komiker', 'Ich war Brite', 'Ich arbeitete vor allem in den USA', 'Ich war Teil eines sehr bekannten Duos', 'Die von mir verkörperte Figur ist nicht sehr schlau', 'Ich kratze mir oft den Kopf', 'Ich begann meine Karriere im Stummfilm'],
+				'loesung': ['Stan Laurel']
+			},
+			{
+				'raetselname': 'Rätsel 10',
+				'kategorie': 'Ding',
+				'hinweise': ['Ich bin ein Gasgemisch', 'Ich kann dünn sein', 'Ich bin lebensnotwendig', 'Meine Schlösser sind Fantasien', 'Ich bin unsichtbar', 'Oft bin ich verschmutzt', 'Ich bin ein Lebensraum'],
+				'loesung': ['Luft']
+			}
+			]
+		}
 	]
 };

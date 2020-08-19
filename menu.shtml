@@ -9,7 +9,8 @@
 				<li><a href="quiz4.shtml">Quiz 4</a></li>
 				<li><a href="quiz5.shtml">Quiz 5</a></li>
 				<li><a href="quiz6.shtml">Quiz 6</a></li>
-				<li><a href="quiz7.shtml">Quiz 7</a></li>							
+				<li><a href="quiz7.shtml">Quiz 7</a></li>
+				<li><a href="quiz8.shtml">Quiz 8</a></li>				
 			</ul>
 		</li>	
 		<li id="themenquiz" class="dropdown"><a href="#">Themenquiz</a>
