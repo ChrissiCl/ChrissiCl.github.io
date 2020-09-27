@@ -476,7 +476,7 @@ var meineDaten =
 			{
 				'raetselname': 'Rätsel 2',
 				'kategorie': 'Ding',
-				'hinweise': ['Ich bin ein Getränk','Ich bin sehr stark','Ich kann große Schäden verursachen','Vor mir herrscht oft Ruhr','Mich gibt es vor allem auf dem Meer','Ich bin ein Angriff','Ich bin ein Theater von Shakespeare'],
+				'hinweise': ['Ich bin ein Getränk','Ich bin sehr stark','Ich kann große Schäden verursachen','Vor mir herrscht oft Ruhe','Mich gibt es vor allem auf dem Meer','Ich bin ein Angriff','Ich bin ein Theater von Shakespeare'],
 				'loesung': ['Sturm']
 			},
 			{
