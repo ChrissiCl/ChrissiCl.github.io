@@ -37,6 +37,7 @@
 				<option value="Quiz_zu_Pfingsten">Quiz zu Pfingsten</option>
 				<option value="Sommerquiz">Sommerquiz</option>
 				<option value="Filmquiz">Filmquiz</option>
+				<option value="Herbstquiz">Herbstquiz</option>
 			</optgroup>
 		</select>
 		<?php

@@ -411,7 +411,7 @@ var meineDaten =
 				'raetselname': 'Rätsel 2',
 				'kategorie': 'Film',
 				'hinweise': ['Ich bin eine Komödie','Mein Hauptdarsteller ist Heinz Rühmann','Ich musste von Hitler und Goebbels genehmigt werden','Mein Titel ist ein Getränk','Ich laufe oft in der Weihnachtszeit im Fernsehen','Meine Hauptfigur ist ein Schriftsteller','Mein Handlungsort ist ein Gymnasium'],
-				'loesung': ['Die Feuerzangenbowle', 'Feuerzangenbowle']
+				'loesung': ['Die Feuerzangenbowle','Feuerzangenbowle']
 			},
 			{
 				'raetselname': 'Rätsel 3',
@@ -429,7 +429,7 @@ var meineDaten =
 				'raetselname': 'Rätsel 5',
 				'kategorie': 'Film',
 				'hinweise': ['Ich bin als Zeichentrickfilm bekannt','Es gibt viele verschiedene Versionen von mir','Ich halte mich nicht sehr nah an die Buchvorlage','Gemütlichkeit ist bei mir ein wichtiges Motiv','Ich bin einer der erfolgreichsten Disenyfilme','Ich handle von vielen Tieren','Ich spiele in Indien'],
-				'loesung': ['Das Dschungelbuch', 'Dschungelbuch']
+				'loesung': ['Das Dschungelbuch','Dschungelbuch']
 			},
 			{
 				'raetselname': 'Rätsel 6',
@@ -460,6 +460,72 @@ var meineDaten =
 				'kategorie': 'Film',
 				'hinweise': ['Ich bin ein Film von James Cameron','Ich wurde mit einer neuen Kameratechnik gedreht','Ich bin ein Science-Fiction-Film','Ich war mehrere Jahre der finanziell erfolgreichste Film aller Zeiten','Ich war ein blaues Wunder','Ich spiele in mehr als 100 Jahren','Ich spiele auf einem Mond'],
 				'loesung': ['Avatar - Aufbruch nach Pandora','Avatar']
+			}
+			]
+		},
+		{
+			'name': 'Herbst',
+			'abschlussseite': 'raetselende_herbst.shtml',
+			'raetsel': [
+			{
+				'raetselname': 'Rätsel 1',
+				'kategorie': 'Ding',
+				'hinweise': ['Ich bin ein Herrschaftssymbol','Ich kann für Streit sorgen','Ich kann sauer sein','Ich bin rund', 'Ich komme oft in Märchen vor','Ich kann faul sein', 'Ich komme in manchen Kuchen vor'],
+				'loesung': ['Apfel','Äpfel']
+			},
+			{
+				'raetselname': 'Rätsel 2',
+				'kategorie': 'Ding',
+				'hinweise': ['Ich bin ein Getränk','Ich bin sehr stark','Ich kann große Schäden verursachen','Vor mir herrscht oft Ruhr','Mich gibt es vor allem auf dem Meer','Ich bin ein Angriff','Ich bin ein Theater von Shakespeare'],
+				'loesung': ['Sturm']
+			},
+			{
+				'raetselname': 'Rätsel 3',
+				'kategorie': 'Ort',
+				'hinweise': ['Hier kommt Halloween ursprünglich her','Ich bin eine Republik','Ich bin zweigeteilt','300 v. Chr. kamen die Kelten hierher','Mein Wappen ist eine Harfe','Ich bin für meine Pubkultur bekannt','Bis 1998 befand ich mich in einem bürgerkriegsartigen Zustand'],
+				'loesung': ['Irland']
+			},
+			{
+				'raetselname': 'Rätsel 4',
+				'kategorie': 'Ding',
+				'hinweise': ['Mich gibt es in vielen Farben','Ich bin ein Schwingungserzeuer bei manchen Musikinstrumenten','Ich kann bedruckt werden','Ich bin Teil von manchen Werkzeugen','Ich bin ein Knochen im oberen Rücken','Ich kann mich wenden','Ich kann gut oder schlecht sein'],
+				'loesung': ['Blatt']
+			},
+			{
+				'raetselname': 'Rätsel 5',
+				'kategorie': 'Person',
+				'hinweise': ['Ich bin ein Graf','Ich bin eine fiktive Figur','Ich tauche oft in Filmen auf','Ich bin übernatürlich','Ich hatte starken Einfluss auf die Literaturgeschichte','Ich sorge für Schrecken','Ich bin nachtaktiv'],
+				'loesung': ['Dracula', 'Graf Dracula']
+			},
+			{
+				'raetselname': 'Rätsel 6',
+				'kategorie': 'Ding',
+				'hinweise': ['Ich bin ein Säugetier','Ich bin eine Frisur','Ich bin ein Insektenfresser','Ich tauche in der Dämmerung auf','In Amerika und Australien gibt es mich nicht','Ich bin ein Stellungstyp im Schach','Ich halte Winterschlaf'],
+				'loesung': ['Igel']
+			},
+			{
+				'raetselname': 'Rätsel 7',
+				'kategorie': 'Ding',
+				'hinweise': ['Ich bin nicht immer essbar','In Europa gibt es mich erst seit dem 16. Jahrhundert','Man kann mich vielfältig verwenden','Gärtner möchten mich möglichst groß haben','In Millsboro (Delaware) gibt es jährlich eine Weitwurf-Weltmeisterschaft mit mir','Eine meiner Unterarten ist die Zucchini','Ich komme aus Amerika'],
+				'loesung': ['Kürbis']
+			},
+			{
+				'raetselname': 'Rätsel 8',
+				'kategorie': 'Person',
+				'hinweise': ['Ein Ort in der Pfalz ist nach mir benannt','Ich war ein Bischof in Frankreich','Viele Gebäude sind nach mir benannt','Ich war der Begründer des abendländischen Mönchtums','Ich war römischer Soldat','Ich gelte als vorbildlich','Ich bin ein Heiliger'],
+				'loesung': ['St. Martin','Sankt Martin','Martin von Tours']
+			},
+			{
+				'raetselname': 'Rätsel 9',
+				'kategorie': 'Ding',
+				'hinweise': ['Ich bin eine Lichtquelle','Ich bin ein Element in der Architektur','Ich bin ein weißer Fleck am Kopf eines Pferdes','Ich stehe an Straßenrändern','Ich bin ein Wegweiser','Ich bin Dekoration','Ich bin ein Gehäuse'],
+				'loesung': ['Laterne']
+			},
+			{
+				'raetselname': 'Rätsel 10',
+				'kategorie': 'Ding',
+				'hinweise': ['Ich bin ein Ökosystem','Ich habe großen Einfluss auf das Klima','In meiner Urform komme ich immer seltener vor','Hier leben viele Tiere und Pflanzen','Je nach Klimazone bin ich von anderer Art','Ich bin ein Wirtschaftsraum','Ich bin ein Erholungsraum'],
+				'loesung': ['Wald']
 			}
 			]
 		}

@@ -22,6 +22,7 @@
 				<li><a href="quiz_pfingsten.shtml">Pfingsten</a></li>
 				<li><a href="quiz_sommer.shtml">Sommerquiz</a></li>
 				<li><a href="quiz_filme.shtml">Filme</a></li>
+				<li><a href="quiz_herbst.shtml">Herbst</a></li>
 			</ul>					
 		</li>			
 		<li id="ranking"><a href="ranking.php?quizname=Quiz_3">Ranking</a></li>
