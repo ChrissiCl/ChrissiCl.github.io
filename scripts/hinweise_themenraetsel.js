@@ -528,6 +528,72 @@ var meineDaten =
 				'loesung': ['Wald']
 			}
 			]
+		},
+		{
+			'name': 'Zahl spezial!',
+			'abschlussseite': 'raetselende_zahlspezial.shtml',
+			'raetsel': [
+			{
+				'raetselname': 'Rätsel 1 (Los gehts)',
+				'kategorie': 'Zahl',
+				'hinweise': ['Ein Viertel von 26*26','Ordnungszahl von Iridium','Meine Quersumme ist 16','éénhonderdnegenenzestig (niederländisch)','ciento sesenta y nueve  (spanisch)','CLXIX','Man benötigt 4 unterschiedliche Scheine und 2 gleiche Geldstücke, um den Betrag in Euro zu erhalten.'],
+				'loesung': ['169']
+			},
+			{
+				'raetselname': 'Rätsel 2 (HINWEISE BEZOGEN AUF 2020)',
+				'kategorie': 'Zahl',
+				'hinweise': ['Die Zahl passt gut in die Adventszeit','Vor so vielen Jahren wurde das Klonschaf Dolly erschaffen','Auf schwedisch bin ich tjugofyra','Man kann mich auch als 4! schreiben','75,2 Grad Fahrenheit - in Grad Celsius sind das?','Die ersten beiden Ziffern der Postleitzahl von Kiel','Viele Domains und auch Fernsehsender haben diese Zahl am Ende'],
+				'loesung': ['24']
+			},
+			{
+				'raetselname': 'Rätsel 3',
+				'kategorie': 'Zahl',
+				'hinweise': ['So viele Kilokalorien hat 100g Mehl','Die zweite Ziffer ist doppelt so groß wie die erste, die dritte Ziffer ist eins größer als die erste','CCCLXIV','Auf Norwegisch ist es trehundreogsekstifire','In Hexadezimal bin ich 16C ','Wenn eine Rennmaus mit einer Geschwindigkeit von 1 m/s startet und nach jeder Sekunde ihre Geschwindigkeit verdreifacht, wie viele Meter hat die Maus nach 6 Sekunden zurückgelegt?','Ich bin keine Primzahl - meine vorherige Primzahl ist 359 und ich bin 3 kleiner als meine nächste Primzahl.'],
+				'loesung': ['364']
+			},
+			{
+				'raetselname': 'Rätsel 4 (weiter gehts)',
+				'kategorie': 'Zahl',
+				'hinweise': ['Ich bin eine Fibonacci Zahl - genauer gesagt die siebte!','Manche denken, ich bringe Unglück','Ich bin eine Primzahl','Dieses Stockwerk fehlt in manchen Hotels.','Triskaidekaphobie ist die Angst vor mir','Beim Gehalt bin ich die Zugabe','So viele Personen nahmen am letzten Abendmahl teil'],
+				'loesung': ['13']
+			},
+			{
+				'raetselname': 'Rätsel 5 (gleich ist Halbzeit)',
+				'kategorie': 'Zahl',
+				'hinweise': ['Ich bin eine Schnapszahl','neuf cent quatre-vingt-dix-neuf','In diesem Jahr stirbt Papst Gregor V. im Alter von nur 27 Jahren in Rom, vermutlich an Malaria.','Eins dazugezählt und meine Quersumme wird 26 kleiner','Meine Wurzel ist 31.6069612586','Ich bin eine Goldlegierung','CMXCIX'],
+				'loesung': ['999']
+			},
+			{
+				'raetselname': 'Rätsel 6',
+				'kategorie': 'Zahl',
+				'hinweise': ['In Amerika gibt es eine berühmte Straße mit meiner Nummer','Laut einem Lied ist noch lange nicht Schluss','So startet die Postleitzahl von Saarbrücken','Auf dem Kopf gelesen ist die Zahl 33 höher','Mit zwei Nullen und dieser Zahl landet man telefonisch in Thailand','Mich erhälst man durch Addition aller Zahlen bis 11','Das Wembleytor war 19..'],
+				'loesung': ['66']
+			},
+			{
+				'raetselname': 'Rätsel 7 (zu einfach?)',
+				'kategorie': 'Zahl',
+				'hinweise': ['Als Mensch möchte man nicht so bezeichnet werden','Vorne kann man mich auch weglassen','Mich gibts als Punkt - in der Mathematik und gefühlt','Huub Stevens prägte einen Spruch im Fussball','Ich bin eine reelle Zahl, aber weder positiv noch negativ','Mein Meridian verläuft durch Greenwich','Ich sehe aus, wie das 8. Element im Periodensystem'],
+				'loesung': ['0','Null']
+			},
+			{
+				'raetselname': 'Rätsel 8 (jetzt wirds groß)',
+				'kategorie': 'Zahl',
+				'hinweise': ['Entfernung Erde/Mond in Kilometer','tre hundre og åtti­fire tusen fire hundre (norwegisch)','Ich bin sechsstellig und meine Quersumme ist 19','Ich bestehe aus zwei Nullen, einer Drei, zwei Vieren und einer Acht','Meine Wurzel ist 620','Wenn man mich durch 200 teilt, erhält man 1922','1011101110110010000 - nicht ganz einfach umzurechnen'],
+				'loesung': ['384400','384.400']
+			},
+			{
+				'raetselname': 'Rätsel 9',
+				'kategorie': 'Zahl',
+				'hinweise': ['Mit mir beschreibt man manchmal die Hälfte','Es gibt so viele Graustufen?','Ich bin die kleinste Zahl, die auf zwei verschiedene Arten als Summe zweier Quadratzahlen dargestellt werden kann (0 zählt nicht mit)','So viele Kapitel hat das Buch Genesis','Der wievielte Tag ist Pfingsten in der Osterzeit?','Die lange Schwimmbahn','So viele Staaten hat die USA'],
+				'loesung': ['50']
+			},
+			{
+				'raetselname': 'Rätsel 10 (gleich ist es geschafft)',
+				'kategorie': 'Zahl',
+				'hinweise': ['Vor so vielen Jahren begann Napoleon seinen Feldzug gegen Russland','CCVIII','Peugeot hat ein Modell mit dieser Zahl','doscientos ocho (spanisch)','Oktal bin ich 320','Ich habe 10 Teiler (mit mir selbst) und die Summe der Teiler ist 434','Die dritte Ziffer ist viermal so hoch wie die erste, dazwischen ist die 0'],
+				'loesung': ['208']
+			}
+			]
 		}
 	]
 };
