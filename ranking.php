@@ -38,6 +38,7 @@
 				<option value="Sommerquiz">Sommerquiz</option>
 				<option value="Filmquiz">Filmquiz</option>
 				<option value="Herbstquiz">Herbstquiz</option>
+				<option value="Zahlspezial">Zahl Spezial!</option>
 			</optgroup>
 		</select>
 		<?php
