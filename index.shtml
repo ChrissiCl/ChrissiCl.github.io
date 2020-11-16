@@ -24,18 +24,27 @@
 				<p>Jedes Quiz besteht aus 10 Rätseln. Bei jedem Rätsel geht es darum, einen Begriff anhand von Hinweisen zu erraten. Für jeden Begriff gibt es bis zu 7 Hinweise. Je weniger Hinweise benötigt werden, desto mehr Punkte können gesammelt werden. Zu Beginn eines neuen Rätsels wird angegeben, nach was für einem Begriff gesucht wird. Dafür gibt es vier Kategorien: Ding, Jahr, Person und Ort. Tiere zählen auch in die Kategorie &quot;Ding&quot;. Der erste Hinweis wird angezeigt, und es gibt die Möglichkeit, einen Lösungsvorschlag abzugeben. Ist der Vorschlag richtig, werden die nicht verwendeten Hinweise eingeblendet, und es geht weiter zum nächsten Rätsel. Wenn der eingegebene Begriff falsch ist, wird der nächste Hinweis angezeigt, und man erhält erneut die Möglichkeit einen Vorschlag abzugeben. Es ist auch möglich, sich über den Button &quot;Neuer Hinweis&quot; einen neuen Hinweis anzeigen zu lassen, ohne einen Begriff einzugeben. Pro Rätsel kann man bis zu 7 Punkte erhalten. Für jeden weiteren Hinweis, den man sich anzeigen lässt, wird ein Punkt abgezogen. Hat man auch nach dem 7. Hinweis noch keine Lösung, gibt es leider keine Punkte, und die richtige Lösung wird angezeigt. Alle Begriffe müssen mit der richtigen Rechtschreibung (Groß- und Kleinschreibung, Leerzeichen) eingegeben werden, Jahre als vierstellige Zahlen und Personen mit Vor- und Nachnamen. Googlen ist zwar erlaubt, macht aber weniger Spaß. &#x1F609;</p>
 				<p>Viel Spaß beim Rätseln! &#x1F60A;</p>
 				<button id="startquiz1">Los geht&apos;s</button> <!-- Dieser Button soll zu quiz1.html führen -->
+				
 			</article>
 			<aside>
-				<h3>Rätsel des Monats</h3>
-				<p>Wer läuft mit dem flinksten um die Wette<br>
-					Und liegt zur selbigen Zeit im Bette?<br>
-					Wer ist bald hier und ist schon bald dort<br>
-					Und bleibt doch stets an dem selbigen Ort?<br>
-					(Otto Sutermeister: Das große Rätselbuch, Bern 1903.)
+				<h3>Advents-Special &#x1F31F;</h3>
+				<p>
+					<img src="images/Kerze_ohne_Flamme.png" alt="Kerze ohne Flamme" class="adventskerze">
+					<img src="images/Kerze_ohne_Flamme.png" alt="Kerze ohne Flamme" class="adventskerze">
+					<img src="images/Kerze_ohne_Flamme.png" alt="Kerze ohne Flamme" class="adventskerze">
+					<img src="images/Kerze_ohne_Flamme.png" alt="Kerze ohne Flamme" class="adventskerze">
 				</p>
-				<button id="loesungzeigen">Lösung anzeigen</button>
-				<p id="loesungmonat">Fluss<br>
-				<img src="images/Fluss.jpg" alt="Rhein fließt am Drachenfels vorbei" id="mountain"></p>
+				<p>Coming soon &#x1F60A;</p>
+				<!-- <h3>Rätsel des Monats</h3> -->
+				<!-- <p>Wer läuft mit dem flinksten um die Wette<br> -->
+					<!-- Und liegt zur selbigen Zeit im Bette?<br> -->
+					<!-- Wer ist bald hier und ist schon bald dort<br> -->
+					<!-- Und bleibt doch stets an dem selbigen Ort?<br> -->
+					<!-- (Otto Sutermeister: Das große Rätselbuch, Bern 1903.) -->
+				<!-- </p> -->
+				<!-- <button id="loesungzeigen">Lösung anzeigen</button> -->
+				<!-- <p id="loesungmonat">Fluss<br> -->
+				<!-- <img src="images/Fluss.jpg" alt="Rhein fließt am Drachenfels vorbei" id="mountain"></p> -->
 			</aside>
 		</main>
 		<footer>

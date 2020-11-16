@@ -253,6 +253,13 @@ aside {
 	width: 80%;
 }
 
+.adventskerze {
+	/* display: block; */
+	/* margin: 15px auto; */
+	margin: 10% 2%;
+	width: 15%;
+}
+
 #loesungmonat {
 	font-weight: bold;
 }
