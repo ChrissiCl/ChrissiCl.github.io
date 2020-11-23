@@ -3,7 +3,7 @@ var meineDaten =
 	'quize': [
 		{
 			'name': '1. Mai Quiz',
-			'abschlussseite': 'raetselende_maiquiz.html',
+			'abschlussseite': 'raetselende_maiquiz.shtml',
 			'raetsel': [
 			{
 				'raetselname': 'Rätsel 1',
@@ -69,7 +69,7 @@ var meineDaten =
 		},
 		{
 			'name': 'Früher und Heute',
-			'abschlussseite': 'raetselende_frueherundheute.html',
+			'abschlussseite': 'raetselende_frueherundheute.shtml',
 			'raetsel': [
 			{
 				'raetselname': 'Rätsel 1 (Los gehts)',
@@ -135,7 +135,7 @@ var meineDaten =
 		},
 		{
 			'name': '17. Mai - Norges nasjonaldag',
-			'abschlussseite': 'raetselende_noquiz.html',
+			'abschlussseite': 'raetselende_noquiz.shtml',
 			'raetsel': [
 			{
 				'raetselname': 'Rätsel 1',
@@ -201,7 +201,7 @@ var meineDaten =
 		},
 		{
 			'name': 'Quiz zu Himmelfahrt',
-			'abschlussseite': 'raetselende_himmelfahrt.html',
+			'abschlussseite': 'raetselende_himmelfahrt.shtml',
 			'raetsel': [
 			{
 				'raetselname': 'Rätsel 1',
@@ -267,7 +267,7 @@ var meineDaten =
 		},
 		{
 			'name': 'Quiz zu Pfingsten',
-			'abschlussseite': 'raetselende_pfingsten.html',
+			'abschlussseite': 'raetselende_pfingsten.shtml',
 			'raetsel': [
 			{
 				'raetselname': 'Rätsel 1',
@@ -333,7 +333,7 @@ var meineDaten =
 		},
 		{
 			'name': 'Sommerquiz',
-			'abschlussseite': 'raetselende_sommer.html',
+			'abschlussseite': 'raetselende_sommer.shtml',
 			'raetsel': [
 			{
 				'raetselname': 'Rätsel 1',

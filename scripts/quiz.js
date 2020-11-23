@@ -25,7 +25,7 @@ var leeresElement = document.getElementById('keinhinweis').textContent;
 var script_tag = document.getElementById('script');
 var quizNr = script_tag.getAttribute('data-quiznummer');
 var falscheTipps = [];
-
+var raetselAnzahl = meineDaten.quize[quizNr - 1].raetsel.length;
 
 function emptyfield() {
 	document.getElementById('solution').value='';
@@ -58,7 +58,7 @@ function neuesRaetsel() {
 	hinweis6.textContent = '6. Hinweis: ';				
 	hinweis7.textContent = '7. Hinweis: ';
 	document.getElementById('keinhinweis').textContent = leeresElement;
-	if (raetselNummer == 9){
+	if (raetselNummer == raetselAnzahl - 1){
 		weiterButton.textContent='Weiter zum Ende';
 	}
 }
@@ -148,7 +148,7 @@ vorschlagButton.onclick = function() {
 }
 
 weiterButton.onclick = function() {	
-	if (raetselNummer != 9) {
+	if (raetselNummer != raetselAnzahl - 1) {
 		raetselNummer = raetselNummer + 1;
 		neuesRaetsel();
 	}

@@ -29,12 +29,11 @@
 			<aside>
 				<h3>Advents-Special &#x1F31F;</h3>
 				<p>
-					<img src="images/Kerze_ohne_Flamme.png" alt="Kerze ohne Flamme" class="adventskerze">
-					<img src="images/Kerze_ohne_Flamme.png" alt="Kerze ohne Flamme" class="adventskerze">
-					<img src="images/Kerze_ohne_Flamme.png" alt="Kerze ohne Flamme" class="adventskerze">
-					<img src="images/Kerze_ohne_Flamme.png" alt="Kerze ohne Flamme" class="adventskerze">
+					<img src="images/Kerze_ohne_Flamme.png" alt="Kerze ohne Flamme" class="adventskerze" id="Kerze_1">
+					<img src="images/Kerze_ohne_Flamme.png" alt="Kerze ohne Flamme" class="adventskerze" id="Kerze_2">
+					<img src="images/Kerze_ohne_Flamme.png" alt="Kerze ohne Flamme" class="adventskerze" id="Kerze_3">
+					<img src="images/Kerze_ohne_Flamme.png" alt="Kerze ohne Flamme" class="adventskerze" id="Kerze_4">
 				</p>
-				<p>Coming soon &#x1F60A;</p>
 				<!-- <h3>Rätsel des Monats</h3> -->
 				<!-- <p>Wer läuft mit dem flinksten um die Wette<br> -->
 					<!-- Und liegt zur selbigen Zeit im Bette?<br> -->
