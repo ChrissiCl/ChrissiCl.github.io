@@ -40,6 +40,9 @@
 				<option value="Herbstquiz">Herbstquiz</option>
 				<option value="Zahlspezial">Zahl Spezial!</option>
 			</optgroup>
+			<optgroup label="Sonderquiz">
+				<option value="Quiz_zum_1._Advent">Adventquiz</option>
+			</optgroup>
 		</select>
 		<?php
 		$jsonDaten = file_get_contents("scripts/rankingdaten.json");
@@ -184,7 +187,153 @@
 						// </tr>
 					echo '</table>';
 		} else {
-			echo '<h3>Für dieses Quiz ist noch kein Ranking vorhanden.</h3>';
+			if ($angefragterQuizname == "Advent" && quizvorhandenden("Quiz_zum_1._Advent", $myRanking["ranking"])) {
+				$infos1 = $myRanking["ranking"][quiznummer("Quiz_zum_1._Advent", $myRanking["ranking"])];
+				$infos2 = array();
+				$infos3 = array();
+				$infos4 = array();
+				$user1 = $infos["user"];
+				$user2 = array();
+				$user3 = array();
+				$user4 = array();
+				if (quizvorhandenden("Quiz_zum_2._Advent", $myRanking["ranking"])) {
+					$infos2 = $myRanking["ranking"][quiznummer("Quiz_zum_2._Advent", $myRanking["ranking"])];
+					$user2 = $infos["user"];
+				}
+				if (quizvorhandenden("Quiz_zum_3._Advent", $myRanking["ranking"])) {
+					$infos2 = $myRanking["ranking"][quiznummer("Quiz_zum_3._Advent", $myRanking["ranking"])];
+					$user3 = $infos["user"];
+				}
+				if (quizvorhandenden("Quiz_zum_4._Advent", $myRanking["ranking"])) {
+					$infos2 = $myRanking["ranking"][quiznummer("Quiz_zum_4._Advent", $myRanking["ranking"])];
+					$user4 = $infos["user"];
+				}
+				foreach ($user1 as $key => $row){
+					$name[$key] = $row["name"];
+					$punktzahl[$key] = $row["punktzahl"];
+					foreach ($user2 as $key2 => $row2) {
+						if ($row["name"] == $row2["name"]) {
+							$punktzahl[$key] = $punktzahl[$key] + $row2["punktzahl"];
+						}
+					}
+					foreach ($user3 as $key3 => $row3) {
+						if ($row["name"] == $row3["name"]) {
+							$punktzahl[$key] = $punktzahl[$key] + $row3["punktzahl"];
+						}
+					}
+					foreach ($user4 as $key4 => $row4) {
+						if ($row["name"] == $row4["name"]) {
+							$punktzahl[$key] = $punktzahl[$key] + $row4["punktzahl"];
+						}
+					}
+				}
+				array_multisort($punktzahl, SORT_DESC, $user);
+				echo
+			'<h3>';
+			echo "Adventquiz";
+			echo '</h3>
+					<table>';
+						$platz = 1;
+						$platzAnzeigen = true;
+						foreach($user as $u){
+							echo '<tr>';
+							$anzahlgleichepunkte = 2;
+							if ($platzAnzeigen == true) {
+								if ($u["punktzahl"] === $user[$platz]["punktzahl"]){
+									echo '
+									<td class="firstcolumn" rowspan=' . $anzahlgleichepunkte . '>';
+									$platzAnzeigen = false;
+								}
+								else {
+									echo '<td class="firstcolumn">';
+								}
+								echo $platz . ". Platz";
+								if ($platz == 1){
+									echo " &#x1F947;";
+								}
+								if ($platz == 2){
+									echo " &#x1F948;";
+								}
+								if ($platz == 3){
+									echo " &#x1F949;";
+								}
+								echo '</td>';
+								echo '<td>';
+								echo $u["name"];
+								echo '</td>';
+								if ($u["punktzahl"] === $user[$platz]["punktzahl"]){
+									echo '<td rowspan=' . $anzahlgleichepunkte . '>';
+								}
+								else {
+									echo '<td>';
+								}
+								echo $u["punktzahl"] . " Punkte";
+								echo '</td>';
+							}
+							else {
+								echo '<td>';
+								echo $u["name"];
+								echo '</td>';
+								$platzAnzeigen = true;
+							}							
+							echo '</tr>';
+							$platz = $platz + 1;
+						};
+						
+						// <tr>
+							// <td class="firstcolumn" rowspan="2">1. Platz &#x1F947;</td>
+							// <td>';
+							// echo $infos["user"][0]["name"];
+							// echo '</td>
+							// <td rowspan="2">';
+							// echo $infos["user"][0]["punktzahl"] . " Punkte";
+							// echo'</td>
+						// </tr>
+						// <tr>
+							// <td>';
+							// echo $infos["user"][1]["name"];
+							// echo '</td>
+						// </tr>
+						// <tr>
+							// <td class="firstcolumn">2. Platz &#x1F948;</td>
+							// <td>';
+							// echo $infos["user"][2]["name"];
+							// echo '</td>
+							// <td>';
+							// echo $infos["user"][2]["punktzahl"] . " Punkte";
+							// echo '</td>
+						// </tr>					
+						// <tr>
+							// <td class="firstcolumn">3. Platz &#x1F949;</td>
+							// <td>';
+							// echo $infos["user"][3]["name"];
+							// echo '</td>
+							// <td>';
+							// echo $infos["user"][3]["punktzahl"] . " Punkte";
+							// echo '</td>
+						// </tr>
+						// <tr>
+							// <td class="firstcolumn">4. Platz</td>
+							// <td>';
+							// echo $infos["user"][4]["name"];
+							// echo '</td>
+							// <td>';
+							// echo $infos["user"][4]["punktzahl"] . " Punkte";
+							// echo '</td>
+						// </tr>
+						// <tr>
+							// <td class="firstcolumn">5. Platz</td>
+							// <td>';
+							// echo $infos["user"][5]["name"];
+							// echo '</td>
+							// <td>';
+							// echo $infos["user"][5]["punktzahl"] . " Punkte";
+							// echo '</td>
+						// </tr>
+					echo '</table>';
+			} else {
+				echo '<h3>Für dieses Quiz ist noch kein Ranking vorhanden.</h3>';
+			}
 		}
 		// echo var_export($infos["user"][0]["name"], true);
 		?>
