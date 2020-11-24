@@ -147,15 +147,15 @@
 				$user2 = array();
 				$user3 = array();
 				$user4 = array();
-				if (quizvorhandenden("Quiz_zum_2._Advent", $myRanking["ranking"])) {
+				if (quizvorhanden("Quiz_zum_2._Advent", $myRanking["ranking"])) {
 					$infos2 = $myRanking["ranking"][quiznummer("Quiz_zum_2._Advent", $myRanking["ranking"])];
 					$user2 = $infos["user"];
 				}
-				if (quizvorhandenden("Quiz_zum_3._Advent", $myRanking["ranking"])) {
+				if (quizvorhanden("Quiz_zum_3._Advent", $myRanking["ranking"])) {
 					$infos2 = $myRanking["ranking"][quiznummer("Quiz_zum_3._Advent", $myRanking["ranking"])];
 					$user3 = $infos["user"];
 				}
-				if (quizvorhandenden("Quiz_zum_4._Advent", $myRanking["ranking"])) {
+				if (quizvorhanden("Quiz_zum_4._Advent", $myRanking["ranking"])) {
 					$infos2 = $myRanking["ranking"][quiznummer("Quiz_zum_4._Advent", $myRanking["ranking"])];
 					$user4 = $infos["user"];
 				}
