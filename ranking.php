@@ -136,7 +136,8 @@
 						};
 					echo '</table>';
 		} else {
-			if ($angefragterQuizname == "Advent" && quizvorhandenden("Quiz_zum_1._Advent", $myRanking["ranking"])) {
+			if ($angefragterQuizname == "Advent") {
+			// if ($angefragterQuizname == "Advent" && quizvorhandenden("Quiz_zum_1._Advent", $myRanking["ranking"])) {
 				echo 'Test';
 				// $infos1 = $myRanking["ranking"][quiznummer("Quiz_zum_1._Advent", $myRanking["ranking"])];
 				// $infos2 = array();
