@@ -230,9 +230,9 @@
 							// $platz = $platz + 1;
 						// };
 					// echo '</table>';
-			// } else {
-				// echo '<h3>Für dieses Quiz ist noch kein Ranking vorhanden.</h3>';
-			// }
+			} else {
+				echo '<h3>Für dieses Quiz ist noch kein Ranking vorhanden.</h3>';
+			}
 		}
 		// echo var_export($infos["user"][0]["name"], true);
 		?>
