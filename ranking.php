@@ -179,7 +179,7 @@
 					}
 				}
 				var_dump($name);
-				array_multisort($punktzahl, SORT_DESC, $user);
+				array_multisort($punktzahl, SORT_DESC, $name);
 				echo
 			'<h3>';
 			echo "Adventquiz";
@@ -187,50 +187,30 @@
 					<table>';
 						$platz = 1;
 						$platzAnzeigen = true;
-						foreach($user1 as $u){
+						for($i = 0; i < length($name); $i = $i + 1) {
 							echo '<tr>';
-							$anzahlgleichepunkte = 2;
-							if ($platzAnzeigen == true) {
-								if ($u["punktzahl"] === $user1[$platz]["punktzahl"]){
-									echo '
-									<td class="firstcolumn" rowspan=' . $anzahlgleichepunkte . '>';
-									$platzAnzeigen = false;
-								}
-								else {
-									echo '<td class="firstcolumn">';
-								}
-								echo $platz . ". Platz";
-								if ($platz == 1){
-									echo " &#x1F947;";
-								}
-								if ($platz == 2){
-									echo " &#x1F948;";
-								}
-								if ($platz == 3){
-									echo " &#x1F949;";
-								}
-								echo '</td>';
-								echo '<td>';
-								echo $u["name"];
-								echo '</td>';
-								if ($u["punktzahl"] === $user1[$platz]["punktzahl"]){
-									echo '<td rowspan=' . $anzahlgleichepunkte . '>';
-								}
-								else {
-									echo '<td>';
-								}
-								echo $u["punktzahl"] . " Punkte";
-								echo '</td>';
+							echo '<td class="firstcolumn">';
+							echo ($i + 1) . ". Platz";
+							if ($i + 1 == 1){
+								 echo " &#x1F947;";
 							}
-							else {
-								echo '<td>';
-								echo $u["name"];
-								echo '</td>';
-								$platzAnzeigen = true;
-							}							
+							if ($platz == 2){
+								echo " &#x1F948;";
+							}
+							if ($platz == 3){
+								echo " &#x1F949;";
+							}
+							echo '</td>';
+							echo '<td>';
+							echo $u["name"];
+							echo '</td>';
+							echo $name[$i];
+							echo '</td>';
+							echo '<td>';
+							echo $punktzahl[$i] . " Punkte";
+							echo '</td>';
 							echo '</tr>';
-							$platz = $platz + 1;
-						};
+						}
 					echo '</table>';
 			} else {
 				echo '<h3>Für dieses Quiz ist noch kein Ranking vorhanden.</h3>';
