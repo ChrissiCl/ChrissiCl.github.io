@@ -138,15 +138,15 @@
 		} else {
 			// if ($angefragterQuizname == "Advent") {
 			if ($angefragterQuizname == "Advent" && quizvorhanden("Quiz_zum_1._Advent", $myRanking["ranking"])) {
-				echo 'Test';
 				$infos1 = $myRanking["ranking"][quiznummer("Quiz_zum_1._Advent", $myRanking["ranking"])];
 				$infos2 = array();
 				$infos3 = array();
 				$infos4 = array();
-				$user1 = $infos["user"];
+				$user1 = $infos1["user"];
 				$user2 = array();
 				$user3 = array();
 				$user4 = array();
+				//var_dump($infos1);
 				if (quizvorhanden("Quiz_zum_2._Advent", $myRanking["ranking"])) {
 					$infos2 = $myRanking["ranking"][quiznummer("Quiz_zum_2._Advent", $myRanking["ranking"])];
 					$user2 = $infos["user"];
@@ -178,6 +178,7 @@
 						}
 					}
 				}
+				var_dump($name);
 				array_multisort($punktzahl, SORT_DESC, $user);
 				echo
 			'<h3>';
@@ -186,11 +187,11 @@
 					<table>';
 						$platz = 1;
 						$platzAnzeigen = true;
-						foreach($user as $u){
+						foreach($user1 as $u){
 							echo '<tr>';
 							$anzahlgleichepunkte = 2;
 							if ($platzAnzeigen == true) {
-								if ($u["punktzahl"] === $user[$platz]["punktzahl"]){
+								if ($u["punktzahl"] === $user1[$platz]["punktzahl"]){
 									echo '
 									<td class="firstcolumn" rowspan=' . $anzahlgleichepunkte . '>';
 									$platzAnzeigen = false;
@@ -212,7 +213,7 @@
 								echo '<td>';
 								echo $u["name"];
 								echo '</td>';
-								if ($u["punktzahl"] === $user[$platz]["punktzahl"]){
+								if ($u["punktzahl"] === $user1[$platz]["punktzahl"]){
 									echo '<td rowspan=' . $anzahlgleichepunkte . '>';
 								}
 								else {
