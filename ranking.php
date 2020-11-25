@@ -146,19 +146,19 @@
 				$user2 = array();
 				$user3 = array();
 				$user4 = array();
-				//var_dump($infos1);
 				if (quizvorhanden("Quiz_zum_2._Advent", $myRanking["ranking"])) {
 					$infos2 = $myRanking["ranking"][quiznummer("Quiz_zum_2._Advent", $myRanking["ranking"])];
-					$user2 = $infos["user"];
+					$user2 = $infos2["user"];
 				}
 				if (quizvorhanden("Quiz_zum_3._Advent", $myRanking["ranking"])) {
-					$infos2 = $myRanking["ranking"][quiznummer("Quiz_zum_3._Advent", $myRanking["ranking"])];
-					$user3 = $infos["user"];
+					$infos3 = $myRanking["ranking"][quiznummer("Quiz_zum_3._Advent", $myRanking["ranking"])];
+					$user3 = $infos3["user"];
 				}
 				if (quizvorhanden("Quiz_zum_4._Advent", $myRanking["ranking"])) {
-					$infos2 = $myRanking["ranking"][quiznummer("Quiz_zum_4._Advent", $myRanking["ranking"])];
-					$user4 = $infos["user"];
+					$infos4 = $myRanking["ranking"][quiznummer("Quiz_zum_4._Advent", $myRanking["ranking"])];
+					$user4 = $infos4["user"];
 				}
+				var_dump($user2);
 				foreach ($user1 as $key => $row){
 					$name[$key] = $row["name"];
 					$punktzahl[$key] = $row["punktzahl"];
@@ -178,7 +178,6 @@
 						}
 					}
 				}
-				var_dump($name);
 				array_multisort($punktzahl, SORT_DESC, $name);
 				echo
 			'<h3>';
@@ -187,7 +186,7 @@
 					<table>';
 						$platz = 1;
 						$platzAnzeigen = true;
-						for($i = 0; i < length($name); $i = $i + 1) {
+						for($i = 0; $i < count($name); $i = $i + 1) {
 							echo '<tr>';
 							echo '<td class="firstcolumn">';
 							echo ($i + 1) . ". Platz";
@@ -202,8 +201,6 @@
 							}
 							echo '</td>';
 							echo '<td>';
-							echo $u["name"];
-							echo '</td>';
 							echo $name[$i];
 							echo '</td>';
 							echo '<td>';
