@@ -136,7 +136,6 @@
 						};
 					echo '</table>';
 		} else {
-			// if ($angefragterQuizname == "Advent") {
 			if ($angefragterQuizname == "Advent" && quizvorhanden("Quiz_zum_1._Advent", $myRanking["ranking"])) {
 				$infos1 = $myRanking["ranking"][quiznummer("Quiz_zum_1._Advent", $myRanking["ranking"])];
 				$infos2 = array();
@@ -158,7 +157,6 @@
 					$infos4 = $myRanking["ranking"][quiznummer("Quiz_zum_4._Advent", $myRanking["ranking"])];
 					$user4 = $infos4["user"];
 				}
-				var_dump($user2);
 				foreach ($user1 as $key => $row){
 					$name[$key] = $row["name"];
 					$punktzahl[$key] = $row["punktzahl"];
@@ -184,28 +182,36 @@
 			echo "Adventquiz";
 			echo '</h3>
 					<table>';
-						$platz = 1;
-						$platzAnzeigen = true;
 						for($i = 0; $i < count($name); $i = $i + 1) {
 							echo '<tr>';
-							echo '<td class="firstcolumn">';
-							echo ($i + 1) . ". Platz";
-							if ($i + 1 == 1){
-								 echo " &#x1F947;";
+							if ($i == 0 || $punktzahl[$i] != $punktzahl[$i - 1]) {
+								$anzahlGleichePunkte = 1;
+								while($i + $anzahlGleichePunkte + 1 < count($punktzahl) && $punktzahl[$i] == $punktzahl[$i + $anzahlGleichePunkte]) {
+									$anzahlGleichePunkte = $anzahlGleichePunkte + 1;
+								}
+								echo '<td class="firstcolumn" rowspan=' . $anzahlGleichePunkte . '>';
+								echo ($i + 1) . ". Platz";
+								if ($i + 1 == 1){
+									 echo " &#x1F947;";
+								}
+								if ($i + 1 == 2){
+									echo " &#x1F948;";
+								}
+								if ($i + 1 == 3){
+									echo " &#x1F949;";
+								}
+								echo '</td>';
+								echo '<td>';
+								echo $name[$i];
+								echo '</td>';
+								echo '<td rowspan=' . $anzahlGleichePunkte . '>';
+								echo $punktzahl[$i] . " Punkte";
+								echo '</td>';
+							} else {
+								echo '<td>';
+								echo $name[$i];
+								echo '</td>';
 							}
-							if ($platz == 2){
-								echo " &#x1F948;";
-							}
-							if ($platz == 3){
-								echo " &#x1F949;";
-							}
-							echo '</td>';
-							echo '<td>';
-							echo $name[$i];
-							echo '</td>';
-							echo '<td>';
-							echo $punktzahl[$i] . " Punkte";
-							echo '</td>';
 							echo '</tr>';
 						}
 					echo '</table>';
