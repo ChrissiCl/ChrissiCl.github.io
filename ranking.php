@@ -186,7 +186,7 @@
 							echo '<tr>';
 							if ($i == 0 || $punktzahl[$i] != $punktzahl[$i - 1]) {
 								$anzahlGleichePunkte = 1;
-								while($i + $anzahlGleichePunkte + 1 < count($punktzahl) && $punktzahl[$i] == $punktzahl[$i + $anzahlGleichePunkte]) {
+								while($i + $anzahlGleichePunkte < count($punktzahl) && $punktzahl[$i] == $punktzahl[$i + $anzahlGleichePunkte]) {
 									$anzahlGleichePunkte = $anzahlGleichePunkte + 1;
 								}
 								echo '<td class="firstcolumn" rowspan=' . $anzahlGleichePunkte . '>';
