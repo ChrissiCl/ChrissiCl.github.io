@@ -36,6 +36,7 @@ buttonRanking.onclick = function() {
 			console.log(request.responseText);
 			if (quizNr == 'Quiz zum 1. Advent') {
 				document.location.href = 'ranking.php?quizname=Advent';
+			}
 			// } else {
 				// document.location.href = 'ranking.php?quizname=' + leerzeichenersetzen(quizNr);
 			// }
