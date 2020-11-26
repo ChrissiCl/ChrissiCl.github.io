@@ -41,7 +41,7 @@
 				<option value="Zahlspezial">Zahl Spezial!</option>
 			</optgroup>
 			<optgroup label="Sonderquiz">
-				<option value="Advent">Advent</option>
+				<option value="Advent">Adventquiz</option>
 			</optgroup>
 		</select>
 		<?php
