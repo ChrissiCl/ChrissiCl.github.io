@@ -42,17 +42,17 @@ kerze2.onclick = function() {
 	}
 }
 
-// kerze3.onclick = function() {
-	// if (now >= 1606608060000) {
-		// document.location.href = 'index.shtml';
-	// }
-// }
+kerze3.onclick = function() {
+	if (now >= 1606608060000) {
+		document.location.href = 'quiz_dritteradvent.shtml';
+	}
+}
 
-// kerze4.onclick = function() {
-	// if (now >= 1606608060000) {
-		// document.location.href = 'index.shtml';
-	// }
-// }
+kerze4.onclick = function() {
+	if (now >= 1606608060000) {
+		document.location.href = 'quiz_vierteradvent.shtml';
+	}
+}
 
 quiz1Button.onclick = function() {
 	document.location.href = 'quiz1.shtml';

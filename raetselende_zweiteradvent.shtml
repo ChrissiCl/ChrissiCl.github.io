@@ -42,6 +42,6 @@
 			<p>&copy; 2020 CQuiz</p>
 			<p id="kontakt"><a href="kontakt.html" title="Kontakt">Kontakt</a></p>
 		</footer>
-		<script id="script" data-quizname="Quiz zum 1. Advent" src="scripts/raetselende.js"></script>
+		<script id="script" data-quizname="Quiz zum 2. Advent" src="scripts/raetselende.js"></script>
 	</body>
 </html>
