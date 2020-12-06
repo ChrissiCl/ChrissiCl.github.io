@@ -36,11 +36,11 @@ kerze1.onclick = function() {
 	}
 }
 
-// kerze2.onclick = function() {
-	// if (now >= 1606608060000) {
-		// document.location.href = 'index.shtml';
-	// }
-// }
+kerze2.onclick = function() {
+	if (now >= 1606608060000) {
+		document.location.href = 'quiz_zweiteradvent.shtml';
+	}
+}
 
 // kerze3.onclick = function() {
 	// if (now >= 1606608060000) {
