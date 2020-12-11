@@ -37,19 +37,19 @@ kerze1.onclick = function() {
 }
 
 kerze2.onclick = function() {
-	if (now >= 1606608060000) {
+	if (now >= 1607212860000) {
 		document.location.href = 'quiz_zweiteradvent.shtml';
 	}
 }
 
 kerze3.onclick = function() {
-	if (now >= 1606608060000) {
+	if (now >= 1607817660000) {
 		document.location.href = 'quiz_dritteradvent.shtml';
 	}
 }
 
 kerze4.onclick = function() {
-	if (now >= 1606608060000) {
+	if (now >= 1608422460000) {
 		document.location.href = 'quiz_vierteradvent.shtml';
 	}
 }
