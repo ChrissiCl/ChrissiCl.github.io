@@ -46,7 +46,7 @@ var meineDaten =
 				'kategorie': '?',
 				'hinweise': ['Ich bin offen oder geschlossen', 'Ich bin ein enger Felsspalt', 'Mit Pulver kann man durch mich reisen', 'Ich habe eigenes Besteck', 'Ich bin entspannend', 'Heutzutage bin ich vor allem dekorativ', 'Ich habe ein Sims'],
 				'loesung': ['Kamin']
-			}
+			},
 				'raetselname': '3. Rätsel',
 				'kategorie': '?',
 				'hinweise': ['Ich diene dem Transport', 'Ich bin ein Musikant', 'Ich kann Gold spucken', 'Ich bin eigensinnig', 'Ich gelte als nicht besonders schlau', 'Mit einer Brücke bin ich hilfreich', 'Mein Name ist "Equus asinus"'],
