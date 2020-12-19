@@ -54,6 +54,36 @@ var meineDaten =
 				'loesung': ['Esel']
 			}
 			]
-		}	
+		},
+		{
+			'name': '3. Advent Quiz',
+			'abschlussseite': 'raetselende_vierteradvent.shtml',
+			'raetsel': [
+			{
+				'raetselname': 'Schönen vierter Advent',
+				'kategorie': 'Mal sehen 😉',
+				'hinweise': ['Ich bin struppig', 'Man findet mich im Stall', 'Ich bin trocken', 'Niemand will wie ich sein', 'Ich bin ein Überbleibsel', 'Manche Sterne bestehe aus mir', 'Ich bin blond'],
+				'loesung': ['Stroh']
+			},
+			{
+				'raetselname': '2. Rätsel',
+				'kategorie': '?',
+				'hinweise': ['Ich bin dunkel', 'Ich bin ein Violinkonzert von Vivaldi', 'Ich kann tief sein', 'In der Meteorologie beginne ich früher', 'Mein Name ist ein germanisches Sonderwort', 'Ich lasse vieles schlafen', 'Manchmal bin ich hart'],
+				'loesung': ['Winter']
+			},
+			{
+				'raetselname': '3. Rätsel',
+				'kategorie': '?',
+				'hinweise': ['Ich bin eine Institution', 'Ich bin diplomatisch', 'Ich kann gut oder schlecht sein', 'Ich kann aus Papier sein', 'Meine Überbringer können vielgestaltig sein', '1974 ging ich an Außerirdische', 'Man findet mich in Hauptstädten'],
+				'loesung': ['Botschaft']
+			},
+			{
+				'raetselname': '3. Rätsel',
+				'kategorie': '?',
+				'hinweise': ['Ich bin klein', 'Tomte Tummetott', 'Ich lebe versteckt', 'Ich tue Gutes', 'In Skandinavien helfe ich dem Weihnachtsmann', 'Die Maskottchen des ZDF gehören zu meiner Art', 'Ich bin ein Diminutiv'],
+				'loesung': ['Wichtel']
+			}
+			]
+		}
 	]
 };
