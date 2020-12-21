@@ -62,7 +62,7 @@ var meineDaten =
 			{
 				'raetselname': 'Schönen vierter Advent',
 				'kategorie': 'Mal sehen 😉',
-				'hinweise': ['Ich bin struppig', 'Man findet mich im Stall', 'Ich bin trocken', 'Niemand will wie ich sein', 'Ich bin ein Überbleibsel', 'Manche Sterne bestehe aus mir', 'Ich bin blond'],
+				'hinweise': ['Ich bin struppig', 'Man findet mich im Stall', 'Ich bin trocken', 'Niemand will wie ich sein', 'Ich bin ein Überbleibsel', 'Manche Sterne bestehen aus mir', 'Ich bin blond'],
 				'loesung': ['Stroh']
 			},
 			{
