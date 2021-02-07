@@ -542,7 +542,7 @@ var meineDaten =
 			{
 				'raetselname': 'Rätsel 2',
 				'kategorie': 'Ort',
-				'hinweise': ['Ich bin die drittgrößte Stadt meines Landes', 'Ich liege an einem großen Fluss', 'Meine Nekropole ist sehr bekannt', 'Große Bedeutung hatt ich während der 4. Dynastie', 'Asterix und Obelix waren hier zu Besuch', 'Ich liege am Rand einer Wüste', 'Meine Einwohnerzahl steigt rasant'],
+				'hinweise': ['Ich bin die drittgrößte Stadt meines Landes', 'Ich liege an einem großen Fluss', 'Meine Nekropole ist sehr bekannt', 'Große Bedeutung hatte ich während der 4. Dynastie', 'Asterix und Obelix waren hier zu Besuch', 'Ich liege am Rand einer Wüste', 'Meine Einwohnerzahl steigt rasant'],
 				'loesung': ['Gizeh']
 			},
 			{
