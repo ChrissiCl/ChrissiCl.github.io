@@ -536,7 +536,7 @@ var meineDaten =
 			{
 				'raetselname': 'Rätsel 1',
 				'kategorie': 'Ding',
-				'hinweise': ['Ich bin ein Grundnahrungsmittel', 'Ich besitze hohen Symbolgehalt', 'Ich bin traditionell', 'Mit Wasser bin ich eine Strafe', 'Ich bin eine Hilfe für die Welt', 'Ich bin eine Kinderfigur', 'Ohne mich ist man arm drab'],
+				'hinweise': ['Ich bin ein Grundnahrungsmittel', 'Ich besitze hohen Symbolgehalt', 'Ich bin traditionell', 'Mit Wasser bin ich eine Strafe', 'Ich bin eine Hilfe für die Welt', 'Ich bin eine Kinderfigur', 'Ohne mich ist man arm dran'],
 				'loesung': ['Brot']
 			},
 			{

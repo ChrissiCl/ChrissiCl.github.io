@@ -28,6 +28,7 @@
 				<option value="Quiz_6">Quiz 6</option>
 				<option value="Quiz_7">Quiz 7</option>
 				<option value="Quiz_8">Quiz 8</option>
+				<option value="Quiz_9">Quiz 9</option>
 			</optgroup>
 			<optgroup label="Themenquiz">
 				<option value="Quiz_zum_1._Mai">Quiz zum 1. Mai</option>
