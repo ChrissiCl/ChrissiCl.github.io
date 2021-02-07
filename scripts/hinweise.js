@@ -528,6 +528,72 @@ var meineDaten =
 				'loesung': ['Luft']
 			}
 			]
+		},
+		{
+			'name': 'Quiz 9',
+			'abschlussseite': 'raetselende_quiz9.shtml',
+			'raetsel': [
+			{
+				'raetselname': 'Rätsel 1',
+				'kategorie': 'Ding',
+				'hinweise': ['Ich bin ein Grundnahrungsmittel', 'Ich besitze hohen Symbolgehalt', 'Ich bin traditionell', 'Mit Wasser bin ich eine Strafe', 'Ich bin eine Hilfe für die Welt', 'Ich bin eine Kinderfigur', 'Ohne mich ist man arm drab'],
+				'loesung': ['Brot']
+			},
+			{
+				'raetselname': 'Rätsel 2',
+				'kategorie': 'Ort',
+				'hinweise': ['Ich bin die drittgrößte Stadt meines Landes', 'Ich liege an einem großen Fluss', 'Meine Nekropole ist sehr bekannt', 'Große Bedeutung hatt ich während der 4. Dynastie', 'Asterix und Obelix waren hier zu Besuch', 'Ich liege am Rand einer Wüste', 'Meine Einwohnerzahl steigt rasant'],
+				'loesung': ['Gizeh']
+			},
+			{
+				'raetselname': 'Rätsel 3',
+				'kategorie': 'Jahr',
+				'hinweise': ['Ein besonderes Jahr für den deutschen Fußball', 'Der Friedensnobelpreis geht an eine 17-jährige Schülerin', 'Die Ebola-Epidemie breitet sich in Westafrika aus', '1.200. Todestag Karls des Großen', 'Wetten, dass...? endet mit der 215. Ausgabe', 'Pegida wird gegründet', 'Die erste Frau erhält die Fields-Medaille'],
+				'loesung': ['2014']
+			},
+			{
+				'raetselname': 'Rätsel 4',
+				'kategorie': 'Ding',
+				'hinweise': ['Ich bin salzig', 'Ich bin eine Nahrungsquelle', 'Ich bin eine große Menge', 'Ich bin wellig', 'Ich bin ein Urlaubsziel', 'Ich bin unergründlich', 'Ich bin eine Quelle des weißen Goldes'],
+				'loesung': ['Meer']
+			},
+			{
+				'raetselname': 'Rätsel 5',
+				'kategorie': 'Person',
+				'hinweise': ['Ich war ein Norweger', '1911 gewann ich ein Wettrennen gegen einen Briten', 'Ich starb vermutlich bei einem Flugzeugabsturz', 'Meine Expeditionen führten immer in die Kälte', 'Noch weiter südlich geht nicht', 'Mein bekanntestes Schiff heißt übersetzt "vorwärts"', 'Mein Erfolgsfaktor waren Schlittenhunde'],
+				'loesung': ['Roald Amundsen', 'Amundsen']
+			},
+			{
+				'raetselname': 'Rätsel 6',
+				'kategorie': 'Ding',
+				'hinweise': ['Ich bin wegweisend', 'Ich bin ein Menü', 'Manchmal steht ein Land vor mir', 'Ich lasse herzlich grüßen', 'Ich werde studiert', 'Ich bin eine Hilfe in der Wildnis', 'Früher orientierte ich mich nach Osten'],
+				'loesung': ['Karte']
+			},
+			{
+				'raetselname': 'Rätsel 7',
+				'kategorie': 'Ding',
+				'hinweise': ['Ich bin eine Metapher', 'Ich bin eine Zeitung', 'Man findet mich in Museen', 'Ich bin eine optische Reproduktion', 'Man kann andere in mich setzen', 'Mit mir kann man sich informieren', 'Ich kann Dinge festhalten'],
+				'loesung': ['Bild']
+			},
+			{
+				'raetselname': 'Rätsel 8',
+				'kategorie': 'Ort',
+				'hinweise': ['Ich bin mit dem Monat verwandt', 'Ich sonne mich gerne', 'Manchmal liege ich im Dunkeln', 'Der Amerikaner Dennis Hope verkauft meine Grundstücke', 'Ich habe keine Nationalität', 'Mein höchster Berg ist 5.500 m hoch', 'Ich habe ein Gesicht'],
+				'loesung': ['Mond']
+			},
+			{
+				'raetselname': 'Rätsel 9',
+				'kategorie': 'Person',
+				'hinweise': ['Mein Vorname ist "William"', 'Ich habe mein Studium abgebrochen', 'Mein Erfolg waren Fenster', 'Ich bin der 3. meines Namens', 'Eine Million Dollar sind wenig für mich', 'Ich habe mit meinem Schulfreund ein Unternehmen gegründet', 'Es gibt einige skurrile Vermutungen zu meiner Person'],
+				'loesung': ['Bill Gates']
+			},
+			{
+				'raetselname': 'Rätsel 10',
+				'kategorie': 'Ding',
+				'hinweise': ['Ich bin eine physikalische Größe', 'Ich soll alles heilen', 'Ich erscheine regelmäßig', 'Ich bin unaufhaltbar', 'Ich habe einen Zahn', 'Ich bin eine Ära', 'Ich bin unumkehrbar'],
+				'loesung': ['Zeit']
+			}
+			]
 		}
 	]
 };
