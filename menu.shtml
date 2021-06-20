@@ -11,7 +11,8 @@
 				<li><a href="quiz6.shtml">Quiz 6</a></li>
 				<li><a href="quiz7.shtml">Quiz 7</a></li>
 				<li><a href="quiz8.shtml">Quiz 8</a></li>
-				<li><a href="quiz9.shtml">Quiz 9</a></li>				
+				<li><a href="quiz9.shtml">Quiz 9</a></li>
+				<li><a href="quiz10.shtml">Quiz 10</a></li>				
 			</ul>
 		</li>	
 		<li id="themenquiz" class="dropdown"><a href="#">Themenquiz</a>

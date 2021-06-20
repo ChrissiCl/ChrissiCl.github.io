@@ -594,6 +594,72 @@ var meineDaten =
 				'loesung': ['Zeit']
 			}
 			]
+		},
+		{
+			'name': 'Quiz 10',
+			'abschlussseite': 'raetselende_quiz10.shtml',
+			'raetsel': [
+			{
+				'raetselname': 'Rätsel 1',
+				'kategorie': 'Ding',
+				'hinweise': ['Ich bin ein Institut', 'Ich bin ein Möbelstück', 'Hier kann man viel Geld verlieren', 'Ich bin eine Untiefe im Meer', 'Ich bin ein Tisch für Handwerker', 'Ich bin eine Lagerstätte', 'Ich bin ein Gebäude'],
+				'loesung': ['Bank']
+			},
+			{
+				'raetselname': 'Rätsel 2',
+				'kategorie': 'Ding',
+				'hinweise': ['Ich bin ein Sternzeichen', 'Ich bin ein König', 'Bei Disney singe ich gerne', 'Ich bin ein Verlag', 'Ich bin oft hungrig', 'Meine Höhle ist nicht sehr gemütlich', 'Ich bin eine Attraktion'],
+				'loesung': ['Löwe']
+			},
+			{
+				'raetselname': 'Rätsel 3',
+				'kategorie': 'Person',
+				'hinweise': ['Ich wurde 1977 geboren', 'Ich bin Politiker', 'Ich bin mit meiner Französischlehrerin verheiratet', 'Ich habe eine Partei gegründet', 'Ich komme aus Amiens', 'Ich war Berater für Wirtschafts- und Finanzpolitik', 'Ich vertrete liberale Positionen'],
+				'loesung': ['Emmanuel Macron', 'Macron']
+			},
+			{
+				'raetselname': 'Rätsel 4',
+				'kategorie': 'Jahr',
+				'hinweise': ['Gedenkjahr für den 2. Weltkrieg', 'Der Bosnienkrieg endet', 'Borussia Dortmund wird Deutscher Meister', 'Das Deutsche Museum in Bonn wird gegründet', 'Ein neues Betriebssystem von Microsoft kommt auf den Markt', 'Die Deutsche Bundespost wird privatisiert'],
+				'loesung': ['1995']
+			},
+			{
+				'raetselname': 'Rätsel 5',
+				'kategorie': 'Ort',
+				'hinweise': ['Ich bin eine parlamentarische Monarchie', 'Ich habe einen Kaiser', 'Hier treffen vier tektonische Platten aufeinander', 'Meine Einwöhner gehören fast alle zwei Religionen an', 'Ich bin eine der größten Fischereinationen', 'Ich wurde 660 v. Chr. gegründet', 'Nach dem 2. Weltkrieg wurde ich von den Alliierten besetzt'],
+				'loesung': ['Japan']
+			},
+			{
+				'raetselname': 'Rätsel 6',
+				'kategorie': 'Ding',
+				'hinweise': ['Manchmal bin ich schwer zu ertragen', 'Man kann mich ziehen', 'Ich bin ein Kommando', 'Ich bin ein spanischer Artikel', 'Ich bin schicksalhaft', 'Ich kann entscheiden', 'Ich komme im Namen einer bekannten Stadt vor'],
+				'loesung': ['Los']
+			},
+			{
+				'raetselname': 'Rätsel 7',
+				'kategorie': 'Ding',
+				'hinweise': ['Ich bin ein Gemüse', 'Ich bin ein Gewürz', 'Man kann mich füllen', 'Ich kann scharf sein', 'Eigentlich bin ich eine Beere', 'Es gibt mich in vielen Farben und Formen', 'Ich komme aus Südamerika'],
+				'loesung': ['Paprika']
+			},
+			{
+				'raetselname': 'Rätsel 8',
+				'kategorie': 'Ort',
+				'hinweise': ['Ich bin ein Inselstaat', 'Ich bin der Drehort von vielen Fantasy-Filmen', 'Ich gehöre zum Commonwealth', 'Ich wurde im 13. Jahrhundet entdeckt', 'Rugby ist mein inoffizieller Nationalsport', 'Ich habe ein außergewöhnliches Ökosystem', 'Ich bin isoliert'],
+				'loesung': ['Neuseeland']
+			},
+			{
+				'raetselname': 'Rätsel 9',
+				'kategorie': 'Ding',
+				'hinweise': ['Ich bin unbeleuchtet', 'Ich werde geworfen', 'Ich bin ein Geist', 'Ich werde mit Nacht und Tod assoziiert', 'Im Sommer bin ich sehr gefragt', 'Wer über mich springt, überwindet sich', 'Ich bin ein ständiger Begleiter'],
+				'loesung': ['Schatten']
+			},
+			{
+				'raetselname': 'Rätsel 10',
+				'kategorie': 'Ding',
+				'hinweise': ['Ich bin der Spiegel der Seele', 'Man findet mich auf Würfeln', 'Ich bin mitten im Wirbelsturm', 'Ich habe eine Höhle', 'Man findet mich auf Schmetterlingsflügeln', 'Man kann mich öffnen und schließen', 'Ich muss oft unterstützt werden'],
+				'loesung': ['Auge']
+			}
+			]
 		}
 	]
 };

@@ -47,7 +47,7 @@
 			</aside>
 		</main>
 		<footer>
-			<p>&copy; 2020 CQuiz</p>
+			<p>&copy; 2021 CQuiz</p>
 			<p id="kontakt"><a href="kontakt.html" title="Kontakt">Kontakt</a></p>
 		</footer>
 		<script src="scripts/index.js"></script>
