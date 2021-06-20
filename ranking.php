@@ -29,6 +29,7 @@
 				<option value="Quiz_7">Quiz 7</option>
 				<option value="Quiz_8">Quiz 8</option>
 				<option value="Quiz_9">Quiz 9</option>
+				<option value="Quiz_10">Quiz 10</option>
 			</optgroup>
 			<optgroup label="Themenquiz">
 				<option value="Quiz_zum_1._Mai">Quiz zum 1. Mai</option>
@@ -224,7 +225,7 @@
 		?>
 		</main>
 		<footer>
-			<p>&copy; 2020 CQuiz</p>
+			<p>&copy; 2021 CQuiz</p>
 			<p id="kontakt"><a href="kontakt.html" title="Kontakt">Kontakt</a></p>
 		</footer>
 		<script src="scripts/ranking.js"></script>
