@@ -620,13 +620,13 @@ var meineDaten =
 			{
 				'raetselname': 'Rätsel 4',
 				'kategorie': 'Jahr',
-				'hinweise': ['Gedenkjahr für den 2. Weltkrieg', 'Der Bosnienkrieg endet', 'Borussia Dortmund wird Deutscher Meister', 'Das Deutsche Museum in Bonn wird gegründet', 'Ein neues Betriebssystem von Microsoft kommt auf den Markt', 'Die Deutsche Bundespost wird privatisiert'],
+				'hinweise': ['Gedenkjahr für den 2. Weltkrieg', 'Der Bosnienkrieg endet', 'Borussia Dortmund wird Deutscher Meister', 'Das Deutsche Museum in Bonn wird gegründet', 'Ein neues Betriebssystem von Microsoft kommt auf den Markt', 'Die Deutsche Bundespost wird privatisiert', 'Das Top-Quark wird nachgewiesen'],
 				'loesung': ['1995']
 			},
 			{
 				'raetselname': 'Rätsel 5',
 				'kategorie': 'Ort',
-				'hinweise': ['Ich bin eine parlamentarische Monarchie', 'Ich habe einen Kaiser', 'Hier treffen vier tektonische Platten aufeinander', 'Meine Einwöhner gehören fast alle zwei Religionen an', 'Ich bin eine der größten Fischereinationen', 'Ich wurde 660 v. Chr. gegründet', 'Nach dem 2. Weltkrieg wurde ich von den Alliierten besetzt'],
+				'hinweise': ['Ich bin eine parlamentarische Monarchie', 'Ich habe einen Kaiser', 'Hier treffen vier tektonische Platten aufeinander', 'Meine Einwohner gehören fast alle zwei Religionen an', 'Ich bin eine der größten Fischereinationen', 'Ich wurde 660 v. Chr. gegründet', 'Nach dem 2. Weltkrieg wurde ich von den Alliierten besetzt'],
 				'loesung': ['Japan']
 			},
 			{
