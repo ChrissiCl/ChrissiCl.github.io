@@ -26,6 +26,7 @@
 				<li><a href="quiz_filme.shtml">Filme</a></li>
 				<li><a href="quiz_herbst.shtml">Herbst</a></li>
 				<li><a href="quiz_zahlspezial.shtml">Zahl Spezial!</a></li>
+				<li><a href="quiz_herbst2.0.shtml">Herbst 2.0</a></li>
 			</ul>					
 		</li>			
 		<li id="ranking"><a href="ranking.php?quizname=Quiz_3">Ranking</a></li>

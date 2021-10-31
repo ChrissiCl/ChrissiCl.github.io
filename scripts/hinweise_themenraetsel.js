@@ -594,6 +594,72 @@ var meineDaten =
 				'loesung': ['208']
 			}
 			]
+		},
+		{
+			'name': 'Herbst 2.0',
+			'abschlussseite': 'raetselende_herbst2.0.shtml',
+			'raetsel': [
+			{
+				'raetselname': 'Rätsel 1',
+				'kategorie': 'Ding',
+				'hinweise': ['Mein Hut hat keine 3 Ecken','Ich bin keine Pflanze','Ich kann fliegen','Ich bin nicht immer gern gesehen','Ich kann nützlich sein','Ich liebe die Dunkelheit','Ich bestehe aus Fäden'],
+				'loesung': ['Pilz']
+			},
+			{
+				'raetselname': 'Rätsel 2',
+				'kategorie': 'Ding',
+				'hinweise': ['Ich bin ein Trinkgefäß','Ein Land sieht mit recht ähnlich','Ich gehöre zur Reitausstattung','Zwei Paar von mir sind schwer in Einklang zu bringen','Ich war einmal ein Geschenk an einen Kater','Mit dem richtigen Modell kommt man sehr weit','Früher wurde ich auch von Männern mehr benutzt'],
+				'loesung': ['Stiefel']
+			},
+			{
+				'raetselname': 'Rätsel 3',
+				'kategorie': 'Ding',
+				'hinweise': ['Ich bin eine Frucht','Harte Schale, weicher Kern','Ich kann taub sein','Ich bin sehr gesund','Man kann Milch aus mir herstellen','Ich bin umgangssprachlich ein Wort für "Kopf"','Es gibt mich in vielen Formen'],
+				'loesung': ['Nuss']
+			},
+			{
+				'raetselname': 'Rätsel 4',
+				'kategorie': 'Ding',
+				'hinweise': ['Ich mag Nüsse','Ich klettere gerne','Ich mag keine Greifvögel','Die meisten meiner Unterarten leben in Amerika','Ich liebe Bäume','In grau bin ich sehr dominant','Mein Fell heißt "Feh"'],
+				'loesung': ['Eichhörnchen']
+			},
+			{
+				'raetselname': 'Rätsel 5',
+				'kategorie': 'Ding',
+				'hinweise': ['Ich bin bunt','Mich gibt es in Märchen','Ich habe eine Schnur','Ich bin ein Sternbild','Man findet mich an Wikingerschiffen','Ich mag wertvolle Gegenstände','Ich tauche in Heldenepen auf'],
+				'loesung': ['Drache','Drachen']
+			},
+			{
+				'raetselname': 'Rätsel 6',
+				'kategorie': 'Ding',
+				'hinweise': ['Ich bestehe aus Sternen','Ich bestehe aus Tröpfchen','Ich schlucke Licht','Ich verhülle','Ich mache orientierungslos','Für manche Wälder bin ich namensgebend','Ich kann künstlich hergestellt werden'],
+				'loesung': ['Nebel']
+			},
+			{
+				'raetselname': 'Rätsel 7',
+				'kategorie': 'Ding',
+				'hinweise': ['Ich webe','Ich bin eine Mikrofonhalterung','Ich bin ein Wäscheständer','Bei J.R.R. Tolkien bin ich sehr groß','Ich bin ein Gliederfüßer','Ich lebe räuberisch','Ich bin ein Laborgerät'],
+				'loesung': ['Spinne']
+			},
+			{
+				'raetselname': 'Rätsel 8',
+				'kategorie': 'Ding',
+				'hinweise': ['Ich bin eine Frucht','Ich bin ein Baum','Ich bin edel','Ich habe Stacheln','Ich werde geröstet','Ich bin eine Beilage','Ich werde für Möbel verwendet'],
+				'loesung': ['Kastanie']
+			},
+			{
+				'raetselname': 'Rätsel 9',
+				'kategorie': 'Ding',
+				'hinweise': ['Ich bin verzweigt','Wenn man auf mir sitzt, sollte man nicht an mir sägen','Wenn ich absteige, lasse ich nach','Ich bin Abgeltungssteuer','Ich verursache Löcher','Ich sorge für niedrige Qualität','Mit mir lacht man viel'],
+				'loesung': ['Ast']
+			},
+			{
+				'raetselname': 'Rätsel 10',
+				'kategorie': 'Ding',
+				'hinweise': ['Ich bin ein Schutz','Ich bin ein Teil von Mützen','Ich bin eine elektrische Anzeige','Ich bin Teil von Lampen','Ich rette bei freiem Fall',' Ich habe Kiele','Ich darf nass werden'],
+				'loesung': ['Schirm']
+			}
+			]
 		}
 	]
 };
