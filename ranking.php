@@ -41,7 +41,7 @@
 				<option value="Filmquiz">Filmquiz</option>
 				<option value="Herbstquiz">Herbstquiz</option>
 				<option value="Zahlspezial">Zahl Spezial!</option>
-				<option value="Herbstquiz2.0">Herbstquiz2.0</option>
+				<option value="Herbstquiz2.0">Herbstquiz 2.0</option>
 			</optgroup>
 			<optgroup label="Sonderquiz">
 				<option value="Advent">Adventquiz</option>
