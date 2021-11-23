@@ -22,7 +22,7 @@ window.onload = function() {
 	if (now >= 1639267260000) {
 		kerze3.src = 'images/Kerze_mit_Flamme.png';
 	}
-	if (now >= 1608422460000) {
+	if (now >= 1639872060000) {
 		kerze4.src = 'images/Kerze_mit_Flamme.png';
 	}
 }
@@ -49,7 +49,7 @@ kerze3.onclick = function() {
 }
 
 kerze4.onclick = function() {
-	if (now >= 1608422460000) {
+	if (now >= 1639872060000) {
 		document.location.href = 'quiz_vierteradvent2.shtml';
 	}
 }
