@@ -45,6 +45,7 @@
 			</optgroup>
 			<optgroup label="Sonderquiz">
 				<option value="Advent">Adventquiz</option>
+				<option value="Advent_2">Adventquiz 2</option>
 			</optgroup>
 		</select>
 		<?php
