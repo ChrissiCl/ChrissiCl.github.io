@@ -220,7 +220,7 @@
 						}
 					echo '</table>';
 			} else {
-				if ($angefragterQuizname == "Advent_2" && quizvorhanden("Quiz_zum_1._Advent-2", $myRanking["ranking"])) {
+				if ($angefragterQuizname == "Advent_2" && quizvorhanden("Quiz_zum_1._Advent_2", $myRanking["ranking"])) {
 					$infos1 = $myRanking["ranking"][quiznummer("Quiz_zum_1._Advent_2", $myRanking["ranking"])];
 					$infos2 = array();
 					$infos3 = array();
