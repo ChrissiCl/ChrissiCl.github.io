@@ -33,7 +33,6 @@ buttonRanking.onclick = function() {
 	request.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded; charset=UTF-8');
 	request.addEventListener('load', function(event) {
 		if (request.status >= 200 && request.status < 300) {
-			console.log(request.responseText);
 			if (quizNr == 'Quiz zum 1. Advent' || quizNr == 'Quiz zum 2. Advent' || quizNr == 'Quiz zum 3. Advent' || quizNr == 'Quiz zum 4. Advent') {
 				document.location.href = 'ranking.php?quizname=Advent';
 			} else {
