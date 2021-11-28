@@ -36,11 +36,12 @@ buttonRanking.onclick = function() {
 			console.log(request.responseText);
 			if (quizNr == 'Quiz zum 1. Advent' || quizNr == 'Quiz zum 2. Advent' || quizNr == 'Quiz zum 3. Advent' || quizNr == 'Quiz zum 4. Advent') {
 				document.location.href = 'ranking.php?quizname=Advent';
-			}
-			if (quizNr == 'Quiz zum 1. Advent 2' || quizNr == 'Quiz zum 2. Advent 2' || quizNr == 'Quiz zum 3. Advent 2' || quizNr == 'Quiz zum 4. Advent 2') {
-				document.location.href = 'ranking.php?quizname=Advent_2';			
 			} else {
-				document.location.href = 'ranking.php?quizname=' + leerzeichenersetzen(quizNr);
+				if (quizNr == 'Quiz zum 1. Advent 2' || quizNr == 'Quiz zum 2. Advent 2' || quizNr == 'Quiz zum 3. Advent 2' || quizNr == 'Quiz zum 4. Advent 2') {
+					document.location.href = 'ranking.php?quizname=Advent_2';
+				} else {
+					document.location.href = 'ranking.php?quizname=' + leerzeichenersetzen(quizNr);
+				}
 			}
 		} else {
 			console.warn(request.statusText, request.responseText);
