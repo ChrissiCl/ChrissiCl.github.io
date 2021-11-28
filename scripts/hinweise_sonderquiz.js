@@ -104,14 +104,14 @@ var meineDaten =
 			{
 				'raetselname': 'Schönen zweiten Advent',
 				'kategorie': 'Alles ist möglich',
-				'hinweise': ['Es gibt mich 4 Mal', '1926 wurde ich überflogen', '2007 wurde ich mit einem Auto erreicht', 'Ich liege im kleinsten Ozean der Welt', 'Das Meer ist bei mir 4087m tief', 'Ich wandere', 'Mein politischer Status ist unklar'],
-				'loesung': ['Nordpol']
+				'hinweise': ['Ich bin eine Kinderbetreuung', 'Ich bin mit Heu gefüllt', 'Ich bin eine Nachbildung', '1223 wurde ich angeblich das erste Mal als Dekoration aufgestellt', 'Meine Darstellung orientiert sich an der Weihnachtsgeschichte', 'In Graz bin ich aus Eis', 'Manchmal lebe ich'],
+				'loesung': ['Krippe']
 			},
 			{
 				'raetselname': 'Noch ein Rätsel',
 				'kategorie': 'Alles ist möglich',
-				'hinweise': ['Ich bin ein Gegenstand von Spekulationen', 'Ich bestehe aus Gas', 'Es gibt sehr viele von mir', 'Ich durchlaufe verschiedene Lebensphasen', 'Man kann mich lesen', 'Ich habe Ecken und Kanten oder bin eine Kugel', 'Zwerg oder Riese'],
-				'loesung': ['Stern']
+				'hinweise': ['Ich bin Rinde', 'Ich komme aus Asien', 'ich werde schon sehr lange verwendet', 'Ich kam vermutlich mit den Kreuzzügen nach Europa', 'Man findet mich in vielen Gebäcken', 'Ich werde nicht nur für Süßwaren verwendet', 'Ich werde gemahlen'],
+				'loesung': ['Zimt']
 			}
 			]
 		},
