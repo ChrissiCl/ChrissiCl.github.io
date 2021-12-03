@@ -56,7 +56,7 @@ var meineDaten =
 			]
 		},
 		{
-			'name': '3. Advent Quiz',
+			'name': '4. Advent Quiz',
 			'abschlussseite': 'raetselende_vierteradvent.shtml',
 			'raetsel': [
 			{
@@ -110,7 +110,7 @@ var meineDaten =
 			{
 				'raetselname': 'Noch ein Rätsel',
 				'kategorie': 'Alles ist möglich',
-				'hinweise': ['Ich bin Rinde', 'Ich komme aus Asien', 'ich werde schon sehr lange verwendet', 'Ich kam vermutlich mit den Kreuzzügen nach Europa', 'Man findet mich in vielen Gebäcken', 'Ich werde nicht nur für Süßwaren verwendet', 'Ich werde gemahlen'],
+				'hinweise': ['Ich bin Rinde', 'Ich komme aus Asien', 'Ich werde schon sehr lange verwendet', 'Ich kam vermutlich mit den Kreuzzügen nach Europa', 'Man findet mich in vielen Gebäcken', 'Ich werde nicht nur für Süßwaren verwendet', 'Ich werde gemahlen'],
 				'loesung': ['Zimt']
 			}
 			]
