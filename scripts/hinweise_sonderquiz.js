@@ -122,20 +122,20 @@ var meineDaten =
 			{
 				'raetselname': 'Schönen dritten Advent',
 				'kategorie': 'Alles ist möglich',
-				'hinweise': ['Ich bin ein Bühnenstück', 'Ich bin ein Werkzeug', 'Es gibt mich in verschiedenen Varianten', 'Ich bin eine Holzfigur', 'Ich kann funktional oder dekorativ sein', 'Ich komme in einem Märchen vor', 'Ist mein Gegner eine Nuss oder eine Maus?'],
-				'loesung': ['Nussknacker']
+				'hinweise': ['Ich bin eine Unterkunft', 'Hier findest du viel Mist', 'Ich bin ein Rennteam', 'Auf englisch bin ich ein Verkaufsstand', 'Ich bin eine Halle', 'Hier gibt es Boxen', 'Hier riecht es selten gut'],
+				'loesung': ['Stall']
 			},
 			{
 				'raetselname': '2. Rätsel',
 				'kategorie': 'Alles ist möglich',
-				'hinweise': ['Ich bin offen oder geschlossen', 'Ich bin ein enger Felsspalt', 'Mit Pulver kann man durch mich reisen', 'Ich habe eigenes Besteck', 'Ich bin entspannend', 'Heutzutage bin ich vor allem dekorativ', 'Ich habe ein Sims'],
-				'loesung': ['Kamin']
+				'hinweise': ['Ich werde gegossen', 'Ich werde geschlagen', 'Früher hing ich an Türen', 'Ich habe die Form eines Kelches', 'Ich verkünde die Uhrzeit', 'Ich hänge an Tieren', 'Ich hänge oft sehr hoch'],
+				'loesung': ['Glocke']
 			},
 			{
 				'raetselname': '3. Rätsel',
 				'kategorie': 'Alles ist möglich',
-				'hinweise': ['Ich diene dem Transport', 'Ich bin ein Musikant', 'Ich kann Gold spucken', 'Ich bin eigensinnig', 'Ich gelte als nicht besonders schlau', 'Mit einer Brücke bin ich hilfreich', 'Mein Name ist "Equus asinus"'],
-				'loesung': ['Esel']
+				'hinweise': ['Manchmal spiele ich Streiche', 'Ich bin eine Sehzelle', 'Ich bin eine Blüte', 'Ich bin herausragend', 'Ich werde in Fässer geschlagen', 'Ich nehme blau, grün und rot wahr', 'Ich bin als Dekoration beliebt'],
+				'loesung': ['Zapfen']
 			}
 			]
 		},
