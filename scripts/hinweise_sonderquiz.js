@@ -146,26 +146,26 @@ var meineDaten =
 			{
 				'raetselname': 'Schönen vierten Advent',
 				'kategorie': 'Alles ist möglich',
-				'hinweise': ['Ich bin struppig', 'Man findet mich im Stall', 'Ich bin trocken', 'Niemand will wie ich sein', 'Ich bin ein Überbleibsel', 'Manche Sterne bestehen aus mir', 'Ich bin blond'],
-				'loesung': ['Stroh']
+				'hinweise': ['Ich mache gerne Scherze', 'Ich benötige nicht viele Zutaten', 'Ich bin ein aus den Englischen eingedeutschtes Wort', 'In einer bekannten Redewendkung kann ich auch durch Geist oder wecker ersetzt werden?', 'Ich werde in Dosen aufbewahrt', 'Meist bin ich zeimlich trocken', 'Ich bin süß'],
+				'loesung': ['Keks']
 			},
 			{
 				'raetselname': '2. Rätsel',
 				'kategorie': 'Alles ist möglich',
-				'hinweise': ['Ich bin dunkel', 'Ich bin ein Violinkonzert von Vivaldi', 'Ich kann tief sein', 'In der Meteorologie beginne ich früher', 'Mein Name ist ein germanisches Sonderwort', 'Ich lasse vieles schlafen', 'Manchmal bin ich hart'],
-				'loesung': ['Winter']
+				'hinweise': ['In manchen Gegenden bin ich eine Haube', 'Ich bin warm', 'Ich bin oft gestrickt', 'Ich bin bei einigen Personengruppen ein Erkennungsmerkmal', 'Ich schlafe gern', 'Ich throne ganz oben', 'Ich werde vor allem bei Kälte benötigt'],
+				'loesung': ['Mütze']
 			},
 			{
 				'raetselname': '3. Rätsel',
 				'kategorie': 'Alles ist möglich',
-				'hinweise': ['Ich bin eine Institution', 'Ich bin diplomatisch', 'Ich kann gut oder schlecht sein', 'Ich kann aus Papier sein', 'Meine Überbringer können vielgestaltig sein', '1974 ging ich an Außerirdische', 'Man findet mich in Hauptstädten'],
-				'loesung': ['Botschaft']
+				'hinweise': ['Ich bin ein Transportgerät', 'Ich bin ein bewegliches Maschinenelementen', 'Ich bin Teil einer Pistole', 'Ich kann gleiten', 'Ich bin ein Sportgerät', 'Manchmal sind Pferde oder Hunde beteiligt', 'Ich bin ein besonders tolles Auto'],
+				'loesung': ['Schlitten']
 			},
 			{
-				'raetselname': '3. Rätsel',
+				'raetselname': '4. Rätsel',
 				'kategorie': 'Alles ist möglich',
-				'hinweise': ['Ich bin klein', 'Tomte Tummetott', 'Ich lebe versteckt', 'Ich tue Gutes', 'In Skandinavien helfe ich dem Weihnachtsmann', 'Die Maskottchen des ZDF gehören zu meiner Art', 'Ich bin ein Diminutiv'],
-				'loesung': ['Wichtel']
+				'hinweise': ['Ich bin rund', 'Auf Lateinisch heiße ich "Corona"', 'Ich kann aus Tannenzweigen bestehen', 'Ich bin eine Torte', 'Ich werde niedergelegt', 'Mit Lorbeeren bin ich eine Ehrung', 'Aus mir hat sich eine Krone entwickeln'],
+				'loesung': ['Kranz']
 			}
 			]
 		}
