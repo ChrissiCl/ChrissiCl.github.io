@@ -146,7 +146,7 @@ var meineDaten =
 			{
 				'raetselname': 'Schönen vierten Advent',
 				'kategorie': 'Alles ist möglich',
-				'hinweise': ['Ich mache gerne Scherze', 'Ich benötige nicht viele Zutaten', 'Ich bin ein aus den Englischen eingedeutschtes Wort', 'In einer bekannten Redewendkung kann ich auch durch Geist oder wecker ersetzt werden?', 'Ich werde in Dosen aufbewahrt', 'Meist bin ich zeimlich trocken', 'Ich bin süß'],
+				'hinweise': ['Ich mache gerne Scherze', 'Ich benötige nicht viele Zutaten', 'Ich bin ein aus den Englischen eingedeutschtes Wort', 'In einer bekannten Redewendung kann ich auch durch Geist oder wecker ersetzt werden?', 'Ich werde in Dosen aufbewahrt', 'Meist bin ich zeimlich trocken', 'Ich bin süß'],
 				'loesung': ['Keks']
 			},
 			{
