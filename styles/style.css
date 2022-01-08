@@ -414,6 +414,51 @@ button:not(.disabled):hover {
 	margin: 10% 0 0 0;
 }
 
+/* Styling Quiz mit timer */
+.subsection3 {
+	padding: 0 15px;
+	border: 2px solid;
+	border-radius: 5px;
+	border-color: black;
+	height: 320px;
+	margin-top: 20%;
+	font-size: 18px;
+	order: 2;
+}
+
+#timer {
+	font-size: 50px;
+	font-weight: bold;	
+	margin: 0;
+	color: rgb(194, 2, 2);
+}
+
+#subsection4 {
+	padding: 0 15px;
+	border: 2px solid;
+	border-radius: 5px;
+	border-color: black;
+	height: 102px;
+	font-size: 18px;
+	order: 1;
+}
+
+#subsection4 h3 {
+	margin-top: 15px;
+	margin-bottom: 12px;
+}
+
+#subsection4 p {
+	margin-top: 10px;
+}
+
+#schnellsein {
+	color: rgb(194, 2, 2);
+	font-size: 30px;
+	font-weight: bold;
+	margin: 5px 0;
+}
+
 @media screen and (min-width: 700px) {
 	.section1 {
 		flex: 3;
@@ -466,6 +511,10 @@ button:not(.disabled):hover {
 	#keinhinweis {
 		margin: 43px 0 0 30%;
 	}
+
+	#schnellsein {
+		margin-left: 30%;
+	}
 	
 	#weiter {
 		margin: 90px 30% 0 0;
@@ -475,9 +524,19 @@ button:not(.disabled):hover {
 		order: 1;
 		margin-top: 80px;
 	}
+
+	.subsection3 {
+		order: 1; /*Quiz mit timer*/
+		margin-top: 80px;
+	}
 	
 	#subsection2 {
 		margin-top: 190px;
+		order: 2;
+	}
+
+	#subsection4 {
+		margin-top: 50px; /*Quiz mit timer*/
 		order: 2;
 	}
 	
@@ -748,3 +807,4 @@ footer p, footer a {
 #kontakt {
 	text-align: right;
 }
+
