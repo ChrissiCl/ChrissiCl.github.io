@@ -72,6 +72,6 @@
 			<p id="kontakt"><a href="kontakt.html" title="Kontakt">Kontakt</a></p>
 		</footer>
 		<script src="scripts/hinweise.js"></script>
-		<script id="script" data-quiznummer=10 src="scripts/quiztime.js"></script>
+		<script id="script" data-quiznummer=11 src="scripts/quiztime.js"></script>
 	</body>
 </html>
