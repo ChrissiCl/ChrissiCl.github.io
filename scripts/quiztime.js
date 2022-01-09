@@ -56,8 +56,6 @@ function neuesRaetsel() {
 	gezeigteHinweise.push(hinweisZahl);
 	vorschlagButton.setAttribute('class', 'enabled');
 	vorschlagButton.disabled = false;
-	timerButton.setAttribute('class', 'enabled');
-	timerButton.disabled = false;
 	if (raetselNummer == raetselAnzahl - 1){
 		weiterButton.textContent='Weiter zum Ende';
 	}
@@ -192,6 +190,8 @@ weiterButton.onclick = function() {
 		document.getElementById('schnellsein').textContent = leeresElement;
 		kategorie.textContent = 'Kategorie: ?';
 		timeText.textContent = '03:30';
+		timerButton.setAttribute('class', 'enabled');
+		timerButton.disabled = false;
 	}
 	else {
 		sessionStorage.setItem('endpunktzahl', gesamtPunktzahl);
