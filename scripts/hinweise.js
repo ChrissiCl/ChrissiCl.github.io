@@ -686,7 +686,7 @@ var meineDaten =
 			{
 				'raetselname': 'Rätsel 4',
 				'kategorie': 'Ort',
-				'hinweise': ['Ich bestehe aus 28 Staaten', 'Ich bin das siebtgrößte Land der Erde', 'Ich bin die bevölkerunsreichste Demokratie der Welt', 'Die meisten meiner Einwohner sind Hindus', 'Im Norden habe ich sehr hohe Berge', 'Mein Nationaltier ist der Tiger', 'Ich war britische Kolonie'],
+				'hinweise': ['Ich bestehe aus 28 Staaten', 'Ich bin das siebtgrößte Land der Erde', 'Ich bin die bevölkerungsreichste Demokratie der Welt', 'Die meisten meiner Einwohner sind Hindus', 'Im Norden habe ich sehr hohe Berge', 'Mein Nationaltier ist der Tiger', 'Ich war britische Kolonie'],
 				'loesung': ['Indien']
 			},
 			{
@@ -716,7 +716,7 @@ var meineDaten =
 			{
 				'raetselname': 'Rätsel 9',
 				'kategorie': 'Person',
-				'hinweise': ['Ich war Kapitalismuskritiker', 'Ich war eine wichtige Figur der Arbeiterbewegung', 'Ich lieferte viele theoretische Grundlagen', 'Ich wurde immer wieder ausgewiesen', '"Religion ist Opium""', 'Ich war ein Befürworter von Revolutionen', 'Ich wurde in Preußen geboren'],
+				'hinweise': ['Ich war Kapitalismuskritiker', 'Ich war eine wichtige Figur der Arbeiterbewegung', 'Ich lieferte viele theoretische Grundlagen', 'Ich wurde immer wieder ausgewiesen', '"Religion ist Opium"', 'Ich war ein Befürworter von Revolutionen', 'Ich wurde in Preußen geboren'],
 				'loesung': ['Karl Marx']
 			},
 			{

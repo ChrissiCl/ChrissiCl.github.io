@@ -77,6 +77,14 @@ function countDown() {
 	if (time <= 30){
 		document.getElementById('schnellsein').textContent = 'Jetzt aber schnell 😉';
 	}
+	if (time <= 0) {
+		document.getElementById('subsection4').style.visibility = 'visible';
+		document.getElementById('loesungswort').textContent = meineDaten.quize[quizNr - 1].raetsel[raetselNummer].loesung[0];
+		vorschlagButton.setAttribute('class', 'disabled');
+		vorschlagButton.disabled = true;
+		timerButton.setAttribute('class', 'disabled');
+		vorschlagButton.disabled = true;
+	}
 	var minutes = Math.floor(time / 60);
 	var seconds = time % 60;
 	if (minutes < 10){
@@ -137,14 +145,6 @@ vorschlagButton.onclick = function() {
 		li.appendChild(document.createTextNode(loesungsWort));
 		document.getElementById('listefalschetipps').appendChild(li);
 		document.getElementById('falschetipps').style.visibility = 'visible';
-		if (time <= 0) {
-			document.getElementById('subsection4').style.visibility = 'visible';
-			document.getElementById('loesungswort').textContent = meineDaten.quize[quizNr - 1].raetsel[raetselNummer].loesung[0];
-			vorschlagButton.setAttribute('class', 'disabled');
-			vorschlagButton.disabled = true;
-			timerButton.setAttribute('class', 'disabled');
-			vorschlagButton.disabled = true;
-		}
 		document.getElementById('solution').style.backgroundColor = '#DA371C';
 		setTimeout(weißMachen, 1000);
 		setTimeout(emptyfield, 1000);
