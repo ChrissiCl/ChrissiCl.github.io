@@ -660,6 +660,72 @@ var meineDaten =
 				'loesung': ['Auge']
 			}
 			]
+		},
+		{
+			'name': 'Quiz 11',
+			'abschlussseite': 'raetselende_quiz11.shtml',
+			'raetsel': [
+			{
+				'raetselname': 'Rätsel 1',
+				'kategorie': 'Ding',
+				'hinweise': ['Ich lebe im Untergrund', 'Ich bin fast blind', 'Ich spioniere', 'Mich gibt es nur auf der Nordhalbkugel', 'Man findet mich unter Hügeln', 'Ich bin ein eifriger Graber', 'Ich fresse Insekten'],
+				'loesung': ['Maulwurf']
+			},
+			{
+				'raetselname': 'Rätsel 2',
+				'kategorie': 'Jahr',
+				'hinweise': ['Das Atomkraftwerk Fukushima wird durch einen Tsunami beschädigt', 'Der Südsudan wird unabhängig', 'Osama bin Laden wird erschossen', 'Die letzte Space-Shuttle-Mission findet statt', 'Prinz William heiratet Catherine Middleton', 'Der ESC findet in Düsseldorf statt', 'Premiere des letzten Harry Potter-Films'],
+				'loesung': ['2011']
+			},
+			{
+				'raetselname': 'Rätsel 3',
+				'kategorie': 'Person',
+				'hinweise': ['Ich beschäftige mich mit ganz kleinen Strukturen', 'Ich war 10 Jahre Professor in Bonn', 'Ich habe Medizin studiert', 'Heute lebe ich in Berlin', 'Seit 2020 bin ich der breiten Masse bekannt', 'Ich bin wissenschaftlicher Berater', 'Ich kenne mich mit Krankheiten aus'],
+				'loesung': ['Christian Drosten', 'Drosten']
+			},
+			{
+				'raetselname': 'Rätsel 4',
+				'kategorie': 'Ort',
+				'hinweise': ['Ich bestehe aus 28 Staaten', 'Ich bin das siebtgrößte Land der Erde', 'Ich bin die bevölkerunsreichste Demokratie der Welt', 'Die meisten meiner Einwohner sind Hindus', 'Im Norden habe ich sehr hohe Berge', 'Mein Nationaltier ist der Tiger', 'Ich war britische Kolonie'],
+				'loesung': ['Indien']
+			},
+			{
+				'raetselname': 'Rätsel 5',
+				'kategorie': 'Ding',
+				'hinweise': ['Ich bin die Begrenzung einer Fläche', 'Man kann auf mir stehen', 'Online gibt es mich sehr oft', 'Man kann mich lesen', 'Ich bin aus Papier', 'Ich bin ein Blickwinkel', 'Ich bin links oder rechts'],
+				'loesung': ['Seite']
+			},
+			{
+				'raetselname': 'Rätsel 6',
+				'kategorie': 'Ort',
+				'hinweise': ['Ich bin eine Schlucht', 'Ich liege in Arizona', 'Ich bin ein Naturwunder', 'Ich bin 450km lang', 'Ich bin sehr steil', 'Ich bin ein Touristenmagnet', 'Ich liege in einem Nationalpark'],
+				'loesung': ['Grand Canyon']
+			},
+			{
+				'raetselname': 'Rätsel 7',
+				'kategorie': 'Jahr',
+				'hinweise': ['Hitler-Putsch in München', 'Gustav Stresemann wird Reichskanzler', 'Einführung der Rentenmark und damit Ende der Hyperinflation', 'Das Grab Tutanchamuns wird erstmals geöffnet', 'Das Medienunternehmen Disney wird gegründet', 'Calvin Coolidge wird 30. Präsident der USA', 'Der deutsche Rundfunk startet'],
+				'loesung': ['1923']
+			},
+			{
+				'raetselname': 'Rätsel 8',
+				'kategorie': 'Ding',
+				'hinweise': ['Ich bin ein Gebäude', 'Ich bin Bestandteil von Ortsnamen', 'Ich diene der Verteidigung', 'Ich liege meist erhöht', 'Ich habe Türme', 'Im Rheintal gibt es mich oft', 'Ich habe eine Mauer'],
+				'loesung': ['Burg']
+			},
+			{
+				'raetselname': 'Rätsel 9',
+				'kategorie': 'Person',
+				'hinweise': ['Ich war Kapitalismuskritiker', 'Ich war eine wichtige Figur der Arbeiterbewegung', 'Ich lieferte viele theoretische Grundlagen', 'Ich wurde immer wieder ausgewiesen', '"Religion ist Opium""', 'Ich war ein Befürworter von Revolutionen', 'Ich wurde in Preußen geboren'],
+				'loesung': ['Karl Marx']
+			},
+			{
+				'raetselname': 'Rätsel 10',
+				'kategorie': 'Ding',
+				'hinweise': ['Ich bin eine Teigware', 'Mich gibt es in vielen Formen', 'Man findet mich vor allem beim Italiener', 'Ich werde mit einem Holz ausgerollt', 'Heute werde ich meist maschinell hergestellt', 'Ich kann lang sein', 'Ich kann ulkig sein'],
+				'loesung': ['Nudel']
+			}
+			]
 		}
 	]
 };

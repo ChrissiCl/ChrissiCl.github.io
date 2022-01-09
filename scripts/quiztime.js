@@ -56,6 +56,8 @@ function neuesRaetsel() {
 	gezeigteHinweise.push(hinweisZahl);
 	vorschlagButton.setAttribute('class', 'enabled');
 	vorschlagButton.disabled = false;
+	timerButton.setAttribute('class', 'enabled');
+	timerButton.disabled = false;
 	if (raetselNummer == raetselAnzahl - 1){
 		weiterButton.textContent='Weiter zum Ende';
 	}
@@ -142,6 +144,8 @@ vorschlagButton.onclick = function() {
 			document.getElementById('loesungswort').textContent = meineDaten.quize[quizNr - 1].raetsel[raetselNummer].loesung[0];
 			vorschlagButton.setAttribute('class', 'disabled');
 			vorschlagButton.disabled = true;
+			timerButton.setAttribute('class', 'disabled');
+			vorschlagButton.disabled = true;
 		}
 		document.getElementById('solution').style.backgroundColor = '#DA371C';
 		setTimeout(weißMachen, 1000);
@@ -150,8 +154,10 @@ vorschlagButton.onclick = function() {
 	else {
 		document.getElementById('solution').style.backgroundColor = '#85CA3A';
 		setTimeout(weißMachen, 1000);
-		vorschlagButton.setAttribute('class', 'disabled');
+		vorschlagButton.setAttribute('class', 'disabled');		
 		vorschlagButton.disabled = true;
+		timerButton.setAttribute('class', 'disabled');
+		timerButton.disabled = true;
 		document.getElementById('subsection4').style.visibility = 'visible';
 		document.getElementById('loesungswort').textContent = meineDaten.quize[quizNr - 1].raetsel[raetselNummer].loesung[0];
 		weiterButton.style.visibility='visible';
